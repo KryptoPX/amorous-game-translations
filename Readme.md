@@ -5,7 +5,7 @@ Este proyecto esta pensado para traducir el juego de amorous
 ## Traducciones en progreso:
 - `ES-es` Español españa | Supervisor: KryptoPX
 
-## Como contribuir  
+## ¿Como contribuir?
 
 > ### Metodo 1:  
 > Puedes hacer una pull request y los supervisores se encargarán de 
