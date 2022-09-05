@@ -932,11 +932,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Okay, you win.",
+              "Text": "Okay, Tu ganas",
               "NextID": 69
             },
             {
-              "Text": "You would be wrong.",
+              "Text": "Te equivocas.",
               "NextID": 212
             }
           ],
