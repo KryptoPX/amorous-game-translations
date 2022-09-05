@@ -1,0 +1,421 @@
+{
+  "Name": "CobyPostDate",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 5,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "PlayerSexScene",
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlaySexsceneEventData, Amorous.Engine",
+          "SceneName": "CobySexscene",
+          "ID": 3,
+          "NextID": 25,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 4,
+          "NextID": 6,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 5,
+          "NextID": 4,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.ShowPhoneEventData, Amorous.Game",
+          "ID": 6,
+          "NextID": 7,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.OutgoingCallEventData, Amorous.Game",
+          "Contact": "Coby",
+          "ID": 7,
+          "NextID": 26,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 8,
+          "NextID": 9,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey sis,░ what's up?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 9,
+          "NextID": 34,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Back to Amorous.)",
+              "NextID": 11
+            },
+            {
+              "Text": "(Booty call?)",
+              "NextID": 19
+            },
+            {
+              "Text": "(Back.)",
+              "NextID": 36
+            }
+          ],
+          "ID": 10,
+          "NextID": 0,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Want to go back to Club Amorous with me?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 11,
+          "NextID": 12,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 12,
+          "NextID": 13,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sure!░ I'll see you there.░\r\n*Click*",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 13,
+          "NextID": 15,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.HidePhoneEventData, Amorous.Game",
+          "ID": 14,
+          "NextID": 16,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.DeclineCallEventData, Amorous.Game",
+          "Contact": "Coby",
+          "ID": 15,
+          "NextID": 14,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 16,
+          "NextID": 17,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 17,
+          "NextID": 18,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 18,
+          "NextID": 0,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm kind of <i>lonely</i>...\r\nWant to have some fun?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 19,
+          "NextID": 20,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 20,
+          "NextID": 21,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hell yeah,░ you know it!░\r\n*Click*",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 21,
+          "NextID": 24,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 22,
+          "NextID": 2,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.HidePhoneEventData, Amorous.Game",
+          "ID": 23,
+          "NextID": 22,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.DeclineCallEventData, Amorous.Game",
+          "Contact": "Coby",
+          "ID": 24,
+          "NextID": 23,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 25,
+          "NextID": 0,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 26,
+          "NextID": 27,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "*Ring*...░ *Ri-*\r\n*Click*",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 8,
+          "FalseID": 29,
+          "ID": 28,
+          "NextID": 0,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Neutral",
+          "TrueID": 30,
+          "FalseID": 32,
+          "ID": 29,
+          "NextID": 0,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 30,
+          "NextID": 31,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey %playername%,░ what's up?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 31,
+          "NextID": 34,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 32,
+          "NextID": 33,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey bro,░ what's up?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Quests.CobyDate.20",
+          "TrueID": 10,
+          "FalseID": 35,
+          "ID": 34,
+          "NextID": 0,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Back to Amorous.)",
+              "NextID": 11
+            },
+            {
+              "Text": "(Back.)",
+              "NextID": 36
+            }
+          ],
+          "ID": 35,
+          "NextID": 0,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Actually, I just thought of something I wanted to do. I'll get back to you!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 36,
+          "NextID": 37,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 37,
+          "NextID": 38,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No problem!░ Speak to you soon.░\r\n*Click*",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 38,
+          "NextID": 40,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.HidePhoneEventData, Amorous.Game",
+          "ID": 39,
+          "NextID": 0,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.DeclineCallEventData, Amorous.Game",
+          "Contact": "Coby",
+          "ID": 40,
+          "NextID": 39,
+          "DebugID": 33
+        }
+      ]
+    }
+  ]
+}

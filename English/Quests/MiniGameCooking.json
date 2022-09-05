@@ -1,0 +1,54 @@
+{
+  "Name": "MiniGameCooking",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 3,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "CookingSelectIngredient",
+          "Parameters": {
+            "Amount": "0"
+          },
+          "ID": 2,
+          "NextID": 5,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "CookingMiniGameScene",
+          "ID": 3,
+          "NextID": 4,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 4,
+          "NextID": 2,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 5,
+          "NextID": 6,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "CookingShowResult",
+          "Parameters": {},
+          "ID": 6,
+          "NextID": 0,
+          "DebugID": 6
+        }
+      ]
+    }
+  ]
+}

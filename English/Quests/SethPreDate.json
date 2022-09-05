@@ -1,0 +1,5528 @@
+{
+  "Name": "SethPreDate",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 2,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubBarScene",
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 3,
+          "NextID": 4,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": "Middle",
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": [
+            "Pants",
+            "Top"
+          ],
+          "ID": 4,
+          "NextID": 5,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Despite him being alone at the bar of one of the most active nightclubs I'd seen in recent memory,░ my eye was drawn to the slender feline leaning over his book.░ He would sit there for a long moment and then,░ without cue,░ he would scribble frantically in the leather bound journal spread out before him.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 5,
+          "NextID": 6,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Now and then, he would lift his glass from the bar and lean back,░ pausing to take a drink as if someone was expecting him to.░ This adorable ruse was undermined, however,░ as each sip was followed by a grimace of barely contained disgust. </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 6,
+          "NextID": 7,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Ask about the drink.)",
+              "NextID": 8
+            },
+            {
+              "Text": "(Ask about the scribbles.)",
+              "NextID": 372
+            },
+            {
+              "Text": "(Introduce yourself.)",
+              "NextID": 379
+            }
+          ],
+          "ID": 7,
+          "NextID": 0,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I strolled over to the bar as he turned back to his notebook,░ stopping at the edge before politely coughing to grab his attention.░ He looked up,░ eyes blinking open wide and his mouth slightly agape.░ Clearly, he expected to be a little more invisible than he really was.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 8,
+          "NextID": 9,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm sorry to interrupt, but do you mind if I ask what you're drinking?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 9,
+          "NextID": 10,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 10,
+          "NextID": 11,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh?░\r\nOh!░ It's a 12 year old scotch.░ I figured I'd try something a little more direct than the usual mixed drinks you'd get at a nightclub.░ It's very...░ smooth but complex.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 11,
+          "NextID": 12,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Do you normally drink glasses of scotch by yourself in crowded nightclubs?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 12,
+          "NextID": 13,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 13,
+          "NextID": 14,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, I couldn't just sit at the bar without something in my hand,░ and there's no better place in town to people watch.░\r\nThough the better question would be,░ what brought you over here to ask what I was drinking?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 14,
+          "NextID": 15,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Because you looked like you were drinking turpentine every time you took a sip. ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 15,
+          "NextID": 16,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>As I settled into the stool next to him,░ his cheeks flushed red as he glanced between me and his drink.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 16,
+          "NextID": 17,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 17,
+          "NextID": 18,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "... I don't really drink much.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 18,
+          "NextID": 19,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I assumed as much.░ Though that does still beg the question as to why you're in a bar,░ particularly if you don't drink.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 19,
+          "NextID": 395,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 20,
+          "NextID": 21,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'll admit it's an escape but it's also to help me work through the creative process.░ Many famous authors immersed themselves in the popular culture of their day░ to draw new experiences and observe people in new environments.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 21,
+          "NextID": 22,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose that's true.░ I thought most of them indulged,░ in part,░ because it was their particular interest more than strict research.░ You don't strike me as the type to write romance or erotica, though.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 22,
+          "NextID": 23,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 23,
+          "NextID": 24,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Why would you think that?░ I mean, I don't, but ░why would you assume that is the only motivation for me to be at this club?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 24,
+          "NextID": 25,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Mostly, because even the bouncers are wearing half the clothing you are...\r\nand because I came here with my brother Coby,░ specifically because this is his favorite place to meet guys for a fling.░ You have to admit, your choice of ambiance suggests something more than just curiosity about popular culture.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 25,
+          "NextID": 26,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>By now he was blushing furiously, the spots of red visible beneath his snowy white cheekfur.░  Despite his attempt at appearing aloof,░ something spoke about his relative discomfort in being here. </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 26,
+          "NextID": 27,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not here to judge,░ it's just ...well, interesting.░ I get enough stories from Coby to get an idea of how this place tends to function and you appear to be actively avoiding that...░ function.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 28,
+          "NextID": 29,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well... I... I'm honing my craft.░ Trying to push myself outside of my comfort zone so I have a breadth of experience to write from.░ It's the sort of thing authors do.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 29,
+          "NextID": 30,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "So you're a writer?",
+              "NextID": 31
+            },
+            {
+              "Text": "What experience are you getting?",
+              "NextID": 247
+            },
+            {
+              "Text": "You sure you're not just lonely?",
+              "NextID": 273
+            }
+          ],
+          "ID": 30,
+          "NextID": 0,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So you're a writer?░ Maybe you've written something I've heard of before.░ What do you have out there?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 31,
+          "NextID": 32,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 32,
+          "NextID": 33,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, I'm not published per say.░ I'm building a body of work before I approach anyone.░ Wouldn't want to come off as some sort of dilettante.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "So you just like the title?",
+              "NextID": 35
+            },
+            {
+              "Text": "Do you have something I can read?",
+              "NextID": 223
+            }
+          ],
+          "ID": 34,
+          "NextID": 0,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So you just like to call yourself a writer without actually writing anything?░ Yet, you were worried about coming off as a dilettante?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 35,
+          "NextID": 36,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 36,
+          "NextID": 37,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I do write, I'll have you know.░ In fact,░ I've been working on a little something right now.░ It's part of the reason I'm here and not at home.░ Too many distractions there.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 37,
+          "NextID": 38,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "A pansexual,░ multi-tiered nightclub with a dance floor and a pool is less distracting than your house?░ Do you live in a disco ball?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 38,
+          "NextID": 39,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His ears flattened against his skull as his nose crinkled and twitched.░ It seemed that this line of conversation was hitting a nerve.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 39,
+          "NextID": 40,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Press on.)",
+              "NextID": 41
+            },
+            {
+              "Text": "(Apologize.)",
+              "NextID": 219
+            }
+          ],
+          "ID": 40,
+          "NextID": 0,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You can't honestly say that being in a noisy room░ that exists to distract people is somehow conducive to your writing,░ can you?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 41,
+          "NextID": 42,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 42,
+          "NextID": 43,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I can safely say that this conversation isn't very conducive to my writing.░ Maybe you should find someone else to bother.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 43,
+          "NextID": 44,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His eyes narrowed at me and░ I felt like we'd moved from playful jibes into something serious.░ Maybe I should lay off.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 44,
+          "NextID": 45,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Back off.)",
+              "NextID": 46
+            },
+            {
+              "Text": "(Excuse yourself.)",
+              "NextID": 216
+            }
+          ],
+          "ID": 45,
+          "NextID": 0,
+          "DebugID": 36
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>As seemingly absurd as this was,░ I thought discretion was the better░ part of valor and tossed out an awkward smile.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 46,
+          "NextID": 47,
+          "DebugID": 37
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't mean to offend you or anything.░ I mean, most people pick quiet rooms in libraries ░or maybe a calm pub when they want to focus.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 47,
+          "NextID": 48,
+          "DebugID": 38
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 48,
+          "NextID": 49,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, I'm not most people.░ I like being in the beating heart of it all,░ not dreaming about it in some silent tomb.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 49,
+          "NextID": 50,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His lip twitched in a frowning smirk as his ear began to settle to their original position.░ He relaxed back into his seat. </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 50,
+          "NextID": 51,
+          "DebugID": 40
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 51,
+          "NextID": 52,
+          "DebugID": 41
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "... but I suppose you have a point.░ It is a little out of the ordinary.░ Like I said, I do enjoy a distraction every now and again.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 52,
+          "NextID": 53,
+          "DebugID": 41
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 53,
+          "NextID": 54,
+          "DebugID": 42
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, if I may be so bold, what brought <i>you</i> to the club tonight?░ Since you clearly aren't driven by a desire to quietly observe,░ nor are you obviously looking to get drunk or dance,░ I'm curious as to what your motivation is.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 54,
+          "NextID": 55,
+          "DebugID": 42
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Mostly, I guess, to keep myself occupied and distracted.░ Coby, my brother, very much likes this place but doesn't always want to go alone.░ I needed time away from my problems and he wanted a ride.░ A match made in ... well, necessity.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 55,
+          "NextID": 56,
+          "DebugID": 43
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 56,
+          "NextID": 57,
+          "DebugID": 44
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well then, where else might you have gone if you had the option?░ Ignoring cost, location or any of that?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 57,
+          "NextID": 58,
+          "DebugID": 44
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Somewhere quiet.)",
+              "NextID": 59
+            },
+            {
+              "Text": "(Somewhere interesting.)",
+              "NextID": 209
+            },
+            {
+              "Text": "(Here.)",
+              "NextID": 213
+            }
+          ],
+          "ID": 58,
+          "NextID": 0,
+          "DebugID": 45
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I tend to be a little more ... restrained,░ so I probably would have gone somewhere a little quieter.░ A library, museum, or something like that.░ Somewhere I can hear my own thoughts.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 59,
+          "NextID": 60,
+          "DebugID": 46
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>A smile twitched at the edges of his mouth as he scribbled into his notebook.░ He tapped the eraser against the page, before looking back up at me thoughtfully.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 60,
+          "NextID": 61,
+          "DebugID": 47
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 61,
+          "NextID": 62,
+          "DebugID": 48
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Feeling a bit out of your element too then?░ I can certainly understand that feeling,░ but it's always good to break out of your comfort zone.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 62,
+          "NextID": 63,
+          "DebugID": 48
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He seemed to be rather thrilled with his pseudo interrogation, he looked back up from his notebook with excitement.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 63,
+          "NextID": 64,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 64,
+          "NextID": 65,
+          "DebugID": 50
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So, being that we are in this club, and you already expressed curiosity as to why I'm here...\r\nWhat do <i>you</i> like about this club?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 65,
+          "NextID": 66,
+          "DebugID": 50
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Dancing.)",
+              "NextID": 67
+            },
+            {
+              "Text": "(Drinking.)",
+              "NextID": 197
+            },
+            {
+              "Text": "(Relaxing.)",
+              "NextID": 201
+            },
+            {
+              "Text": "(Socializing.)",
+              "NextID": 205
+            }
+          ],
+          "ID": 66,
+          "NextID": 0,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, even though it may not seem like it,░ I like to get out on the dance floor.░ I thought I'd explore first but any other night,░ I'd just let my body be carried away by the music.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 67,
+          "NextID": 68,
+          "DebugID": 52
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 68,
+          "NextID": 69,
+          "DebugID": 53
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're certainly in the right place for that,░ considering the cheers and <i>thumping</i> coming from the room!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 69,
+          "NextID": 70,
+          "DebugID": 53
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He immediately went back to scribbling down more notes,░ pausing only to look up at me with a thoughtful expression.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 70,
+          "NextID": 71,
+          "DebugID": 54
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 71,
+          "NextID": 72,
+          "DebugID": 55
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So we've established where you want to be,░ and why you want to be there,░ but the big question is <i>who</i> do you want to be there with?░ What kind of person would you be looking for at this club?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 72,
+          "NextID": 73,
+          "DebugID": 55
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I get the feeling that this is a somewhat <i>pointed</i> question?░ I also get the feeling that there is something more going on here than simple research?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 73,
+          "NextID": 74,
+          "DebugID": 56
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He shot me a Cheshire cat grin and placed a hand on his chest in mock shock.░ Clearly he was enjoying this intimate game of twenty questions.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 74,
+          "NextID": 75,
+          "DebugID": 57
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Someone handsome.",
+              "NextID": 76
+            },
+            {
+              "Text": "Someone interesting.",
+              "NextID": 127
+            },
+            {
+              "Text": "Someone bold.",
+              "NextID": 131
+            },
+            {
+              "Text": "You.",
+              "NextID": 137
+            },
+            {
+              "Text": "Get to the point...",
+              "NextID": 142
+            }
+          ],
+          "ID": 75,
+          "NextID": 0,
+          "DebugID": 58
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Maybe it makes me a little shallow,░ but I like someone who's put together nicely.░ Great eyes,░ firm body,░ knows all the right moves?░ Someone who puts some work into their appearance.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 76,
+          "NextID": 77,
+          "DebugID": 59
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>The expression on his face suggested that he didn't expect that answer.░ He got quiet for a moment,░ before scribbling something down.░ </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 77,
+          "NextID": 78,
+          "DebugID": 60
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 78,
+          "NextID": 79,
+          "DebugID": 61
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...well,░ who among us wouldn't want to meet someone who exemplifies our physical ideal?░ In reality, we are all a little shallow,░ I suppose.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 79,
+          "NextID": 80,
+          "DebugID": 61
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Alright.░ One more question░ and then I really should find Coby and figure out what he has planned for the rest of the night.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 80,
+          "NextID": 81,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 81,
+          "NextID": 82,
+          "DebugID": 63
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose I <i>have</i> been prying pretty heavily.░ That said,░ you have been a very interesting character study to say the least.░ It's rare I actually get to interact with someone.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 82,
+          "NextID": 83,
+          "DebugID": 63
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'd hoped I was more than just an intellectual diversion.░ Is that not the case?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 83,
+          "NextID": 84,
+          "DebugID": 64
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 84,
+          "NextID": 85,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't mean it like that!░\r\nI mean... it's been <i>interesting</i> talking with you.░ I've been here for a couple of hours already░ and you're the first person who stopped to talk that didn't want to take a drink order.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 85,
+          "NextID": 86,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I smiled and leaned on the bar.░ He was awfully cute when he desperately tried to regain his composure.░</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 86,
+          "NextID": 87,
+          "DebugID": 66
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So, what's the last question?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 87,
+          "NextID": 88,
+          "DebugID": 67
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He hesitated,░ glancing down at his notebook for a second before scribbling something in the margins.░ As he looked back up,░ I could see his cheeks were still quite flushed.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 88,
+          "NextID": 89,
+          "DebugID": 68
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 89,
+          "NextID": 90,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I was heading to the library tomorrow to do some research for a story,░ and there was a reading I was thinking of going to.░ Could I convince you to come along?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 90,
+          "NextID": 91,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Sure!",
+              "NextID": 92
+            },
+            {
+              "Text": "Let me think about it...",
+              "NextID": 105
+            },
+            {
+              "Text": "Nah, sorry Seth.",
+              "NextID": 113
+            }
+          ],
+          "ID": 91,
+          "NextID": 0,
+          "DebugID": 70
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'd love to!░ What time?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 92,
+          "NextID": 93,
+          "DebugID": 71
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 93,
+          "NextID": 94,
+          "DebugID": 72
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Really?░ I mean, uh, great!░ The reading is a little before noon,░ but I'll be there early.░ Let me give you my number so you can call and let me know when you get there.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 94,
+          "NextID": 95,
+          "DebugID": 72
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He tore off the corner of a notebook page absentmindedly,░ leaving a snippet of poetry in the upper half, and passed it to me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 95,
+          "NextID": 96,
+          "DebugID": 73
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 96,
+          "NextID": 97,
+          "DebugID": 74
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Thanks!░ It'll be nice to have someone else there.░ It's always a little awkward to go alone.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 97,
+          "NextID": 98,
+          "DebugID": 74
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sounds like a date then!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 98,
+          "NextID": 99,
+          "DebugID": 75
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 99,
+          "NextID": 100,
+          "DebugID": 76
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...I suppose it is.░ I need to get going,░ but be sure to call me as soon as you're up!░ I'll make sure to save us a seat!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 100,
+          "NextID": 101,
+          "DebugID": 76
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>After gathering his things,░ he shot me another adorable smile and strolled off towards the door.░ I folded up the paper and slipped it into my pocket.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 101,
+          "NextID": 392,
+          "DebugID": 77
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 102,
+          "NextID": 103,
+          "DebugID": 78
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 103,
+          "NextID": 104,
+          "DebugID": 79
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 104,
+          "NextID": 0,
+          "DebugID": 80
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I <i>do</i> have a bunch of things going on at the moment, but I'll think about it?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 105,
+          "NextID": 106,
+          "DebugID": 81
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 106,
+          "NextID": 107,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh...░ Sure,░ of course.░ I mean,░ not everyone has the same free time I do.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 107,
+          "NextID": 108,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He began gathering his things and stood up from the bar.░ Once he'd slung his bag over his shoulder he turned to face the door and stopped mid stride.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 108,
+          "NextID": 109,
+          "DebugID": 83
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Turning back he gave me a long look and dug in his bag for a moment.░ After scribbling something down on a scrap of paper,░ he handed it to me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 109,
+          "NextID": 110,
+          "DebugID": 84
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 110,
+          "NextID": 111,
+          "DebugID": 85
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I came out here to take a chance.░ To broaden my horizons and...░ well,░ here's my number.░ Give me a call,░ I'd really like to see you again.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 111,
+          "NextID": 112,
+          "DebugID": 85
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He gave me another smile and turned back towards the exit.░ I slipped the number into my pocket.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 112,
+          "NextID": 392,
+          "DebugID": 86
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Look,░ the twenty questions thing was kinda fun but I don't think you're who I'm looking for.░ Nothing personal,░ you're adorable... just not my type.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 113,
+          "NextID": 114,
+          "DebugID": 87
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 114,
+          "NextID": 115,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh.░ I see.░ Well ... taking risks and all that.░ Nice to have met you.░ Maybe I'll see you around sometime.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 115,
+          "NextID": 116,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He began to awkwardly gather his things,░ stealing the occasional glance back at me before he finally slid off the stool.░ He stood there for a long moment,░ taking one last look over before flashing a brief, sad smile and making his way towards the door.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 116,
+          "NextID": 117,
+          "DebugID": 89
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Catch him.)",
+              "NextID": 118
+            },
+            {
+              "Text": "(Let him go.)",
+              "NextID": 123
+            }
+          ],
+          "ID": 117,
+          "NextID": 0,
+          "DebugID": 90
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Maybe I had been a little too hasty.░ I hopped off my stool and rushed over to the door to catch him before he vanished.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 118,
+          "NextID": 119,
+          "DebugID": 91
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Wait!░\r\nSeth,░ you know what?░ Why not?░ You've been wanting to try new things and I should too.░ That's part of why I came.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 119,
+          "NextID": 120,
+          "DebugID": 92
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 120,
+          "NextID": 121,
+          "DebugID": 93
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Really?░ That's great to hear!░ Let me get you my number.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 121,
+          "NextID": 122,
+          "DebugID": 93
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He hastily wrote his number down on a slip of paper torn from his notebook.░ We exchanged promises to call before he headed out the door.░ After he left,░ I slipped the paper into my pocket and headed back toward the dance floor.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 122,
+          "NextID": 392,
+          "DebugID": 94
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Cute as he was, he really wasn't my type. I gave him a final wave before sliding off the stool and continuing my explorations.░ Who knows, maybe someone else here would click better with me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 123,
+          "NextID": 393,
+          "DebugID": 95
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 124,
+          "NextID": 125,
+          "DebugID": 96
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 125,
+          "NextID": 126,
+          "DebugID": 97
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 126,
+          "NextID": 0,
+          "DebugID": 98
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm hoping to meet someone interesting.░ Someone with stories and a sort of... confident <i>charm</i> that enraptures you.░ The kind of person you can have a good laugh <i>or</i> a thoughtful discussion with.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 127,
+          "NextID": 128,
+          "DebugID": 99
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Apparently, I said the right thing.░ A smile spread across his lips░ before resting the pen on the table.░ Without even looking to the notebook,░ he continued.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 128,
+          "NextID": 129,
+          "DebugID": 100
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 129,
+          "NextID": 130,
+          "DebugID": 101
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I agree completely.░ Looks can be nice,░ but if there's no substance behind them then what's the point?░ A wholly rounded individual is far more important than just <i>one</i> aspect!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 130,
+          "NextID": 80,
+          "DebugID": 101
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'd like to meet someone who exudes confidence,░ someone who knows what they want and how to get it.░ Someone who's not afraid to step up and just pull me onto the dance floor,░ or pull me close for a passionate kiss.░ Spontaneity and a drive to lead,░ I suppose,░ just really work for me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 131,
+          "NextID": 132,
+          "DebugID": 102
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I hadn't noticed while I was talking,░ but he had gradually turned more red the further I got in my description.░ Apparently, I wasn't the only one who found that kind of person attractive.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 132,
+          "NextID": 133,
+          "DebugID": 103
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 133,
+          "NextID": 134,
+          "DebugID": 104
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...yes,░ I suppose the confident,░ powerful,░ dominant type is a classical image we tend to flock to.░ Someone who can lead and protect,░ keep you close and safe at night,░ take you places you've never been...░\r\n<i>Ahem.</i>░ Sorry,░ what were we talking about?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 134,
+          "NextID": 135,
+          "DebugID": 104
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Our ideal individual to meet while we are here.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 135,
+          "NextID": 136,
+          "DebugID": 105
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I couldn't help but grin as he tried to compose himself,░ I think that's one of his buttons.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 136,
+          "NextID": 80,
+          "DebugID": 106
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "To be honest?░ You.░ I set about exploring the club at first,░ but you definitely caught my eye.░ There's a reason I'm here and not in the pool or down on the dance floor░ and that's because you intrigue me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 137,
+          "NextID": 138,
+          "DebugID": 107
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He shifted a whole new shade of red as I smilled from the stool next to him.░ Absently, he looked away to scribble down a note or two,░ before looking back up and clearing his throat to hide his shy response.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 138,
+          "NextID": 139,
+          "DebugID": 108
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 139,
+          "NextID": 140,
+          "DebugID": 109
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well...░ uh...░ it's always nice to be noticed.░ Though I'm not usually the type of person to stand out physically.░ I mean... <i>Ahem...",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 140,
+          "NextID": 141,
+          "DebugID": 109
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I wasn't sure what was more adorable,░ his attempts to cover up his embarassment░ or the light shade of pink showing through those snowy white cheeks.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 141,
+          "NextID": 80,
+          "DebugID": 110
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "C'mon...░ Are you just going to sit there and interrogate me all night?░ Shouldn't you be doing better things than <i>scribbling</i> away in that notebook?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 142,
+          "NextID": 143,
+          "DebugID": 111
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 143,
+          "NextID": 144,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Can I help it if I enjoy my research?░\r\nBesides,░ you were the one who agreed to being questioned.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 144,
+          "NextID": 145,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah, but I figured it would just be small talk.░ I didn't think you'd be reading me off a survey.░\r\nWe're in a club,░ we're both here to meet people.░ Why not have some fun?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 145,
+          "NextID": 146,
+          "DebugID": 113
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 146,
+          "NextID": 147,
+          "DebugID": 114
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...and what kind of \"fun\" were you thinking of?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 147,
+          "NextID": 148,
+          "DebugID": 114
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Dancing.)",
+              "NextID": 149
+            },
+            {
+              "Text": "(Making out.)",
+              "NextID": 171
+            }
+          ],
+          "ID": 148,
+          "NextID": 0,
+          "DebugID": 115
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The major draw of a nightclub,░ particularly this one,░ is dancing.░ Don't you wanna come over to the dance floor and shake that booty of yours with me?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 149,
+          "NextID": 150,
+          "DebugID": 116
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His frustration began to shift into shy embarassment.░ His eyes darted away from mine as he mumbled.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 150,
+          "NextID": 151,
+          "DebugID": 117
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 151,
+          "NextID": 152,
+          "DebugID": 118
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not really much of a dancer.░ Particularly not when the music is loud enough to jostle my insides just by standing there.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 152,
+          "NextID": 153,
+          "DebugID": 118
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "What about new experiences?",
+              "NextID": 154
+            },
+            {
+              "Text": "Alright, what's your next question?",
+              "NextID": 80
+            }
+          ],
+          "ID": 153,
+          "NextID": 0,
+          "DebugID": 119
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "After all that talk about trying new things and expanding your horizons?░ Seems a little hypocritical to suddenly have limits on what you are willing to try.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 154,
+          "NextID": 155,
+          "DebugID": 120
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 155,
+          "NextID": 156,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...some experiences are just a little too much for me at the moment,░ okay?░ Particularly when it involves someone I only just met.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 156,
+          "NextID": 157,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I only just met you too,░ and I'm still willing to give it a try.░ Life is about risk,░ you need to take one now and again.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 157,
+          "NextID": 158,
+          "DebugID": 122
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 158,
+          "NextID": 159,
+          "DebugID": 123
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'd rather not risk that.░ I mean... I'm a writer,░ not an athlete.░ I don't want to wind up falling gracelessly on my butt and making an ass of myself.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 159,
+          "NextID": 160,
+          "DebugID": 123
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "You're a klutz?",
+              "NextID": 161
+            },
+            {
+              "Text": "Alright, alright, no dancing.",
+              "NextID": 80
+            }
+          ],
+          "ID": 160,
+          "NextID": 0,
+          "DebugID": 124
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Wait...░ you're telling me you're a clumsy feline?░ Is that even possible?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 161,
+          "NextID": 162,
+          "DebugID": 125
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He looked at me in shock for a moment.░ His eyes went wide before he looked off at the corner of the bar.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 162,
+          "NextID": 163,
+          "DebugID": 126
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 163,
+          "NextID": 164,
+          "DebugID": 127
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...<i>clearly</i>, this was a mistake.░ Go have fun,░ I'm leaving.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 164,
+          "NextID": 165,
+          "DebugID": 127
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Apologize.)",
+              "NextID": 166
+            },
+            {
+              "Text": "(Let him go.)",
+              "NextID": 170
+            }
+          ],
+          "ID": 165,
+          "NextID": 0,
+          "DebugID": 128
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Wait, wait!░ I didn't mean it like that, I just... just let me get my foot out of my mouth and we'll keep going.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 166,
+          "NextID": 167,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He stopped for a moment and looked me over.░ Gingerly, he set his bag on the bar and settled into his seat.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 167,
+          "NextID": 168,
+          "DebugID": 130
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 168,
+          "NextID": 169,
+          "DebugID": 131
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...okay.░ Can we continue?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 169,
+          "NextID": 80,
+          "DebugID": 131
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>A guy that sensitive probably wasn't worth the effort.░ After all, there's a club full of people.░\r\nHe took his things and walked out,░ I moved back into the club.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 170,
+          "NextID": 393,
+          "DebugID": 132
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Surely by now you realize that I find you attractive.░ We could find a quiet corner and spend a little time to get to know each other more... intimately.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 171,
+          "NextID": 172,
+          "DebugID": 133
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Despite the frown that continued to dominate his expression,░ I saw hints of pink behind those fluffy white cheeks.░ He swallowed a moment and cleared his throat.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 172,
+          "NextID": 173,
+          "DebugID": 134
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 173,
+          "NextID": 174,
+          "DebugID": 135
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Clearly, you had a very different idea of what my purpose was in coming here.░ If I wanted to make out with someone,░ I'd already be doing it. There's plenty of other people here angling to...░ get <i>'intimate'.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 174,
+          "NextID": 175,
+          "DebugID": 135
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So why aren't you getting 'intimate' with them,░ pray tell?░ Or is it just that you'd prefer not to get intimate with me?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 175,
+          "NextID": 176,
+          "DebugID": 136
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 176,
+          "NextID": 177,
+          "DebugID": 137
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That... that's not it!░\r\nI mean, you look <i>fine.</i>░\r\nI mean,░ not fine but attractive!░ I'm sure you <i>would</i> look attractive to someone who was attracted to you,░ is what I'm trying to say...",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 177,
+          "NextID": 178,
+          "DebugID": 137
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "You flatter me!",
+              "NextID": 179
+            },
+            {
+              "Text": "You're not into me?",
+              "NextID": 398
+            }
+          ],
+          "ID": 178,
+          "NextID": 0,
+          "DebugID": 138
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No,░ stop,░ you're making me blush.░ A fine and possibly attractive person like me can only take so many compliments.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 179,
+          "NextID": 180,
+          "DebugID": 139
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His face grew redder as he tried to stammer out an apology.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 180,
+          "NextID": 181,
+          "DebugID": 140
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 181,
+          "NextID": 182,
+          "DebugID": 141
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't mean it like that.░ This is simply one of the few times an attractive person has...░ well,░ engaged me.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 182,
+          "NextID": 183,
+          "DebugID": 141
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well we haven't engaged in anything yet.░ Unless that's what you were working up to.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 183,
+          "NextID": 184,
+          "DebugID": 142
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 184,
+          "NextID": 185,
+          "DebugID": 143
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It wasn't my intention, no.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 185,
+          "NextID": 186,
+          "DebugID": 143
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Back to his questions.)",
+              "NextID": 80
+            },
+            {
+              "Text": "(Leave.)",
+              "NextID": 187
+            }
+          ],
+          "ID": 186,
+          "NextID": 0,
+          "DebugID": 144
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "In that case, think I might be talking to the wrong person.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 187,
+          "NextID": 188,
+          "DebugID": 145
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He was aghast for a moment but then slumped back into his seat.░ There's too much of a scene here to waste time beating around the bush.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 188,
+          "NextID": 393,
+          "DebugID": 146
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, geeze!░ You're not gay are you?░\r\n<i>Heh,</i> this happens every time I've tried going to a club.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 189,
+          "NextID": 190,
+          "DebugID": 147
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 190,
+          "NextID": 191,
+          "DebugID": 148
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What?░ No! Oh, no!░ I mean, I like you,░ you'd be very much on my radar,░ but I'm not really the type to...░\r\nEgads, this is embarassing.░ Can we start this over?░ I like to take it <i>slow</i>, is the point.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 191,
+          "NextID": 192,
+          "DebugID": 148
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well,░ that's a relief at least.░ Last time Coby took me to another club,░ well,░ assumptions were made,░ it got... <i>messy.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 192,
+          "NextID": 193,
+          "DebugID": 149
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 193,
+          "NextID": 194,
+          "DebugID": 150
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I imagine so.░ Is it alright to get back to the questions?░ I know it's odd but,░ I did have a rather pressing one.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 194,
+          "NextID": 195,
+          "DebugID": 150
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Sure.)",
+              "NextID": 80
+            },
+            {
+              "Text": "(Leave.)",
+              "NextID": 196
+            }
+          ],
+          "ID": 195,
+          "NextID": 0,
+          "DebugID": 151
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Actually, I'm here to blow off some steam.░ The twenty questions isn't really helping.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 196,
+          "NextID": 188,
+          "DebugID": 152
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I find a few drinks in a social atmosphere helps░ me to unwind and forget about my troubles.░ I'm usually up for a few beers with friends,░ or shots if I want to get wild.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 197,
+          "NextID": 198,
+          "DebugID": 153
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He grinned broadly and ducked back into his notebook with a few rapid fire scribbles before straightening back up and folding his paws on the bar.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 198,
+          "NextID": 199,
+          "DebugID": 154
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 199,
+          "NextID": 200,
+          "DebugID": 155
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'll only have the occasional drink myself,░ but sometimes it's fun to see people so uninhibited!░ You get the raw essence of who they are.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 200,
+          "NextID": 71,
+          "DebugID": 155
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm just here to relax.░ Get away from all my mundane problems and enjoy myself.░ I've done the 9 to 5 grind for too much of my life already.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 201,
+          "NextID": 202,
+          "DebugID": 156
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Looking thoughtful, he nodded a few times and smiled.░ His pen dipped back down onto his notebook and added a few more scribbles to the rapidly filling page.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 202,
+          "NextID": 203,
+          "DebugID": 157
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 203,
+          "NextID": 204,
+          "DebugID": 158
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Goodness knows, I need a break now and again too.░ A writer's life,░ though seemingly serene,░ is packed with deadlines, creative blocks, critque, editing...\r\nthe list goes on.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 204,
+          "NextID": 71,
+          "DebugID": 158
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "When I'm feeling mopey or just have too much time,░ I like to find other people to be around.░ Conversation, laughs and banter between friends░ really helps to perk me back up.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 205,
+          "NextID": 206,
+          "DebugID": 159
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He looked a little surprised,░ jotting down a few extra lines in his notebook before glancing back up at me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 206,
+          "NextID": 207,
+          "DebugID": 160
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 207,
+          "NextID": 208,
+          "DebugID": 161
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose I should be flattered you've directed your attentions to just me then. <i>Extroverts</i> commonly don't enjoy engaging with me for extended periods of time...",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 208,
+          "NextID": 71,
+          "DebugID": 161
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I've always wanted to travel around a bit more,░ you know? See a few other places.░ I haven't had much of a chance to get out of town.░ Maybe even travel to another country and immerse myself in the culture.░ I mean it's great here but sometimes you just wanna explore, you know?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 209,
+          "NextID": 210,
+          "DebugID": 162
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>My answer seemed to intrigue him.░ His head bobbed a few times in agreement as he jotted down a few notes.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 210,
+          "NextID": 211,
+          "DebugID": 163
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 211,
+          "NextID": 212,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I've always thought it was important to learn things about another culture.░ It helps you to better understand your own.░ Not to mention the sheer joy of exploring!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 212,
+          "NextID": 63,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Actually, I think I'd still come here.░ It's been a while since I got out to meet people,░ and I've never been the type to come to a nightclub.░ It's something new to try and see how it goes.░ That and Coby loves this place and I wanted to see what it was all about.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 213,
+          "NextID": 214,
+          "DebugID": 165
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 214,
+          "NextID": 215,
+          "DebugID": 166
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The rest of the patrons definitely seem to enjoy it here.░ Particularly if the volume of people on the dance floor is any indication.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 215,
+          "NextID": 63,
+          "DebugID": 166
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It was clear to me that this was going nowhere fast.░ I shrugged and got up from the stool.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 216,
+          "NextID": 217,
+          "DebugID": 167
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry to bother you.░ Good luck with writing whatever you're writing░ that benefits from club dance music and gyrating mobs.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 217,
+          "NextID": 218,
+          "DebugID": 168
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He gave me a resigned sigh,░ watching as I walked away from the bar before resuming his scribbling.░ With the way I left things,░ it probably wouldn't be a good idea to go back.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 218,
+          "NextID": 393,
+          "DebugID": 169
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry.░ I mean,░ to each their own but you have to at least admit that it's a little strange.░ I mean, most people go to someplace quiet to think.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 219,
+          "NextID": 220,
+          "DebugID": 170
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 220,
+          "NextID": 221,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I admit,░ it's a little odd.░ I...░ I get tired of living alone.░ Sometimes I just want to get out and be around people.░ Writing's a very solo thing.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 221,
+          "NextID": 222,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I get that.░ It's the biggest reason I agreed to tag along tonight.░ Sometimes you just need to be around other people.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 222,
+          "NextID": 53,
+          "DebugID": 172
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose that makes sense.░ Authors rarely have a single work to their name.░ Do you have something I could read?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 223,
+          "NextID": 224,
+          "DebugID": 173
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He sat upright,░ the slouch that had been so prevalent before suddenly vanishing.░ His ears perked up as well,░ before he glanced to the side and then back at me.░ It took a long moment before he responded.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 224,
+          "NextID": 225,
+          "DebugID": 174
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 225,
+          "NextID": 226,
+          "DebugID": 175
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I ... I suppose you could look over a couple of my things.░ It's all still rough drafts, though.░ I haven't had it run by an editor so,░ don't expect too much.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 226,
+          "NextID": 227,
+          "DebugID": 175
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Hesitantly, he dug in the shoulder bag sitting beside him░ before producing another composition notebook that he sat down in front of me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 227,
+          "NextID": 228,
+          "DebugID": 176
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 228,
+          "NextID": 229,
+          "DebugID": 177
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's mostly snippets and some poetry.░ I know, I know, it's self indulgent to play with rhymes░ but you have to find your muse when it comes.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 229,
+          "NextID": 230,
+          "DebugID": 177
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He watched intently as I skimmed over his work.░ It was mostly fluff, fragments of ideas and the occasional clever rhyme.░ Each piece seemed, short. As if it were cut off before completion.░He seems to have trouble sticking to an idea.░ Maybe that's why he was looking for inspiration.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 230,
+          "NextID": 231,
+          "DebugID": 178
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 231,
+          "NextID": 232,
+          "DebugID": 179
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, what did you think?░ I mean, I can't expect much from what I provided but input is always appreciated!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 232,
+          "NextID": 233,
+          "DebugID": 179
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Be honest.)",
+              "NextID": 234
+            },
+            {
+              "Text": "(Be kind.)",
+              "NextID": 240
+            },
+            {
+              "Text": "(Be blunt.)",
+              "NextID": 243
+            }
+          ],
+          "ID": 233,
+          "NextID": 0,
+          "DebugID": 180
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You've got some good starters here,░ but that's most of what I'm seeing?░ Some good opening ideas.░ Like you said, this was mostly just scribbles░ but have you gotten to finishing a work yet?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 234,
+          "NextID": 235,
+          "DebugID": 181
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 235,
+          "NextID": 236,
+          "DebugID": 182
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The muse comes and goes as with all creative endeavours.░ I've got plenty of good material to work with,░ I just need to find the right world to let it grow in.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 236,
+          "NextID": 237,
+          "DebugID": 182
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You seem very sensitive about your work,░ for someone who is writing in the public eye.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 237,
+          "NextID": 238,
+          "DebugID": 183
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 238,
+          "NextID": 239,
+          "DebugID": 184
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, writing is a very...░ it pulls quite deeply from my internal well.░ Everything I write is in some way a reflection of myself...\r\nI suppose it's easy to take things personally.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 239,
+          "NextID": 53,
+          "DebugID": 184
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm seeing quite a few good ideas here░ and even more interesting takes on ideas that you're pursing.░ You really should seek publication!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 240,
+          "NextID": 241,
+          "DebugID": 185
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 241,
+          "NextID": 242,
+          "DebugID": 186
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're too kind, really.░ It's definitely the direction I'm going but░ I feel like I need to work on it a little more before░ I get to where I'm completely comfortable with the idea.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 242,
+          "NextID": 237,
+          "DebugID": 186
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "All I see here are fragments of ideas and very░ little in the way of actual writing.░ You do know you need more than a few sentences░ to make a compelling story, right?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 243,
+          "NextID": 244,
+          "DebugID": 187
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "He reached over and snagged the notebook back from me,░ tucking it away in his shoulder bag. I think he░ was a little more sensitive about his work than he let on at first.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 244,
+          "NextID": 245,
+          "DebugID": 188
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 245,
+          "NextID": 246,
+          "DebugID": 189
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's all just scribbles for now.░ I need to get the ideas out of my head so they can germinate is all.░ Though I suppose that doesn't matter to you.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 246,
+          "NextID": 53,
+          "DebugID": 189
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What experience are you interested in getting from here?░ It seems pretty clear to me that most people here are either░ interested in getting drunk, dancing or hooking up.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 247,
+          "NextID": 248,
+          "DebugID": 190
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He cleared his throat and sat up straight,░ his shoulders tightening as he glanced from me to the oncoming waiter and back again.░ His hands shifted and moved as he spoke.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 248,
+          "NextID": 249,
+          "DebugID": 191
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 249,
+          "NextID": 250,
+          "DebugID": 192
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, you know ... How people interact, where they go to meet other people.░ Immersion makes for the greatest sense of verisimilitude in your work.░ I've been making a point to follow in the footsteps of some░ of my role models and break out of my authorial shell, as it were.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 250,
+          "NextID": 251,
+          "DebugID": 192
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Who are your role models?",
+              "NextID": 252
+            },
+            {
+              "Text": "You like big words, don't you?",
+              "NextID": 338
+            }
+          ],
+          "ID": 251,
+          "NextID": 0,
+          "DebugID": 193
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What role models do you have that tend to hang out in bars and nightclubs?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 252,
+          "NextID": 253,
+          "DebugID": 194
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 253,
+          "NextID": 254,
+          "DebugID": 195
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "There's a litany!░ All of my heroes braved the edges of society░ to try to find the truth that was underlying░ and then turned that into stories that capture the imagination!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 254,
+          "NextID": 255,
+          "DebugID": 195
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...and the alcohol factors into that, how?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 255,
+          "NextID": 256,
+          "DebugID": 196
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 256,
+          "NextID": 257,
+          "DebugID": 197
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It loosens the inhibitions and lets the mind wander and flow.░ In many ways it is the essence of the muse itself, given physical form and░\r\n...robust flavor?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 257,
+          "NextID": 258,
+          "DebugID": 197
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Uh-huh...",
+              "NextID": 259
+            },
+            {
+              "Text": "Never thought of that",
+              "NextID": 331
+            }
+          ],
+          "ID": 258,
+          "NextID": 0,
+          "DebugID": 198
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Never heard anyone romanticize scotch like that.░ It's an untapped market, I suppose.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 259,
+          "NextID": 260,
+          "DebugID": 199
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 260,
+          "NextID": 261,
+          "DebugID": 200
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Drink has inspired some of the greatest artists in history.░ Painters, writers, sculptors: they all used it to break through <i>barriers</i>, to connect with who they were under the skin.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 261,
+          "NextID": 262,
+          "DebugID": 200
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think that has less to do with the quality of the alcohol░ and more with the notion that it's harder to hate <i>what</i> you're doing when you're drunk.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 262,
+          "NextID": 263,
+          "DebugID": 201
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 263,
+          "NextID": 264,
+          "DebugID": 202
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "There's much more to it than that.░ Though I suppose a <i>philistine</i> such as yourself wouldn't know about the soul of an artist.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 264,
+          "NextID": 265,
+          "DebugID": 202
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Really?",
+              "NextID": 266
+            },
+            {
+              "Text": "I suppose not.",
+              "NextID": 328
+            }
+          ],
+          "ID": 265,
+          "NextID": 0,
+          "DebugID": 203
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Really?░ We're devolving into name calling because you think getting <i>drunk</i> is a shortcut to the creative process?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 266,
+          "NextID": 267,
+          "DebugID": 204
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 267,
+          "NextID": 268,
+          "DebugID": 205
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't say...░ I mean, how can you imply... ░you just...",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 268,
+          "NextID": 269,
+          "DebugID": 205
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His eyes narrowed at me while he worked on gathering together his response.░ It seems like I got a little too close to the truth░ there but he already looks irritated. </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 269,
+          "NextID": 270,
+          "DebugID": 206
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Excuse yourself.)",
+              "NextID": 216
+            },
+            {
+              "Text": "(Apologize.)",
+              "NextID": 271
+            }
+          ],
+          "ID": 270,
+          "NextID": 0,
+          "DebugID": 207
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry, I didn't mean to upset you.░ Perhaps we should talk about something else.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 271,
+          "NextID": 272,
+          "DebugID": 208
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "So you're a writer?",
+              "NextID": 31
+            },
+            {
+              "Text": "You sure you aren't just lonely?",
+              "NextID": 273
+            }
+          ],
+          "ID": 272,
+          "NextID": 0,
+          "DebugID": 209
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You sure you're not just lonely?░ It's the major reason most people come here you know.░ Aside from the drinks and the dance floor.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 273,
+          "NextID": 274,
+          "DebugID": 210
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 274,
+          "NextID": 275,
+          "DebugID": 211
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Is this a blatant attempt to hit on me?░ I assure you I'm not just here for some <i>random</i> hook up with someone to up my self-esteem!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 275,
+          "NextID": 276,
+          "DebugID": 211
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Are you sure?",
+              "NextID": 277
+            },
+            {
+              "Text": "I didn't suggest that.",
+              "NextID": 301
+            }
+          ],
+          "ID": 276,
+          "NextID": 0,
+          "DebugID": 212
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Are you sure?░ Because I don't recall us discussing each other's <i>preferences</i>░ and yet, you suggest I'm trying to hit on you.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 277,
+          "NextID": 278,
+          "DebugID": 213
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 278,
+          "NextID": 279,
+          "DebugID": 214
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's not an unreasonable assumption, as you've suggested.░ It's a social place and there are plenty of sexually... <i>flexible</i> individuals here.s",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 279,
+          "NextID": 280,
+          "DebugID": 214
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...and yet you assume I'm here to hit on you specifically?░ And that I'd do it just to boost your self-esteem.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 280,
+          "NextID": 281,
+          "DebugID": 215
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He stammered for a moment,░ his mouth opening as if to speak before he fell silent.░ A short, flustered snort flared his nostrils░ as he moved to pack up his things.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 281,
+          "NextID": 282,
+          "DebugID": 216
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "I was just teasing...",
+              "NextID": 283
+            },
+            {
+              "Text": "You're leaving just because of that?",
+              "NextID": 291
+            }
+          ],
+          "ID": 282,
+          "NextID": 0,
+          "DebugID": 217
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Calm down, calm down.░ It was just a gentle ribbing.░ I didn't mean anything by it.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 283,
+          "NextID": 284,
+          "DebugID": 218
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He looked at me skeptically for a moment,░ his ears flattened against his head before he░ set down his things.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 284,
+          "NextID": 285,
+          "DebugID": 219
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 285,
+          "NextID": 286,
+          "DebugID": 220
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "If you're thinking of doing stand up,░ I wouldn't quit your day job.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 286,
+          "NextID": 287,
+          "DebugID": 220
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Too late.░ They already laid me off a while ago.░ That's one of the reasons I'm here, playfully harassing you.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 287,
+          "NextID": 288,
+          "DebugID": 221
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 288,
+          "NextID": 289,
+          "DebugID": 222
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...░Sorry, I didn't know.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 289,
+          "NextID": 290,
+          "DebugID": 222
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's alright. I mean it's not <b>alright</b> but░ I don't mind it getting mentioned.░ Still, probably not best to dwell on it.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 290,
+          "NextID": 53,
+          "DebugID": 223
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're leaving just because of that?░ Don't you think you're being a little oversensitive about this?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 291,
+          "NextID": 292,
+          "DebugID": 224
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 292,
+          "NextID": 293,
+          "DebugID": 225
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm trying to get things done here and I <i>certainly</i> don't need some random stranger showing up and... casting aspersions about my intentions!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 293,
+          "NextID": 294,
+          "DebugID": 225
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So, you being in a social environment and admitting░ you came here because of the people doesn't already suggest anything?░ Why are you so upset about admitting you <i>might</i> be here to meet people?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 294,
+          "NextID": 295,
+          "DebugID": 226
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He shoved his notebook hard into his shoulder bag,░ spinning around to face me across the table with his eyes narrowed and smouldering with rage.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 295,
+          "NextID": 296,
+          "DebugID": 227
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 296,
+          "NextID": 297,
+          "DebugID": 228
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm upset because I just want to work.░ I want to relax. I don't want to dance or gyrate.░ I'm not here to look cute or lost.░ I'm just here to get away for a bit. That's all!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 297,
+          "NextID": 298,
+          "DebugID": 228
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He let out a long sigh, collapsing back into his seat and closing his eyes for a moment.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 298,
+          "NextID": 299,
+          "DebugID": 229
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 299,
+          "NextID": 300,
+          "DebugID": 230
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry, it's just ... apparently looking like the lost little lamb░ is an aphrodisiac to most of the people here.░Most of my evening has been spent rebuffing offers of sexual favors░ and suggestions that I should loosen up and join them░ in the bathroom for a \"fling\".",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 300,
+          "NextID": 53,
+          "DebugID": 230
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't suggest that at all.░ I'm here mostly because my brother Coby wanted me to get out of the house.░ I've been a bit of a hermit lately.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 301,
+          "NextID": 302,
+          "DebugID": 231
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 302,
+          "NextID": 303,
+          "DebugID": 232
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose there is some of that as well.░ It is nice to get out and see people░ ...not just to observe them.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 303,
+          "NextID": 304,
+          "DebugID": 232
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 304,
+          "NextID": 305,
+          "DebugID": 233
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The bartender was a particular character.░ Very animated and chatty.░ It was nice to talk for a bit with someone.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 305,
+          "NextID": 306,
+          "DebugID": 233
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "So you are lonely!",
+              "NextID": 307
+            },
+            {
+              "Text": "Like what we're doing?",
+              "NextID": 315
+            }
+          ],
+          "ID": 306,
+          "NextID": 0,
+          "DebugID": 234
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So you are lonely.░ Was that really so hard to admit to a complete stranger sitting next to you?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 307,
+          "NextID": 308,
+          "DebugID": 235
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It was readily apparent he didn't see the humor in that statement,░ I smiled a little to relieve the tension.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 308,
+          "NextID": 309,
+          "DebugID": 236
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 309,
+          "NextID": 310,
+          "DebugID": 237
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...yes, it was.░\r\nI suppose I am lacking for regular companionship but that <i>still</i> doesn't make it any easier to chat with someone I don't know about those kinds of things.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 310,
+          "NextID": 311,
+          "DebugID": 237
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I can understand that.░ Why not engage me then?░ You've been very accommodating answering all my questions,░ why not hit me with some of yours?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 311,
+          "NextID": 312,
+          "DebugID": 238
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 312,
+          "NextID": 313,
+          "DebugID": 239
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Really?░ I ... I never had an open invitation extended so readily tonight.░ I suppose turnabout is fair play.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 313,
+          "NextID": 314,
+          "DebugID": 239
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He smiled and pulled out a notebook,░ laying it open on the table and smoothing the pages out for easier writing.░\r\nAfter a scribble or two,░ he looked back up at me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 314,
+          "NextID": 53,
+          "DebugID": 240
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Kind of like what we are doing right now?░ Or is this not enough of a conversation?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 315,
+          "NextID": 316,
+          "DebugID": 241
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 316,
+          "NextID": 317,
+          "DebugID": 242
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yes, I suppose so.░ Sorry, I've been getting regularly propositioned by most of the other patrons. It tends to <i>skew</i> my perceptions of other people.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 317,
+          "NextID": 318,
+          "DebugID": 242
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well you do have that \"lost lamb\" look that's quite popular with the 'sexually vibrant' crowd these days.░ Sitting alone a the bar probably wasn't the best idea, if you were looking to avoid attention.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 318,
+          "NextID": 319,
+          "DebugID": 243
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 319,
+          "NextID": 320,
+          "DebugID": 244
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'll make a note of that in the future.░ Some small part of me does enjoy the attention...\r\nbut in metered doses.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 320,
+          "NextID": 321,
+          "DebugID": 244
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Again, I have to ask why you felt a <i>club</i> was the best place to go if advances were going to be unwelcome.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 321,
+          "NextID": 322,
+          "DebugID": 245
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 322,
+          "NextID": 323,
+          "DebugID": 246
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, I didn't mean to imply that all advances might be unwelcome.░ As painful as it is to admit, my vanity does <i>enjoy</i> the occasional reminder that I'm not some hideous beast to be shunned.░ Though that would give me ample material for an interesting memoir.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 323,
+          "NextID": 324,
+          "DebugID": 246
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, with all due respect, and deferring to your desire to be approached in a more demure manner,░ I think you're quite attractive.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 324,
+          "NextID": 325,
+          "DebugID": 247
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 325,
+          "NextID": 326,
+          "DebugID": 248
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well,░ I appreciate the compliment <i>and</i> the lack of sexual innuendo attached.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 326,
+          "NextID": 327,
+          "DebugID": 248
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He smiled broadly at me and leaned forward onto the bar.░ He didn't seem to realize I was quietly teasing his overabundant vocabulary.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 327,
+          "NextID": 53,
+          "DebugID": 249
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose not.░ I'm not really an artist myself so I can't speak from experience.░ I know that getting drunk tends to only help me pass out░ in my clothes and regret the next day, though.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 328,
+          "NextID": 329,
+          "DebugID": 250
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His scowl faded into darting glances and flushed cheeks.░ Clearly he didn't expect that sort of response.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 329,
+          "NextID": 330,
+          "DebugID": 251
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're welcome to down as many of those░ as you'd like to get where you need to go but,░ if you're going to loosen up a little, I'd suggest░ drinking something you might enjoy more.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 330,
+          "NextID": 53,
+          "DebugID": 252
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Never really thought about that.░ It does help me loosen up and relax░ and I have been wound a little tight lately.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 331,
+          "NextID": 332,
+          "DebugID": 253
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 332,
+          "NextID": 333,
+          "DebugID": 254
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "If you don't mind my asking, what has you so bothered?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 333,
+          "NextID": 334,
+          "DebugID": 254
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, the usual.░ I got laid off from my last job and the vast swaths░ of time with very little to do tends to weigh on me.░Suppose that's why Coby suggested I get out a bit more;░ try to relax and enjoy myself.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 334,
+          "NextID": 335,
+          "DebugID": 255
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 335,
+          "NextID": 336,
+          "DebugID": 256
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'd be lying if I didn't have the same░ troubles with my current vocation.░ Writing's a noble pursuit but it's░ difficult to convince a publisher of that.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 336,
+          "NextID": 337,
+          "DebugID": 256
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Probably even harder than finding another job in this economy.░ I certainly don't envy you the search.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 337,
+          "NextID": 53,
+          "DebugID": 257
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're fond of flexing your vocabulary, aren't you?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 338,
+          "NextID": 339,
+          "DebugID": 258
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 339,
+          "NextID": 340,
+          "DebugID": 259
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Of course! It's my medium, my art form!░ If I don't utilize the lexicon to it's fullest extent░ that's as bad as omitting the full spectrum░ from a painting, or trying to sculpt marble without tools!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 340,
+          "NextID": 341,
+          "DebugID": 259
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Disagree.)",
+              "NextID": 342
+            },
+            {
+              "Text": "(Agree.)",
+              "NextID": 363
+            }
+          ],
+          "ID": 341,
+          "NextID": 0,
+          "DebugID": 260
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Words are about conveying ideas clearly and concisely,░ not overwhelming your audience with arcane language.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 342,
+          "NextID": 343,
+          "DebugID": 261
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 343,
+          "NextID": 344,
+          "DebugID": 262
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Arcane language?░ I suppose you're happier when your conversational counterpart░ limits themselves to monosyllabic grunting!",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 344,
+          "NextID": 345,
+          "DebugID": 262
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It appears as though he's very touchy about his opinions.░ Despite his aloofness, he's getting hot under the collar.░ Maybe I should change the subject.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 345,
+          "NextID": 346,
+          "DebugID": 263
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Snap back.)",
+              "NextID": 347
+            },
+            {
+              "Text": "(Let it slide.)",
+              "NextID": 358
+            }
+          ],
+          "ID": 346,
+          "NextID": 0,
+          "DebugID": 264
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Maybe I prefer a conversation where people actually <i>talk</i> to each other rather than over each other.░ You know, as equals?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 347,
+          "NextID": 348,
+          "DebugID": 265
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 348,
+          "NextID": 349,
+          "DebugID": 266
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So you're just another vapid club goer?░ You're all more interested in tittering over the latest issue of Cosmo instead of having a real conversation.░ I was hoping for more.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 349,
+          "NextID": 350,
+          "DebugID": 266
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It seems like he's quite comfortable just being an arrogant prick.░ Maybe I should just cut my losses and leave.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 350,
+          "NextID": 351,
+          "DebugID": 267
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Remain calm.)",
+              "NextID": 352
+            },
+            {
+              "Text": "(Excuse yourself.)",
+              "NextID": 216
+            }
+          ],
+          "ID": 351,
+          "NextID": 0,
+          "DebugID": 268
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Look, I'm not trying to belittle you.░ I'm just saying that it's possible to get to know a person <i>without</i> needing to use every word in the dictionary.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 352,
+          "NextID": 353,
+          "DebugID": 269
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 353,
+          "NextID": 354,
+          "DebugID": 270
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I mean, you're technically correct.░ I just find it pedestrian to be forced to not use my full vocabulary.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 354,
+          "NextID": 355,
+          "DebugID": 270
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yes, but I'm sure you wouldn't like me to talk░ over your head about what I'm interested in.░ Unless you really do want me to leave you alone.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 355,
+          "NextID": 356,
+          "DebugID": 271
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He paused for a moment, looking across the table░ with a scowl before his expression began to soften.░ He let out a short sigh and shook his head.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 356,
+          "NextID": 357,
+          "DebugID": 272
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No. You can stay.░ Sorry, I ... I'm not always that great around other people.░ There's very few that I've met who are on the same wavelength as me.░ It's kind of nice to have someone to talk to.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 357,
+          "NextID": 53,
+          "DebugID": 273
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry, just used to simple conversations.░ You know, how's the weather?░ Did you see that ludicrous display last night?░ Nice pants, wanna fuck?░ That sort of thing.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 358,
+          "NextID": 359,
+          "DebugID": 274
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It was risky telling jokes when he was clearly on edge.░ However, the corners of his mouth turned slowly upward░ and his expression softened.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 359,
+          "NextID": 360,
+          "DebugID": 275
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 360,
+          "NextID": 361,
+          "DebugID": 276
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, I suppose I can't hold that against you.░ Though I have to ask where you heard░ that last question in casual conversation?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 361,
+          "NextID": 362,
+          "DebugID": 276
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "There was this party one time.░ Needless to say it was more than a little ... risque.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 362,
+          "NextID": 53,
+          "DebugID": 277
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That's true.░ Words can be a sort of art themselves.░ I know it's fun to find a word that fits your thought precisely.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 363,
+          "NextID": 364,
+          "DebugID": 278
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 364,
+          "NextID": 365,
+          "DebugID": 279
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Exactly!░ I mean, every day conversation has it's place but░ when you can pull a word out and really lay it on the table;░ that's when I often feel the most satisfied.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 365,
+          "NextID": 366,
+          "DebugID": 279
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Guess you really had no other option than to be a writer.░ Very few other professions tend to have such a passion towards words.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 366,
+          "NextID": 367,
+          "DebugID": 280
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 367,
+          "NextID": 368,
+          "DebugID": 281
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I previously considered other vocations but░ none of them really resonated with me as well as writing did.░ Just the crafting of a story, building a world,░ populating it with an array of characters ...",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 368,
+          "NextID": 369,
+          "DebugID": 281
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He drifted off into his own world for a moment, staring glassy-eyed into space.░ When he snapped back, he immediately began to scribble in his notebook.░It took a few moments, and a polite cough from me,░ before he remembered my existence.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 369,
+          "NextID": 370,
+          "DebugID": 282
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 370,
+          "NextID": 371,
+          "DebugID": 283
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry, had to jot down another idea.░ Kinda how this thing goes.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 371,
+          "NextID": 53,
+          "DebugID": 283
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I moved my seat closer to his,░ stealing a glance or two at what he was doing.░ The whole page was packed from end to end with a stream of consciousness broken only by the occasional notes and edits.░ He must have been less in his own world than I thought,░ because I became aware of his eyes locked on me with the ends of his mouth turned downward.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 372,
+          "NextID": 373,
+          "DebugID": 284
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 373,
+          "NextID": 374,
+          "DebugID": 285
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Pardon me,░ it's not polite to read over someone's shoulder.░ Particularly the shoulder of a complete stranger.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 374,
+          "NextID": 375,
+          "DebugID": 285
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry.░ Just you seemed to be working to intently.░ I was wondering what could keep you so engrossed when an entire nightclub is pumping and thumping around you.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 375,
+          "NextID": 376,
+          "DebugID": 286
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 376,
+          "NextID": 377,
+          "DebugID": 287
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Who's to say that pumping and thumping don't help to contribute to my creativity?░ Being immersed in the beating heart of popular culture can stimulate the mind.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 377,
+          "NextID": 378,
+          "DebugID": 287
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Fair enough.░ Myself, I usually prefer a little peace and quiet░ if I'm going to be working on something important.░ Particularly because strange people might come up ░and start reading over your shoulder.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 378,
+          "NextID": 395,
+          "DebugID": 288
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He remained intently focused on his notebook,░ hunched over the table enough that he didn't notice when I shimmied my seat next to him.░ </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 379,
+          "NextID": 380,
+          "DebugID": 289
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I casually watched as he moved,░ almost rote,░ from his frenetic writing to reaching for his glass and leaning to the wall of the bar.░ That was when he noticed me and in a sudden fit of surprise,░ spilled his drink down the front of his shirt.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 380,
+          "NextID": 381,
+          "DebugID": 290
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 381,
+          "NextID": 382,
+          "DebugID": 291
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "W-who?!░\r\nWhere did you come from and who said you could sit here?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 382,
+          "NextID": 383,
+          "DebugID": 291
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His indignance seemed more due to trying to blot expensive alcohol off his chest░ rather than serious concern about my presence.░ I flagged down a waiter and ordered him another drink before offering him a napkin.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 383,
+          "NextID": 384,
+          "DebugID": 292
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's a bar?░ I didn't realize the seat was taken.░\r\nAnyway, I was interested in getting to know the only person working harder at a nightclub than the staff.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 384,
+          "NextID": 385,
+          "DebugID": 293
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I extended my hand across the table.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 385,
+          "NextID": 386,
+          "DebugID": 294
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "My name is %playername%. It's a pleasure to meet you.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 386,
+          "NextID": 387,
+          "DebugID": 295
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It took him a moment, getting as much as he could of his drink off his chest and lap before he set the napkin down and gave me a thorough looking over.░ Those bright blue eyes narrowed for a moment as he hesitantly offered his hand in return.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 387,
+          "NextID": 388,
+          "DebugID": 296
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 388,
+          "NextID": 389,
+          "DebugID": 297
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...Seth.░ I'm Seth.░\r\nIs this how you usually introduce yourself to people, %playername%?",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 389,
+          "NextID": 390,
+          "DebugID": 297
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Not usually, no.░ Just noticed you're one of the only other people here not either dancing or relaxing with others.░ I was curious about what brought you here.░ You don't seem like the type.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 390,
+          "NextID": 20,
+          "DebugID": 298
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "SethLeftClub",
+          "Value": true,
+          "ID": 391,
+          "NextID": 394,
+          "DebugID": 299
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.UnlockContactEventData, Amorous.Engine",
+          "Contact": "Seth",
+          "ID": 392,
+          "NextID": 391,
+          "DebugID": 300
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "SethLeftClub",
+          "Value": true,
+          "ID": 393,
+          "NextID": 124,
+          "DebugID": 301
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetStageEventData, Amorous.Engine",
+          "Quest": "SethPreDate",
+          "Stage": 20,
+          "ID": 394,
+          "NextID": 102,
+          "DebugID": 302
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, and it's %playername%, by the way.░\r\nSorry, I know questions first isn't exactly the best manners,░ you just seemed a little out of your element.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 395,
+          "NextID": 396,
+          "DebugID": 303
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SethNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 396,
+          "NextID": 397,
+          "DebugID": 304
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...Seth.░ I'm Seth.",
+          "Title": "Seth",
+          "Color": {
+            "B": 83,
+            "G": 255,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 397,
+          "NextID": 20,
+          "DebugID": 304
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 401,
+          "FalseID": 399,
+          "ID": 398,
+          "NextID": 0,
+          "DebugID": 305
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Neutral",
+          "TrueID": 400,
+          "FalseID": 189,
+          "ID": 399,
+          "NextID": 0,
+          "DebugID": 306
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ah, looking for a more... <i>typical</i>... pairing?░ I suppose I can understand that, it's kinda hard to tell in my case.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 400,
+          "NextID": 190,
+          "DebugID": 307
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ah... I guess I should have figured you were mostly here for the guys.░ Amorous sort of seems to have a pretty heavy leaning <i>that way.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 401,
+          "NextID": 190,
+          "DebugID": 308
+        }
+      ]
+    }
+  ]
+}

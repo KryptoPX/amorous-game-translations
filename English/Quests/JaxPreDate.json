@@ -1,0 +1,5117 @@
+{
+  "Name": "JaxPreDate",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 2,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubBarScene",
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 3,
+          "NextID": 4,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": [
+            "TuxChest",
+            "TuxUnderwear"
+          ],
+          "ID": 4,
+          "NextID": 374,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 5,
+          "NextID": 6,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Welcome to Amorous!░ Hottest club in town.░ I'm Jax and I'll be your Beverage Artisan this evening. What can I do for you?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 6,
+          "NextID": 376,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "I'd like to order a drink.",
+              "NextID": 8
+            },
+            {
+              "Text": "Ask him about the club.",
+              "NextID": 73
+            },
+            {
+              "Text": "Flirt",
+              "NextID": 225
+            },
+            {
+              "Text": "Walk Away",
+              "NextID": 366
+            }
+          ],
+          "ID": 7,
+          "NextID": 0,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>As I slid into one of the stools,░ he set a glass in front of me.░</i>\n \nI think I'd like a drink.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 8,
+          "NextID": 9,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 9,
+          "NextID": 10,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What did you have in mind?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 10,
+          "NextID": 378,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Something non-alcoholic",
+              "NextID": 14
+            },
+            {
+              "Text": "Something alcoholic",
+              "NextID": 274
+            },
+            {
+              "Text": "Surprise me",
+              "NextID": 283
+            }
+          ],
+          "ID": 11,
+          "NextID": 0,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 12,
+          "NextID": 13,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Here you go! Anything else?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 13,
+          "NextID": 376,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Still not sure about the club or its residents,░ I decided on getting something sensible.</i>\n\nJust a ginger ale for now,░ thanks.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 14,
+          "NextID": 15,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 15,
+          "NextID": 16,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Living dangerously, ░I see.░ Or perhaps \"designatedly\".",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 16,
+          "NextID": 17,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 17,
+          "NextID": 18,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Just ribbing you. ░One ginger ale coming up!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 18,
+          "NextID": 19,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>With a rather surprising flourish,░ he slid his hand against the glass and rolled it between each finger before catching it by the base. ░He brought both back up to the counter, ░flipping the glass over while still holding it and shot a steady stream into it like he was firing a pistol.░He released the glass and, drawing his hand back,░ drew a rag from his cuff and wiped the bar in front of me clean.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 19,
+          "NextID": 20,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 20,
+          "NextID": 21,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Your drink.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 21,
+          "NextID": 22,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Applaud",
+              "NextID": 23
+            },
+            {
+              "Text": "Complain",
+              "NextID": 246
+            },
+            {
+              "Text": "Take drink and leave",
+              "NextID": 271
+            }
+          ],
+          "ID": 22,
+          "NextID": 0,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Wow!░ That was quite the show!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 23,
+          "NextID": 24,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 24,
+          "NextID": 25,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Always happy to serve an appreciative customer!░ Is there anything else I can do for you?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 25,
+          "NextID": 26,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "No",
+              "NextID": 27
+            },
+            {
+              "Text": "Yes",
+              "NextID": 31
+            }
+          ],
+          "ID": 26,
+          "NextID": 0,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm good.░ Thanks!░\n \n<i>I picked up my drink and wandered away from the bar.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 28,
+          "NextID": 29,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 29,
+          "NextID": 30,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 30,
+          "NextID": 0,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, you could start by telling me how you learned how to do that!\n \n<i>I sipped at my drink as he chuckled and leaned forward on the bar.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 31,
+          "NextID": 32,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 32,
+          "NextID": 33,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Drive, determination,░ months of nothing better to do and the need for tips to feed my eating and rent-paying habits.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He winked at me and stood back up.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 34,
+          "NextID": 35,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 35,
+          "NextID": 36,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Anything else I can do for you?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 36,
+          "NextID": 379,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Ask about him.",
+              "NextID": 38
+            },
+            {
+              "Text": "Ask about the club.",
+              "NextID": 73
+            },
+            {
+              "Text": "Leave bar.",
+              "NextID": 242
+            }
+          ],
+          "ID": 37,
+          "NextID": 0,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah.░ You can tell me a little more about yourself.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 38,
+          "NextID": 39,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 39,
+          "NextID": 40,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I thought you came here to have fun,░ not just chat up the bartender.░ Not much to tell,░ honestly.░ What you see is what you get!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 40,
+          "NextID": 41,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Seems like despite his friendly demeanor,░ he's hesitant to talk about himself.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 41,
+          "NextID": 42,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Introduce yourself.",
+              "NextID": 43
+            },
+            {
+              "Text": "Excuse yourself.",
+              "NextID": 238
+            }
+          ],
+          "ID": 42,
+          "NextID": 0,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "How about I start?░ My name's %playername% and I'd like to get to know you better.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 43,
+          "NextID": 44,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 44,
+          "NextID": 45,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry.░  I ...░ just being a bartender tends to get you quite a bit of unwanted attention.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 45,
+          "NextID": 46,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 46,
+          "NextID": 47,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You already know my name,░ but,░ it's nice to meet you %playername%.░ Got to say,░ you're already not what I expected in a customer!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 47,
+          "NextID": 48,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Ask about him.",
+              "NextID": 49
+            },
+            {
+              "Text": "Ask about job.",
+              "NextID": 218
+            },
+            {
+              "Text": "Flirt.",
+              "NextID": 225
+            }
+          ],
+          "ID": 48,
+          "NextID": 0,
+          "DebugID": 36
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're not quite what I expected in a bartender.░ Not that I've met my other bartenders.░ Or gone to many other bars.░\n \n<i>I stopped myself and took a breath.</i>░\n \nWhat I'm trying to say is,░ I'd like to know more about you.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 49,
+          "NextID": 50,
+          "DebugID": 37
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 50,
+          "NextID": 51,
+          "DebugID": 38
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "There isn't much to tell, ░really.░ Late nights working at the club don't really leave me much time to do anything else.░ Everyone else is either at work or asleep.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 51,
+          "NextID": 52,
+          "DebugID": 38
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Why bartending then?░ I mean,░ you're clearly amazing at it but...░\n \n<i>I trailed off as I saw his expression change.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 52,
+          "NextID": 53,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 53,
+          "NextID": 54,
+          "DebugID": 40
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's ... a long story.░ Not something for light conversation on a fun night.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 54,
+          "NextID": 55,
+          "DebugID": 40
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He's still very guarded. ░Maybe I shouldn't press him.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 55,
+          "NextID": 56,
+          "DebugID": 41
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Pry deeper",
+              "NextID": 57
+            },
+            {
+              "Text": "Back off",
+              "NextID": 201
+            }
+          ],
+          "ID": 56,
+          "NextID": 0,
+          "DebugID": 42
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Did something happen?░ Are you in hiding?░ Is someone after you?░ You can't just leave me hanging like this!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 57,
+          "NextID": 58,
+          "DebugID": 43
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Grumpy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 58,
+          "NextID": 59,
+          "DebugID": 44
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I can and I'm going to.░ I'm paid to serve you drinks and that's it,░ got it?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 59,
+          "NextID": 60,
+          "DebugID": 44
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His expression slowly softened but I could still feel a cold chill coming off him.░ I think I pushed too hard.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 60,
+          "NextID": 61,
+          "DebugID": 45
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 61,
+          "NextID": 62,
+          "DebugID": 46
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Got some other customers to make sure they don't die of thirst.░ Just let me know if you need a refill!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 62,
+          "NextID": 63,
+          "DebugID": 46
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Wave down and aplogize",
+              "NextID": 64
+            },
+            {
+              "Text": "Walk away",
+              "NextID": 200
+            }
+          ],
+          "ID": 63,
+          "NextID": 0,
+          "DebugID": 47
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Wait!░\n \n<i>I held up my hand and waved him back down.░ He reluctantly turned to speak to me again.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 64,
+          "NextID": 65,
+          "DebugID": 48
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 65,
+          "NextID": 66,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Can I help you?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 66,
+          "NextID": 67,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I bit my lip for a moment.░</i>\n \nSorry.░ I went too far.░ My bad.░ I just didn't want to leave it where it was.\n \n<i>His eyes watched me for a long moment before he nodded.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 67,
+          "NextID": 68,
+          "DebugID": 50
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 68,
+          "NextID": 69,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Fair enough.░ I do get a little ...░ sensitive at times.░ We've all got our issues and I wind up shouldering quite a few of them from other people back here.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 69,
+          "NextID": 70,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 70,
+          "NextID": 71,
+          "DebugID": 52
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That said,░ no point is adding to them.░ Anything else I can help you with?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 71,
+          "NextID": 72,
+          "DebugID": 52
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Ask about club",
+              "NextID": 73
+            },
+            {
+              "Text": "Order another drink",
+              "NextID": 9
+            },
+            {
+              "Text": "Take drink and leave",
+              "NextID": 196
+            }
+          ],
+          "ID": 72,
+          "NextID": 0,
+          "DebugID": 53
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 73,
+          "NextID": 74,
+          "DebugID": 54
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Anything in particular?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 74,
+          "NextID": 75,
+          "DebugID": 54
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Where do I start?",
+              "NextID": 76
+            },
+            {
+              "Text": "Do you know much about the patrons here?",
+              "NextID": 171
+            },
+            {
+              "Text": "Nevermind",
+              "NextID": 169
+            }
+          ],
+          "ID": 75,
+          "NextID": 0,
+          "DebugID": 55
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I've never been here before.░ A friend convinced me to come and then kinda left me in the lurch.░ What's a night here like?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 76,
+          "NextID": 77,
+          "DebugID": 56
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 77,
+          "NextID": 78,
+          "DebugID": 57
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, there's the usual club crew;░ looking to have a good time in any way possible.░ The dance floor is usually pretty packed,░ but most people are looking for someone to connect with.░ Either that or they're telling me their problems.░ And of course, the drinks are all top notch!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 78,
+          "NextID": 381,
+          "DebugID": 57
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 79,
+          "NextID": 80,
+          "DebugID": 58
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hope that helps!░ Need anything else?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 80,
+          "NextID": 376,
+          "DebugID": 58
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 81,
+          "NextID": 82,
+          "DebugID": 59
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What brought you here?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 82,
+          "NextID": 83,
+          "DebugID": 59
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "A friend.",
+              "NextID": 84
+            },
+            {
+              "Text": "Wanted a distraction.",
+              "NextID": 128
+            },
+            {
+              "Text": "Looking for a hook up.",
+              "NextID": 151
+            }
+          ],
+          "ID": 83,
+          "NextID": 0,
+          "DebugID": 60
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "A friend of mine really wanted to come here.░ I wasn't completely sure I wanted to come along but he's persuasive.░ Of course now I'm sitting here,░ talking with someone I've just met.░\n \n<i>I felt my cheeks flush.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 84,
+          "NextID": 85,
+          "DebugID": 61
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 85,
+          "NextID": 86,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey, it comes with the job.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 86,
+          "NextID": 87,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 87,
+          "NextID": 88,
+          "DebugID": 63
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That said,░ we don't really ever get to know people until we sit down and talk with them.░ So in the interest of making you feel a little more comfortable,░ since you know my name,░ what's yours?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 88,
+          "NextID": 89,
+          "DebugID": 63
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "%playername%.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 89,
+          "NextID": 90,
+          "DebugID": 64
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 90,
+          "NextID": 91,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nice to meet you, %playername%.░ What do you do when not indulging chatty bartenders?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 91,
+          "NextID": 92,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Lie about a job",
+              "NextID": 93
+            },
+            {
+              "Text": "Hobbies",
+              "NextID": 104
+            }
+          ],
+          "ID": 92,
+          "NextID": 0,
+          "DebugID": 66
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "My job mostly keeps me busy.░ The hours are a little more regular but I don't get tips and I rarely get anything to drink other than water.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 93,
+          "NextID": 94,
+          "DebugID": 67
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 94,
+          "NextID": 95,
+          "DebugID": 68
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well,░ despite the more active crowd currently,░ I can assure you that my job gets pretty boring as soon as the club empties.░ It's also much harder to keep yourself motivated to clean when it's three in the morning.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 95,
+          "NextID": 96,
+          "DebugID": 68
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 96,
+          "NextID": 97,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I should probably get to the rest of the customers before they start complaining.░ Always has a negative effect on tips.░ Let me know if you need anything else.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 97,
+          "NextID": 98,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nice to meet you Jax.░ Maybe I'll drop back by for a drink.░\n \n<i>He winked at me and smiled.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 98,
+          "NextID": 99,
+          "DebugID": 70
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 99,
+          "NextID": 100,
+          "DebugID": 71
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'll hold you to that!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 100,
+          "NextID": 101,
+          "DebugID": 71
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 101,
+          "NextID": 102,
+          "DebugID": 72
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 102,
+          "NextID": 103,
+          "DebugID": 73
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 103,
+          "NextID": 0,
+          "DebugID": 74
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Usually I hang out with my friend,░ play video games and generally find fun ways to waste time.░ Nothing as exciting as bartending, I'm sure.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 104,
+          "NextID": 105,
+          "DebugID": 75
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Frustrated",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 105,
+          "NextID": 106,
+          "DebugID": 76
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Believe me.░ It's the kind of excitement that wears thin after a while.░ Don't get me wrong,░ I wouldn't be doing it if I didn't love it but ...",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 106,
+          "NextID": 107,
+          "DebugID": 76
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 107,
+          "NextID": 108,
+          "DebugID": 77
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Never mind me. Video games,░ huh?░ Pretty popular pastime nowadays.░ What kind do you play?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 108,
+          "NextID": 109,
+          "DebugID": 77
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Action Games",
+              "NextID": 110
+            },
+            {
+              "Text": "RPGs",
+              "NextID": 116
+            },
+            {
+              "Text": "Dating Sims",
+              "NextID": 122
+            }
+          ],
+          "ID": 109,
+          "NextID": 0,
+          "DebugID": 78
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I mostly play action games.░ Something to really get the adrenaline pumping.░ Nothing like facing down a challenge and having nothing but your reflexes to keep you going.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 110,
+          "NextID": 111,
+          "DebugID": 79
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 111,
+          "NextID": 112,
+          "DebugID": 80
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sounds like you enjoy being able to prove yourself.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 112,
+          "NextID": 113,
+          "DebugID": 80
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Guess so.░ It's fun to see just what you can do given the opportunity.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 113,
+          "NextID": 114,
+          "DebugID": 81
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 114,
+          "NextID": 115,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, you came to the right place to find opportunities.░ Sadly, I'm on the clock and should get back.░ Can I get you a drink before I go?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 115,
+          "NextID": 376,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I enjoy RPGs,░ things that really make you think.░ Tactics are all well and good,░ but give me a good,░ solid story any day!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 116,
+          "NextID": 117,
+          "DebugID": 83
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 117,
+          "NextID": 118,
+          "DebugID": 84
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I hear lots of stories in my line of work.░ Some are enjoyable,░ others not so much.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 118,
+          "NextID": 119,
+          "DebugID": 84
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I suppose it depends on the person telling them.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 119,
+          "NextID": 120,
+          "DebugID": 85
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 120,
+          "NextID": 121,
+          "DebugID": 86
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Very true!░ That said,░ we've got a whole club of potential stories out there.░ Who knows what you might find.░ However,░ our story ends unless you're intending on buying a drink.░ Sadly, I'm on the clock.░ Can I get you something?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 121,
+          "NextID": 376,
+          "DebugID": 86
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm really into these new Dating Sims.░ They seem kind of interesting.░ Being able to explore characters,░ get to know them better and find out what they're like.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 122,
+          "NextID": 123,
+          "DebugID": 87
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 123,
+          "NextID": 124,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Huh. Dating Sims?░ Aren't those mostly text based?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 124,
+          "NextID": 125,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sometimes.░ But they can have really engrossing stories and conversations.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 125,
+          "NextID": 126,
+          "DebugID": 89
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 126,
+          "NextID": 127,
+          "DebugID": 90
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Guess that could be fun. I do like to chat with people.░ Unfortunately, I'm on the clock and my boss doesn't like it when I spend all my time chatting.░ Can I get you a drink?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 127,
+          "NextID": 376,
+          "DebugID": 90
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Just had quite a bit on my mind.░ Though I could use a change of scene.░ My friend agreed and suggested we come here.░ I suppose it's just a little overwhelming?\n\nI chuckled nervously.░\n \nSorry,░ it's not quite the scene I'm used to.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 128,
+          "NextID": 129,
+          "DebugID": 91
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 129,
+          "NextID": 130,
+          "DebugID": 92
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It never is the first time.░ Believe me,░ I've seen just about every flavor of person walk through that front door.░ Still,░ maybe you should mingle a little.░ Most of the people here tonight are regulars.░ Who knows, you might meet someone interesting.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 130,
+          "NextID": 131,
+          "DebugID": 92
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Take suggestion",
+              "NextID": 132
+            },
+            {
+              "Text": "Ask about him",
+              "NextID": 138
+            }
+          ],
+          "ID": 131,
+          "NextID": 0,
+          "DebugID": 93
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Thanks!░ I'll take the advice.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 132,
+          "NextID": 133,
+          "DebugID": 94
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 133,
+          "NextID": 134,
+          "DebugID": 95
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's why we're all here.░ Just let me know if you need anything else!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 134,
+          "NextID": 135,
+          "DebugID": 95
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 135,
+          "NextID": 136,
+          "DebugID": 96
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 136,
+          "NextID": 137,
+          "DebugID": 97
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 137,
+          "NextID": 0,
+          "DebugID": 98
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Maybe so.░ You seem particularly interesting.░ Is that your regular uniform or your own choice?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 138,
+          "NextID": 139,
+          "DebugID": 99
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 139,
+          "NextID": 140,
+          "DebugID": 100
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "My own choice.░ They are pretty free with the dress code here,░ as you can tell from some of the patrons.░ I like to stand out in my own way from the rest of the crowd.░ Was there a reason behind your outfit?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 140,
+          "NextID": 141,
+          "DebugID": 100
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Comfort",
+              "NextID": 142
+            },
+            {
+              "Text": "Showing off",
+              "NextID": 145
+            }
+          ],
+          "ID": 141,
+          "NextID": 0,
+          "DebugID": 101
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Thought I might be dancing or something.░ Figured it was a good idea to be comfortable.░ Though I can see that's not what most people dressed for.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 142,
+          "NextID": 143,
+          "DebugID": 102
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 143,
+          "NextID": 144,
+          "DebugID": 103
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "True enough.░ Most of the regulars like to show off the assets they have.░ Nothing wrong with being comfortable either,░ I just enjoy riding the edge between classy and risqué.░ Sadly,░ as much as I enjoy talking about clothing,░ I'm on the clock. If you're not going to order,░ I should check in with the other customers.░ Can I get you something?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 144,
+          "NextID": 376,
+          "DebugID": 103
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I was coming out to be seen,░ so I figured I should show as much of myself as possible.░\n\n<i>I grinned broadly as I moved to a more flattering view.░ He began to turn a little purple at the cheeks.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 145,
+          "NextID": 146,
+          "DebugID": 104
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 146,
+          "NextID": 147,
+          "DebugID": 105
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You certainly chose well.░ That outfit looks ...",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 147,
+          "NextID": 148,
+          "DebugID": 105
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He swallowed,░ adjusted his tie and cleared his throat.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 148,
+          "NextID": 149,
+          "DebugID": 106
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 149,
+          "NextID": 150,
+          "DebugID": 107
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "However,░ you're a customer and I'm still at work.░ Can I get you a drink?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 150,
+          "NextID": 376,
+          "DebugID": 107
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Got a little,░ \"pent up\" energy if you know what I mean.░ It's been a while and I've got the itch to get together with someone for a little casual fun.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 151,
+          "NextID": 152,
+          "DebugID": 108
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 152,
+          "NextID": 153,
+          "DebugID": 109
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bit of a predator on the prowl,░ eh?░ Much as I hate to see my beloved bar as a meat market,░ I do have to point out a number of choice cuts.░ Quite a few attractive ladies on the dance floor and even a couple of guys,░ if that's the way you swing.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 153,
+          "NextID": 154,
+          "DebugID": 109
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Rile him up",
+              "NextID": 155
+            },
+            {
+              "Text": "Talk about something else",
+              "NextID": 169
+            }
+          ],
+          "ID": 154,
+          "NextID": 0,
+          "DebugID": 110
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I could certainly swing your way,░ if you know what I mean.░\n\n<i>He quirked an eyeridge at me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 155,
+          "NextID": 156,
+          "DebugID": 111
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 156,
+          "NextID": 157,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think I do.░ However,░ I'm your bartender at the moment and it wouldn't be professional.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 157,
+          "NextID": 158,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Flirt harder",
+              "NextID": 159
+            },
+            {
+              "Text": "Talk about something else",
+              "NextID": 169
+            }
+          ],
+          "ID": 158,
+          "NextID": 0,
+          "DebugID": 113
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I don't mind you getting a little unprofessional.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 159,
+          "NextID": 160,
+          "DebugID": 114
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 160,
+          "NextID": 161,
+          "DebugID": 115
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry.░ I don't date on the clock.░ Rule number one.░ Can I get you something to drink?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 161,
+          "NextID": 162,
+          "DebugID": 115
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Putting on a sly expression,░ I leaned over the counter.</i>\n \nThat depends on how a handsome reptile like you landed this job and if you might be looking to <b>fill</b> any other <b>openings.</b>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 162,
+          "NextID": 163,
+          "DebugID": 116
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 163,
+          "NextID": 164,
+          "DebugID": 117
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "... hadn't heard that one before,░ I'll admit.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 164,
+          "NextID": 165,
+          "DebugID": 117
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Flirt even harder!",
+              "NextID": 166
+            },
+            {
+              "Text": "Talk about something else",
+              "NextID": 376
+            }
+          ],
+          "ID": 165,
+          "NextID": 0,
+          "DebugID": 118
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "C'mon, blue.░ You, me, the back of my car.░ We can enjoy each other's company all night long.░ You won't even have to wear anything special.░ Or anything at all.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 166,
+          "NextID": 167,
+          "DebugID": 119
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Frustrated",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 167,
+          "NextID": 168,
+          "DebugID": 120
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You seem to have me confused with another type of service.░ I serve drinks,░ I smile and I make sure you don't drive home drunk.░ That's it.░ There are plenty of eager patrons to get your way without pestering employees.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 168,
+          "NextID": 376,
+          "DebugID": 120
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 169,
+          "NextID": 170,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What can I do for you?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 170,
+          "NextID": 376,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 171,
+          "NextID": 172,
+          "DebugID": 122
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Someone you had in mind?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 172,
+          "NextID": 173,
+          "DebugID": 122
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "I saw a husky outside?",
+              "NextID": 174
+            },
+            {
+              "Text": "The guy hanging by the elevator?",
+              "NextID": 177
+            },
+            {
+              "Text": "Do you know anything about the girl in that booth?",
+              "NextID": 190
+            },
+            {
+              "Text": "The woman in the cocktail dress in the lounge?",
+              "NextID": 180
+            },
+            {
+              "Text": "Someone else...",
+              "NextID": 183
+            }
+          ],
+          "ID": 173,
+          "NextID": 0,
+          "DebugID": 123
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Could you tell me more about the punk husky who's hanging around out back?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 174,
+          "NextID": 175,
+          "DebugID": 124
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Frustrated",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 175,
+          "NextID": 176,
+          "DebugID": 125
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think I know who you mean...\r\nHonestly,░ I don't think they're a patron here,░ we've never spoken.░\r\nI don't think they look like club material,░ I kinda get the stink eye when I go out there...",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 176,
+          "NextID": 385,
+          "DebugID": 125
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The lion guy back there seems like a cool dude,░ what's he like?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 177,
+          "NextID": 178,
+          "DebugID": 126
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 178,
+          "NextID": 179,
+          "DebugID": 127
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Dustin?\r\nHe seems nice enough,░ though I rarely see him with someone for more than a week.░ He must really like the casual stuff.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 179,
+          "NextID": 385,
+          "DebugID": 127
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The cute satyr in the lounge seems lonely.░ Is she nice?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 180,
+          "NextID": 181,
+          "DebugID": 128
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 181,
+          "NextID": 182,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "They don't call her Mystery for nothing!░ Or maybe it was Mercy?...░\r\nYou never know who you'll find in Amorous,░ I do know she loves her cocktails.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 182,
+          "NextID": 385,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "There's a girl by herself at the pool?",
+              "NextID": 184
+            },
+            {
+              "Text": "The feline guy at the bar?",
+              "NextID": 187
+            },
+            {
+              "Text": "The bouncer upstairs seems nice?",
+              "NextID": 193
+            },
+            {
+              "Text": "Actually, let me think. (Back)",
+              "NextID": 173
+            },
+            {
+              "Text": "That about does it for now.",
+              "NextID": 79
+            }
+          ],
+          "ID": 183,
+          "NextID": 0,
+          "DebugID": 130
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The bunny girl with the glasses seems a bit lost.░ Is she new?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 184,
+          "NextID": 185,
+          "DebugID": 131
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 185,
+          "NextID": 186,
+          "DebugID": 132
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Remy? You would think so with how quiet she is,░ but she's actually here quite frequently.░\r\nI know she's a little older,░ doesn't play the scene too much,░ let that feed your curiousity!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 186,
+          "NextID": 385,
+          "DebugID": 132
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "The cat beside me is awfully quiet.░ Is he always like that?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 187,
+          "NextID": 188,
+          "DebugID": 133
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 188,
+          "NextID": 189,
+          "DebugID": 134
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "He's chatty if you grab his attention!░\r\nSomehow he can zone out amongst all this noise and work on his stories.░ His name is Seth and he's writing something,░ that's all I really know...",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 189,
+          "NextID": 385,
+          "DebugID": 134
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That girl with the golden fur doesn't seem to be having a good time.░ What's up with that?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 190,
+          "NextID": 191,
+          "DebugID": 135
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 191,
+          "NextID": 192,
+          "DebugID": 136
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Can't say I've seen her around before.░ Maybe it's her first time?░ She came in with a few rowdier girls,░ but she hasn't been too eager to get up and dance or anthing.░ Perhaps go see how her day is going?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 192,
+          "NextID": 385,
+          "DebugID": 136
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Are all your bouncers dragons?░\r\nHe seems nice, a little stoic?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 193,
+          "NextID": 194,
+          "DebugID": 137
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 194,
+          "NextID": 195,
+          "DebugID": 138
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Makes for a very safe club if I do say so!░\r\nThe guy upstairs is Zenith, he's nicer than he looks!░ He's one of our more popular staff members░... for obvious reasons.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 195,
+          "NextID": 385,
+          "DebugID": 138
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Considering for a moment,░ I shook my head and smiled.░</i>\n\nI'm alright. Thanks.░\n\n<i>He nodded and stepped back,░ walking down the length of the bar to another couple.░ I sipped my drink and walked back into the main room of the club.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 196,
+          "NextID": 197,
+          "DebugID": 139
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 197,
+          "NextID": 198,
+          "DebugID": 140
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 198,
+          "NextID": 199,
+          "DebugID": 141
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 199,
+          "NextID": 0,
+          "DebugID": 142
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": " <i>I think I upset him.░ Maybe I should check out the rest of the club instead.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 200,
+          "NextID": 0,
+          "DebugID": 143
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry.░ I didn't mean to press.░ You seem like a great guy and,░ well,░ I'm out here to meet people.░\n \n<i>I stood up and picked up my drink.░ He hesitated a moment before putting a hand on mine.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 201,
+          "NextID": 202,
+          "DebugID": 144
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 202,
+          "NextID": 203,
+          "DebugID": 145
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You've got to understand one thing;░ being back here,░ being something for everyone...░ you build barriers.░It's harder to take people at face value sometimes.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 203,
+          "NextID": 204,
+          "DebugID": 145
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>We both looked at each other for a moment as I considered what he said.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 204,
+          "NextID": 205,
+          "DebugID": 146
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Sit down",
+              "NextID": 206
+            },
+            {
+              "Text": "Excuse yourself",
+              "NextID": 209
+            }
+          ],
+          "ID": 205,
+          "NextID": 0,
+          "DebugID": 147
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I stopped,░ placed my drink back on the bar and settled in.░ Too much about this bartender interested me to just let it go at that.░ However,░ I'd have to be a little more reserved with my curiosity.░</i>\n \nI can understand that.░ I'm sure you get more than your share of unwanted conversations.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 206,
+          "NextID": 207,
+          "DebugID": 148
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>There was an awkward pause,░ him absently cleaning the bar with a rag as I sipped at my drink.░ I didn't want to sit in silence but I didn't want to scare him off again,░ so I considered my options.░</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 207,
+          "NextID": 208,
+          "DebugID": 149
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Ask about club",
+              "NextID": 73
+            },
+            {
+              "Text": "Order another drink",
+              "NextID": 8
+            }
+          ],
+          "ID": 208,
+          "NextID": 0,
+          "DebugID": 150
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I smiled back at him.░</i>\n \nIt's okay.░ I think I'm going to mingle for a bit but I may drop back by when my glass is empty.░\n \n<i>He nodded and smiled back,░ his colors brightening a little.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 209,
+          "NextID": 210,
+          "DebugID": 151
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 210,
+          "NextID": 211,
+          "DebugID": 152
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Fair enough.░ Can't keep you all to myself,░ after all.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 211,
+          "NextID": 212,
+          "DebugID": 152
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His expression briefly shifted as his cheeks grew a rather ruddy purple.░ Adjusting his tie,░ he managed to compose himself back to his regular hue.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 212,
+          "NextID": 213,
+          "DebugID": 153
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 213,
+          "NextID": 214,
+          "DebugID": 154
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Have fun!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 214,
+          "NextID": 387,
+          "DebugID": 154
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 215,
+          "NextID": 216,
+          "DebugID": 155
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 216,
+          "NextID": 217,
+          "DebugID": 156
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 217,
+          "NextID": 0,
+          "DebugID": 157
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Clearly you enjoy what you do.░ What brought you to bartending?░\n \n<i>As I sipped my drink,░ I noticed his smile begin to falter.░ He quickly tried to cover up.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 218,
+          "NextID": 219,
+          "DebugID": 158
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 219,
+          "NextID": 220,
+          "DebugID": 159
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh,░ the women and the nightlife.░ It's always fun to be able to put on a show and make people's nights░ It's nothing special. Really.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 220,
+          "NextID": 221,
+          "DebugID": 159
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 221,
+          "NextID": 222,
+          "DebugID": 160
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Surely you didn't just come here to try to play psychologist to a bartender.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 222,
+          "NextID": 223,
+          "DebugID": 160
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He's still very guarded.░ Maybe I shouldn't press him.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 223,
+          "NextID": 224,
+          "DebugID": 161
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Pry deeper",
+              "NextID": 57
+            },
+            {
+              "Text": "Back off",
+              "NextID": 201
+            }
+          ],
+          "ID": 224,
+          "NextID": 0,
+          "DebugID": 162
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "To be honest,░ you're not what I expected in a bartender either.░ Cute,░ well-dressed and quite charming.░\n \nAre you busy after work?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 225,
+          "NextID": 226,
+          "DebugID": 163
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 226,
+          "NextID": 227,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Flattering as that is,░ I make it a point not to get involved with customers.░ It gets ...░ messy.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 227,
+          "NextID": 228,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Flirt more",
+              "NextID": 229
+            },
+            {
+              "Text": "Back off",
+              "NextID": 235
+            }
+          ],
+          "ID": 228,
+          "NextID": 0,
+          "DebugID": 165
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I can do messy.░ I might even like messy.░\n \n<i>I smiled broadly until I noticed his expression changing.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 229,
+          "NextID": 230,
+          "DebugID": 166
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 230,
+          "NextID": 231,
+          "DebugID": 167
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That makes one of us.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 231,
+          "NextID": 232,
+          "DebugID": 167
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He cleared his throat a little and put back on a smile.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 232,
+          "NextID": 233,
+          "DebugID": 168
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 233,
+          "NextID": 234,
+          "DebugID": 169
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're a nice guy but there's a reason I don't do that.░ Let me know if you need a refill.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 234,
+          "NextID": 376,
+          "DebugID": 169
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>The look on his face suggested I shouldn't push.░ I nodded and relented.░</i>\n \nI see.░ Well, my loss then.░ It's nice to meet you, Jax. You make a fantastic drink!░\n \n<i>I held up my glass and fished off the last of my drink.░ For a moment,░ I felt his eyes on me and when I looked back down,░ he was still staring at me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 235,
+          "NextID": 236,
+          "DebugID": 170
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 236,
+          "NextID": 237,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's nothing personal.░ I just get those kind of cracks quite a few times a night.░ Comes with the job I guess!░ Do you need a hand with anything else?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 237,
+          "NextID": 376,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry,░ This is akward for me.░ I might go check out the rest of the club if thats ok.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 238,
+          "NextID": 239,
+          "DebugID": 172
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 239,
+          "NextID": 240,
+          "DebugID": 173
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 240,
+          "NextID": 241,
+          "DebugID": 174
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 241,
+          "NextID": 0,
+          "DebugID": 175
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Thats all,░ thanks!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 242,
+          "NextID": 243,
+          "DebugID": 176
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 243,
+          "NextID": 244,
+          "DebugID": 177
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 244,
+          "NextID": 245,
+          "DebugID": 178
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 245,
+          "NextID": 0,
+          "DebugID": 179
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I sat there,░ bewildered,░ as the drink slowly settled in my glass.░ I wasn't quite sure what had happened but it felt uncomfortable.░ The bartender must have noticed my expression,░ as I watched his brightly colored scales shift to more subdued tones.░ He adjusted his tie and wiped down the bar in front of me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 246,
+          "NextID": 247,
+          "DebugID": 180
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 247,
+          "NextID": 248,
+          "DebugID": 181
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry. Guess I'm a little too much of a showman.░ Is there anything else?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 248,
+          "NextID": 249,
+          "DebugID": 181
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Keep it up",
+              "NextID": 250
+            },
+            {
+              "Text": "Give him a break",
+              "NextID": 265
+            }
+          ],
+          "ID": 249,
+          "NextID": 0,
+          "DebugID": 182
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry.░ That's just a bit more than I expected from a simple drink order.░\n\n<i>I tried to cover up my discomfort and took a sip from the drink.░ The bartender smiled meekly and nodded,░ turning towards a new couple walking up to the bar.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 250,
+          "NextID": 251,
+          "DebugID": 183
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Let him go",
+              "NextID": 252
+            },
+            {
+              "Text": "Get his attention",
+              "NextID": 256
+            }
+          ],
+          "ID": 251,
+          "NextID": 0,
+          "DebugID": 184
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Already a little thrown off by the bartender's theatrics,░ I decided it would be better to take my drink and see what else the club would have to offer</i>.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 252,
+          "NextID": 253,
+          "DebugID": 185
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 253,
+          "NextID": 254,
+          "DebugID": 186
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 254,
+          "NextID": 255,
+          "DebugID": 187
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 255,
+          "NextID": 0,
+          "DebugID": 188
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Maybe I came off a little too harsh.░ I held up my hand and motioned the bartender back.░</i>\n \nSorry.░ Just, not expecting that.░\n \n<i>I felt even more awkward then before.░To his credit, he shrugged it off easily enough and gave me a small smile.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 256,
+          "NextID": 257,
+          "DebugID": 189
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 257,
+          "NextID": 258,
+          "DebugID": 190
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's alright.░ My boss isn't always fond of my antics either.░ Thanks, though.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 258,
+          "NextID": 259,
+          "DebugID": 190
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Smile and leave",
+              "NextID": 260
+            },
+            {
+              "Text": "Chat",
+              "NextID": 261
+            }
+          ],
+          "ID": 259,
+          "NextID": 0,
+          "DebugID": 191
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I smiled back and placed a tip on the bar counter before picking up my drink and walking back into the club.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 260,
+          "NextID": 0,
+          "DebugID": 192
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think we got off on the wrong foot.░ I'm %playername%.░ It's my first time here and I'm just trying to relax.░\n \n<i>He nodded and leaned forward on the bar.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 261,
+          "NextID": 262,
+          "DebugID": 193
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 262,
+          "NextID": 263,
+          "DebugID": 194
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's a great place,░ in my opinion and you picked a good night to drop by. ░Plenty of people to meet and,░ if you're more of the quiet type, ░you can always hide here at the bar.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 263,
+          "NextID": 264,
+          "DebugID": 194
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>We both chuckled and I already started to feel more comfortable.░ He seems like a nice guy.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 264,
+          "NextID": 35,
+          "DebugID": 195
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No.░ That should do it.░ Thanks for the drink atleast I guess.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 265,
+          "NextID": 266,
+          "DebugID": 196
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 266,
+          "NextID": 267,
+          "DebugID": 197
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Your welcome.░ Have a fun night.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 267,
+          "NextID": 268,
+          "DebugID": 197
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 268,
+          "NextID": 269,
+          "DebugID": 198
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 269,
+          "NextID": 270,
+          "DebugID": 199
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 270,
+          "NextID": 0,
+          "DebugID": 200
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 271,
+          "NextID": 272,
+          "DebugID": 201
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 272,
+          "NextID": 273,
+          "DebugID": 202
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 273,
+          "NextID": 0,
+          "DebugID": 203
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I came here to relax and now is a good a time as any to start!░ Looking over the drink menu,░ I considered my options.</i>\n \nI'll have something to help take the edge off.░\n \n<i>He looked at me appraisingly for a moment.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 274,
+          "NextID": 275,
+          "DebugID": 204
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 275,
+          "NextID": 276,
+          "DebugID": 205
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I see you as a beer kind of guy. ░Not enough frog in the face for anything too hoppy.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 276,
+          "NextID": 277,
+          "DebugID": 205
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 277,
+          "NextID": 278,
+          "DebugID": 206
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry,░ bartender humor.░ Let me get you a house ale!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 278,
+          "NextID": 279,
+          "DebugID": 206
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He disappeared below the bar for a moment,░ rising to produce a pint glass.░ He next slid it under the tap,░ pulling a nice long drought before flicking his wrist and sending the drick sailing in my direction.░ Too surprised,░ I didn't reach out soon enough but found the drink stopped right in front of me without a drop spilled;░ the tip of his tail curled around the base.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 279,
+          "NextID": 280,
+          "DebugID": 207
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 280,
+          "NextID": 281,
+          "DebugID": 208
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "One ale,░ shaken but not stirred.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 281,
+          "NextID": 282,
+          "DebugID": 208
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He smiled and released the glass from his prehensile grip before I wrapped my fingers around it.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 282,
+          "NextID": 22,
+          "DebugID": 209
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>After a moment's consideration,░ I decided that if I was going to try something new tonight,░ I might as well be adventurous! I put the drink menu down and smiled at the bartender.░</i>\n \nYou know what?░ Surprise me!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 283,
+          "NextID": 284,
+          "DebugID": 210
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His smile lit up immediately,░ eyes twinkling with a little mischief.░ Leaning towards me he whispered in a conspiratorial tone.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 284,
+          "NextID": 285,
+          "DebugID": 211
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 285,
+          "NextID": 286,
+          "DebugID": 212
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You absolutely sure?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 286,
+          "NextID": 287,
+          "DebugID": 212
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Hit me!",
+              "NextID": 288
+            },
+            {
+              "Text": "Well actually...",
+              "NextID": 288
+            }
+          ],
+          "ID": 287,
+          "NextID": 0,
+          "DebugID": 213
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I opened my mouth to speak when he leaned forward and pressed a finger against his Cheshire-like grin.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 288,
+          "NextID": 289,
+          "DebugID": 214
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 289,
+          "NextID": 290,
+          "DebugID": 215
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nope!░ Too late!",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 290,
+          "NextID": 291,
+          "DebugID": 215
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Flicking his wrists to settle his cuffs,░ he began. ░His hands slid beneath the bar,░ wrist over wrist,░ and in a single motion he drew out two bottles.░ Flipping both upside-down and forward he poured a shot of each into the glass before me before flipping them over his fingers like an action movie pistol,░ setting them down on the bar and releasing them.</i> ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 291,
+          "NextID": 292,
+          "DebugID": 216
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Next, his hips shifted as I noticed his tail wrapping around the neck of a third bottle;░ lifting it smoothly off the shelf behind him and letting it roll down the full length of his tail to the small of his back.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 292,
+          "NextID": 293,
+          "DebugID": 217
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His right hand snagged the bottle by the neck,░ bringing it to the front,░ he gave it a quick shake with his wrist before flipping it over his index finger and setting it down with the others.░ With another quick hip shift,░ his tail wrapped around a fourth bottle and launched it into the air.░ My eyes went wide as almost completely through the arc.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 293,
+          "NextID": 294,
+          "DebugID": 218
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He caught the bottle by the neck and held it an inch or two above the glass before giving it two quick shakes.░ He tossed the bottle back behind him with a grin as it sailed straight back towards his tail tip.░ While it snaked around it, the bottle shifted just enough that I could see it slip.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 294,
+          "NextID": 295,
+          "DebugID": 219
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His expression went from joy to horror as it smashed into the floor behind him.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 295,
+          "NextID": 296,
+          "DebugID": 220
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 296,
+          "NextID": 297,
+          "DebugID": 221
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Dammit.░ That's going to come out of my check.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 297,
+          "NextID": 298,
+          "DebugID": 221
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Stare in awe",
+              "NextID": 299
+            },
+            {
+              "Text": "Pay for the drink anyway",
+              "NextID": 329
+            },
+            {
+              "Text": "Freak out",
+              "NextID": 359
+            }
+          ],
+          "ID": 298,
+          "NextID": 0,
+          "DebugID": 222
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I sat there,░ staring at my glass for a very long time.░ I still wasn't completely sure what I had just witnessed.░ He had clearly noticed my dumbfounded expression.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 299,
+          "NextID": 300,
+          "DebugID": 223
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 300,
+          "NextID": 301,
+          "DebugID": 224
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You ok there?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 301,
+          "NextID": 302,
+          "DebugID": 224
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I snapped out of my shock and nodded slowly.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 302,
+          "NextID": 303,
+          "DebugID": 225
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Frustrated",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 303,
+          "NextID": 304,
+          "DebugID": 226
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry about that.░ I'm a bit of a showman and, well,░ I was excited about trying out something new.░ Probably not the best choice in this situation.░ Still,░ I hope you enjoy the drink.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 304,
+          "NextID": 305,
+          "DebugID": 226
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Wait!",
+              "NextID": 306
+            },
+            {
+              "Text": "Take drink and leave.",
+              "NextID": 326
+            }
+          ],
+          "ID": 305,
+          "NextID": 0,
+          "DebugID": 227
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>My hand managed to grab his wrist for a moment as he looked back at me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 306,
+          "NextID": 307,
+          "DebugID": 228
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sorry. I didn't mean to insult you.░\n \n<i>I released his wrist and he drew it back quickly.</i>\n \nJust,░ first time I've been served a drink with such flair.░ I felt a little awkward.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 307,
+          "NextID": 308,
+          "DebugID": 229
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 308,
+          "NextID": 309,
+          "DebugID": 230
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's alright.░ Enjoy the drink.░ No charge.░ It was an experiment and I'm just glad you're taking it well.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 309,
+          "NextID": 310,
+          "DebugID": 230
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He smiled and walked over to check on the other customers.░ I did notice him keeping an eye on me while I picked up my drink.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 310,
+          "NextID": 311,
+          "DebugID": 231
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Down the drink and smile",
+              "NextID": 383
+            },
+            {
+              "Text": "Leave it on the counter in disgust",
+              "NextID": 322
+            }
+          ],
+          "ID": 311,
+          "NextID": 0,
+          "DebugID": 232
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I tipped back the glass and emptied it with a smile.░ Perhaps wasn't the best idea as I felt a little lightheaded.░ I felt myself rock forward and was about to hit the bar when something cushioned my fall.░ Blinking, I looked up to see the bartender,░ with a concerned look on his face,░ and his thick tail under my chin.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 312,
+          "NextID": 313,
+          "DebugID": 233
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 313,
+          "NextID": 314,
+          "DebugID": 234
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I wouldn't have poured you that if you had that intention.░ That's some heavy stuff.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 314,
+          "NextID": 315,
+          "DebugID": 234
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He reached over and poured a tall glass of water,░ setting it in front of me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 315,
+          "NextID": 316,
+          "DebugID": 235
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 316,
+          "NextID": 317,
+          "DebugID": 236
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I admire your machismo,░ but drink up and just sit right there.░ If you're intending on leaving anytime soon,░ come back to the bar.░ You're not driving yourself or anyone else home tonight.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 317,
+          "NextID": 318,
+          "DebugID": 236
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I tried to object but he was firm about it.░ After the water,░ I was feeling a little better and decided to walk back into the main room to find Coby and move around.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 318,
+          "NextID": 319,
+          "DebugID": 237
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 319,
+          "NextID": 320,
+          "DebugID": 238
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 320,
+          "NextID": 321,
+          "DebugID": 239
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 321,
+          "NextID": 0,
+          "DebugID": 240
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Despite the effort,░ the drink didn't turn out very well.░ With a frown,░ I leave the drink at the bar.░ The bartender seems a little crestfallen but he takes the glass down and empties it into the sink before setting it in pile to be washed.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 322,
+          "NextID": 323,
+          "DebugID": 241
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 323,
+          "NextID": 324,
+          "DebugID": 242
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 324,
+          "NextID": 325,
+          "DebugID": 243
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 325,
+          "NextID": 0,
+          "DebugID": 244
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 326,
+          "NextID": 327,
+          "DebugID": 245
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 327,
+          "NextID": 328,
+          "DebugID": 246
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 328,
+          "NextID": 0,
+          "DebugID": 247
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>My hand went immediately to my wallet and I placed it down on the bar.░\nPut it on my tab.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 329,
+          "NextID": 330,
+          "DebugID": 248
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Unamused",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 330,
+          "NextID": 331,
+          "DebugID": 249
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You sure about that?░ That was a $45 bottle of booze.░ It's not like I'm going to lose my job over it.░ At least, I hope I won't.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 331,
+          "NextID": 332,
+          "DebugID": 249
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He looked flustered for a second and composed himself.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 332,
+          "NextID": 333,
+          "DebugID": 250
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 333,
+          "NextID": 334,
+          "DebugID": 251
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's my bad.░ Really.░ Job hazard.░ I couldn't ask you to cover this.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 334,
+          "NextID": 335,
+          "DebugID": 251
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I smiled.░</i>\n \nIt's a good thing you didn't then.░\n \n<i>I laid out a fifty on the bar in front of him.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 335,
+          "NextID": 336,
+          "DebugID": 252
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 336,
+          "NextID": 337,
+          "DebugID": 253
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You...░ wait...░ wha...░ You're serious?░ I don't...",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 337,
+          "NextID": 338,
+          "DebugID": 253
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 338,
+          "NextID": 339,
+          "DebugID": 254
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Congratulations are in order.░ You actually got me to shut up for a second.░ I'm just completely blown away by this.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 339,
+          "NextID": 340,
+          "DebugID": 254
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's not a big deal,░ you gave me a fantastic show!░ I mean, wow!░ I didn't even know people could do that kind of thing.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 340,
+          "NextID": 341,
+          "DebugID": 255
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Defensive",
+          "Clothes": [
+            "TuxChest",
+            "TuxUnderwear"
+          ],
+          "ID": 341,
+          "NextID": 342,
+          "DebugID": 256
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're not helping me with the whole looking professional thing here,░ you know?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 342,
+          "NextID": 343,
+          "DebugID": 256
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He grinned and put away the remaining bottles.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 343,
+          "NextID": 344,
+          "DebugID": 257
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Shy",
+          "Clothes": [
+            "TuxChest",
+            "TuxUnderwear"
+          ],
+          "ID": 344,
+          "NextID": 345,
+          "DebugID": 258
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Drink's on me.░ Totally.░ You've just been too sweet of a customer to charge for one of my experiments.░ I'll get you your change.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 345,
+          "NextID": 346,
+          "DebugID": 258
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Thanks",
+              "NextID": 347
+            },
+            {
+              "Text": "Refuse",
+              "NextID": 348
+            }
+          ],
+          "ID": 346,
+          "NextID": 0,
+          "DebugID": 259
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I thanked him for the five dollars back and slipped my drink for a moment.░ Despite working with other customers,░ I could see him watching my reaction out of the corner of my eye.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 347,
+          "NextID": 311,
+          "DebugID": 260
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You earned it. All of it.░ Fair and square.░ That was mindblowing!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 348,
+          "NextID": 349,
+          "DebugID": 261
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Smirk",
+          "Pose": "Shy",
+          "Clothes": [
+            "TuxChest",
+            "TuxUnderwear"
+          ],
+          "ID": 349,
+          "NextID": 350,
+          "DebugID": 262
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Your unabashed admiration is thanks enough but I do think you forgot something.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 350,
+          "NextID": 351,
+          "DebugID": 262
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I furrowed a brow as I put my hand back on my wallet.░ He smiled and slid a slip of paper over to me.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 351,
+          "NextID": 352,
+          "DebugID": 263
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Gesture",
+          "Clothes": [
+            "TuxChest",
+            "TuxUnderwear"
+          ],
+          "ID": 352,
+          "NextID": 353,
+          "DebugID": 264
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think you'll know what to do with that.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 353,
+          "NextID": 382,
+          "DebugID": 264
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>As he moved to the next customer I flipped the paper over to see a phone number with his name,░ in an embellished script, below it.░ I slid the paper into my pocket.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 354,
+          "NextID": 355,
+          "DebugID": 265
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I'll be able to call Jax after tonight to meetup again sometime!</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 355,
+          "NextID": 384,
+          "DebugID": 266
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 356,
+          "NextID": 357,
+          "DebugID": 267
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 357,
+          "NextID": 358,
+          "DebugID": 268
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 358,
+          "NextID": 0,
+          "DebugID": 269
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I nearly screamed over the bar as I jumped out of my stool.</i>\n \nHoly shit!░ You could have killed me!░ What the hell were you thinking?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 359,
+          "NextID": 360,
+          "DebugID": 270
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Frustrated",
+          "Pose": "Defensive",
+          "Clothes": null,
+          "ID": 360,
+          "NextID": 361,
+          "DebugID": 271
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Look, I'm sorry.░ I just like to put on a bit of a show.░ Drink's on me. Relax.░ I'll just get one of the other bartenders to help you if you need anything.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 361,
+          "NextID": 362,
+          "DebugID": 271
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I probably shouldn't bother him further with my service.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 362,
+          "NextID": 363,
+          "DebugID": 272
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 363,
+          "NextID": 364,
+          "DebugID": 273
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 364,
+          "NextID": 365,
+          "DebugID": 274
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 365,
+          "NextID": 0,
+          "DebugID": 275
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nevermind,░ thanks.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 366,
+          "NextID": 367,
+          "DebugID": 276
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 367,
+          "NextID": 368,
+          "DebugID": 277
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 368,
+          "NextID": 369,
+          "DebugID": 278
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 369,
+          "NextID": 0,
+          "DebugID": 279
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>My hand barely touches the counter before the bartender is right in front of me.░ From here I can see that his uniform,░ while dapper,░ is clearly tailored for the club.░ His sleeveless vest and cuffed wrists are capped by a revealing tuxedo styled brief as well.░ Despite his state of near undress,░ he seems quite chipper and buffs down the counter in front of me with a rag.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 370,
+          "NextID": 371,
+          "DebugID": 280
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Gesture",
+          "Clothes": null,
+          "ID": 371,
+          "NextID": 372,
+          "DebugID": 281
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Welcome to Amorous!░ Hottest club in town.░ I'm Jax and I'll be your Beverage Artisan this evening.",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 372,
+          "NextID": 373,
+          "DebugID": 281
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He winks at me before continuing.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 373,
+          "NextID": 169,
+          "DebugID": 282
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "SimpleOrder",
+          "TrueID": 5,
+          "FalseID": 370,
+          "ID": 374,
+          "NextID": 0,
+          "DebugID": 283
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "I'd like to order a drink.",
+              "NextID": 8
+            },
+            {
+              "Text": "Ask him about the club.",
+              "NextID": 73
+            },
+            {
+              "Text": "Walk Away",
+              "NextID": 366
+            }
+          ],
+          "ID": 375,
+          "NextID": 0,
+          "DebugID": 284
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "SimpleOrder",
+          "TrueID": 375,
+          "FalseID": 7,
+          "ID": 376,
+          "NextID": 0,
+          "DebugID": 285
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Something non-alcoholic",
+              "NextID": 12
+            },
+            {
+              "Text": "Something alcoholic",
+              "NextID": 12
+            }
+          ],
+          "ID": 377,
+          "NextID": 0,
+          "DebugID": 286
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "SimpleOrder",
+          "TrueID": 377,
+          "FalseID": 11,
+          "ID": 378,
+          "NextID": 0,
+          "DebugID": 287
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "SimpleOrder",
+          "TrueID": 380,
+          "FalseID": 37,
+          "ID": 379,
+          "NextID": 0,
+          "DebugID": 288
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Ask about the club.",
+              "NextID": 73
+            },
+            {
+              "Text": "Leave bar.",
+              "NextID": 242
+            }
+          ],
+          "ID": 380,
+          "NextID": 0,
+          "DebugID": 289
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "SimpleOrder",
+          "TrueID": 79,
+          "FalseID": 81,
+          "ID": 381,
+          "NextID": 0,
+          "DebugID": 290
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "SimpleOrder",
+          "Value": true,
+          "ID": 382,
+          "NextID": 354,
+          "DebugID": 291
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Jax.DrinkAtOnce",
+          "Value": true,
+          "ID": 383,
+          "NextID": 312,
+          "DebugID": 292
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.UnlockContactEventData, Amorous.Engine",
+          "Contact": "Jax",
+          "ID": 384,
+          "NextID": 356,
+          "DebugID": 293
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 385,
+          "NextID": 386,
+          "DebugID": 294
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Anyone else you want the scoop on?",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 386,
+          "NextID": 173,
+          "DebugID": 294
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Ask for his number.)",
+              "NextID": 388
+            },
+            {
+              "Text": "(Leave.)",
+              "NextID": 215
+            }
+          ],
+          "ID": 387,
+          "NextID": 0,
+          "DebugID": 295
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Listen...░\r\nYou don't usually do this,░ and I'm not pushing or anything...░ but you seem kinda sweet.░ I'd love the chance to chat when you're not on the clock.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 388,
+          "NextID": 389,
+          "DebugID": 296
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "JaxNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cheeky",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 389,
+          "NextID": 390,
+          "DebugID": 297
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...░\r\n\r\nYou know what?░ Sure.░ Rules are made to be broken, right?░ Just don't make me regret this...",
+          "Title": "Jax",
+          "Color": {
+            "B": 255,
+            "G": 227,
+            "R": 113,
+            "A": 255
+          },
+          "ID": 390,
+          "NextID": 391,
+          "DebugID": 297
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He smiled and scribbled something down on a small notepad before tearing it off to hand over to me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 391,
+          "NextID": 382,
+          "DebugID": 298
+        }
+      ]
+    }
+  ]
+}

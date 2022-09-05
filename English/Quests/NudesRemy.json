@@ -1,0 +1,99 @@
+{
+  "Name": "NudesRemy",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.ShowPhoneEventData, Amorous.Game",
+          "ID": 1,
+          "NextID": 3,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "RemyShowNudes",
+          "Parameters": {
+            "Nude": "0"
+          },
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Nude #1",
+              "NextID": 2
+            },
+            {
+              "Text": "Nude #2",
+              "NextID": 4
+            },
+            {
+              "Text": "Nude #3",
+              "NextID": 5
+            },
+            {
+              "Text": "Nude #4",
+              "NextID": 6
+            },
+            {
+              "Text": "Exit",
+              "NextID": 7
+            }
+          ],
+          "ID": 3,
+          "NextID": 0,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "RemyShowNudes",
+          "Parameters": {
+            "Nude": "1"
+          },
+          "ID": 4,
+          "NextID": 3,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "RemyShowNudes",
+          "Parameters": {
+            "Nude": "2"
+          },
+          "ID": 5,
+          "NextID": 3,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "RemyShowNudes",
+          "Parameters": {
+            "Nude": "3"
+          },
+          "ID": 6,
+          "NextID": 3,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.CommandEventData, Amorous.Game",
+          "Command": "RemyHideNudes",
+          "Parameters": {},
+          "ID": 7,
+          "NextID": 8,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Game.Data.Cutscenes.HidePhoneEventData, Amorous.Game",
+          "ID": 8,
+          "NextID": 0,
+          "DebugID": 8
+        }
+      ]
+    }
+  ]
+}
