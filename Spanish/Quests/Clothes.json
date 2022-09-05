@@ -1,0 +1,310 @@
+{
+  "Name": "Clothes",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 18,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Algo de temporada. Ropa de verano: pantalones cortos y una camiseta.",
+              "NextID": 22
+            },
+            {
+              "Text": "Algo sencillo. Una camiseta y unos pantalones comodos.",
+              "NextID": 21
+            },
+            {
+              "Text": "Preferiria una falda o cami. (Crossdress.)",
+              "NextID": 11
+            },
+            {
+              "Text": "¡No me voy sin mis botas! El look punk/biker.",
+              "NextID": 9
+            },
+            {
+              "Text": "¡Algo mas llamativo! (Mas opciones).",
+              "NextID": 4
+            }
+          ],
+          "ID": 1,
+          "NextID": 0,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 5,
+          "FalseID": 19,
+          "ID": 2,
+          "NextID": 0,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Andro",
+          "TrueID": 7,
+          "FalseID": 2,
+          "ID": 3,
+          "NextID": 0,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "La ropa formal hara que algunas cabezas vayan al bar.",
+              "NextID": 13
+            },
+            {
+              "Text": "Un equipo de rave llamativo me haría notar.",
+              "NextID": 15
+            },
+            {
+              "Text": "Me gusta más el look gótico/victoriano.",
+              "NextID": 10
+            },
+            {
+              "Text": "Tienen una piscina. Los trajes de baño son de lo más vistosos.",
+              "NextID": 14
+            },
+            {
+              "Text": "(Volver.)",
+              "NextID": 1
+            }
+          ],
+          "ID": 4,
+          "NextID": 0,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Algo de temporada. Ropa de verano: pantalones cortos y una camiseta.",
+              "NextID": 22
+            },
+            {
+              "Text": "Algo sencillo. Una camiseta y unos pantalones comodos.",
+              "NextID": 21
+            },
+            {
+              "Text": "¡No me voy sin mis botas! El look punk/biker.",
+              "NextID": 9
+            },
+            {
+              "Text": "I'm more at home with the Goth/Victorian look.",
+              "NextID": 10
+            },
+            {
+              "Text": "¡Algo mas llamativo! (Mas opciones).",
+              "NextID": 6
+            }
+          ],
+          "ID": 5,
+          "NextID": 0,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Un vestido de cóctel haría girar algunas cabezas en el bar.",
+              "NextID": 12
+            },
+            {
+              "Text": "Un equipo de rave llamativo me haría llamar la atención.",
+              "NextID": 15
+            },
+            {
+              "Text": "Qué tal un traje, la raya diplomática está de moda este año.",
+              "NextID": 13
+            },
+            {
+              "Text": "Tienen una piscina. Los trajes de baño son de lo más vistosos.",
+              "NextID": 14
+            },
+            {
+              "Text": "(Volver.)",
+              "NextID": 5
+            }
+          ],
+          "ID": 6,
+          "NextID": 0,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Algo de temporada. Ropa de verano: pantalones cortos y una camiseta.",
+              "NextID": 22
+            },
+            {
+              "Text": "Algo sencillo. Una camiseta y unos pantalones cómodos.",
+              "NextID": 21
+            },
+            {
+              "Text": "¡No me voy sin mis botas! El look punk/biker.",
+              "NextID": 9
+            },
+            {
+              "Text": "¡Algo más llamativo! (Más opciones).",
+              "NextID": 8
+            }
+          ],
+          "ID": 7,
+          "NextID": 0,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "La ropa formal hará que algunas cabezas vayan al bar.",
+              "NextID": 13
+            },
+            {
+              "Text": "Un equipo de rave llamativo me haría llamar la atención.",
+              "NextID": 15
+            },
+            {
+              "Text": "Me gusta más el look gótico/victoriano.",
+              "NextID": 10
+            },
+            {
+              "Text": "(Volver.)",
+              "NextID": 7
+            }
+          ],
+          "ID": 8,
+          "NextID": 0,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Punk",
+          "Value": true,
+          "ID": 9,
+          "NextID": 17,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Goth",
+          "Value": true,
+          "ID": 10,
+          "NextID": 17,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Cross",
+          "Value": true,
+          "ID": 11,
+          "NextID": 17,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Cocktail",
+          "Value": true,
+          "ID": 12,
+          "NextID": 17,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Suit",
+          "Value": true,
+          "ID": 13,
+          "NextID": 17,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Swim",
+          "Value": true,
+          "ID": 14,
+          "NextID": 17,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Rave",
+          "Value": true,
+          "ID": 15,
+          "NextID": 17,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Vamos, armario,░ ¡coopera!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 16,
+          "NextID": 3,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Así está mejor!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 17,
+          "NextID": 20,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 18,
+          "NextID": 16,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Herm",
+          "TrueID": 5,
+          "FalseID": 1,
+          "ID": 19,
+          "NextID": 0,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 20,
+          "NextID": 0,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Simple",
+          "Value": true,
+          "ID": 21,
+          "NextID": 17,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Seasonal",
+          "Value": true,
+          "ID": 22,
+          "NextID": 17,
+          "DebugID": 22
+        }
+      ]
+    }
+  ]
+}
