@@ -21,7 +21,7 @@
 | Prologue.json      | 🟡 `Doing`     |     304     |
 | RemyDate.json      | 🔴 `To Do`     |    1091     |
 | RemyPreDate.json   | 🔴 `To Do`     |     773     |
-| Rou.json           | 🔴 `To Do`     |     44      |
+| Rou.json           | 🟡 `Doing`     |     44      |
 | SethDate.json      | 🔴 `To Do`     |     776     |
 | SethPreDate.json   | 🔴 `To Do`     |     331     |
 | SkyeDate.json      | 🔴 `To Do`     |    1098     |
