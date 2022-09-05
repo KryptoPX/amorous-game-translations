@@ -916,7 +916,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Don't lie,░ that was a Coby induced <i>Broner.</i>░ You've wanted to know what it's like to be in the position of my boyfriends for <i>years.</i>░ Look me in the eyes and tell me you aren't thinking about fucking me <i>right now.",
+          "Text": "No mientas,░ que era un <i>Broner</i> inducido por Coby.░ Has querido saber lo que es estar en la posición de mis novios durante <i>años</i>.░ Mírame a los ojos y dime que no estás pensando en follar conmigo ahora mismo.",
           "Title": "Coby",
           "Color": {
             "B": 255,
