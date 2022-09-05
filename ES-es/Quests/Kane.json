@@ -1,0 +1,558 @@
+{
+  "Name": "Kane",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 11,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "Foreground",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 1,
+          "NextID": 2,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "La fiesta está ahí amigo...░ hay preadolescentes con los que tengo que lidiar.",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane1",
+          "Value": true,
+          "ID": 3,
+          "NextID": 0,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane2",
+          "Value": true,
+          "ID": 4,
+          "NextID": 0,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane3",
+          "Value": true,
+          "ID": 5,
+          "NextID": 0,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane4",
+          "Value": true,
+          "ID": 6,
+          "NextID": 0,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane5",
+          "Value": true,
+          "ID": 7,
+          "NextID": 0,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane6",
+          "Value": true,
+          "ID": 8,
+          "NextID": 0,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane7",
+          "Value": true,
+          "ID": 9,
+          "NextID": 0,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane8",
+          "Value": true,
+          "ID": 10,
+          "NextID": 0,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane1",
+          "TrueID": 13,
+          "FalseID": 1,
+          "ID": 11,
+          "NextID": 0,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane9",
+          "Value": true,
+          "ID": 12,
+          "NextID": 0,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane2",
+          "TrueID": 14,
+          "FalseID": 21,
+          "ID": 13,
+          "NextID": 0,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane3",
+          "TrueID": 15,
+          "FalseID": 23,
+          "ID": 14,
+          "NextID": 0,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane4",
+          "TrueID": 16,
+          "FalseID": 25,
+          "ID": 15,
+          "NextID": 0,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane5",
+          "TrueID": 17,
+          "FalseID": 27,
+          "ID": 16,
+          "NextID": 0,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane6",
+          "TrueID": 18,
+          "FalseID": 29,
+          "ID": 17,
+          "NextID": 0,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane7",
+          "TrueID": 19,
+          "FalseID": 31,
+          "ID": 18,
+          "NextID": 0,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane8",
+          "TrueID": 20,
+          "FalseID": 33,
+          "ID": 19,
+          "NextID": 0,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane9",
+          "TrueID": 40,
+          "FalseID": 37,
+          "ID": 20,
+          "NextID": 0,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 21,
+          "NextID": 22,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿No te he dado una tarjeta ya?░ Entra o ponte al final de la fila... <i>Rgnn...",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 22,
+          "NextID": 4,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 23,
+          "NextID": 24,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Si has perdido algo, pregunta en el bar.░\r\n¿Parece que tengo tiempo para seguir los rollos dulces de todos?",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 24,
+          "NextID": 5,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 25,
+          "NextID": 26,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No me interesa.░ Nunca lo será.░ Ve a sacudírsela a alguien que no esté trabajando, chico. ",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 26,
+          "NextID": 6,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh hey,░ He tenido un cambio de opinión,░ me has molestado lo suficiente como para darte mi número especial... \r\nEs el 911, ¿quieres hacerlo antes o después de que te patee el culo por molestarme?",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 28,
+          "NextID": 7,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 29,
+          "NextID": 30,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Si fuiste <i>tú</i> el que tiró esos globos de agua desde la piscina <i>vas</i> a tener muchos problemas...",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 30,
+          "NextID": 8,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 31,
+          "NextID": 32,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yo solía ser aventurero como tú... ░\r\nLuego dejé los videojuegos y conseguí un trabajo de verdad... ",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 32,
+          "NextID": 9,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Bienvenido a Amorous!░\r\nLas maravillas de los pantalones ajustados y los tops escotados esperan... pero primero tienes que dejar de molestar al puto <i>portero </i> y entrar... <i>coño...",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 34,
+          "NextID": 10,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 35,
+          "NextID": 36,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Gimme a break here...░\r\n¿No ves que tengo bastante con lo que lidiar?\r\nVe, disfruta del club antes de que cambie de opinión...",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 36,
+          "NextID": 43,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 37,
+          "NextID": 38,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Escucha, si crees que puedes buscar clientes en el aparcamiento, te espera otra cosa.░\r\nUn paso en falso y llamaré a la policía.",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 38,
+          "NextID": 12,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane10",
+          "Value": true,
+          "ID": 39,
+          "NextID": 0,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane10",
+          "TrueID": 44,
+          "FalseID": 41,
+          "ID": 40,
+          "NextID": 0,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 41,
+          "NextID": 42,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Me he puesto Eau de Nerd hoy? Desaparece, chico...░ \r\nNo estoy buscando un compañero,░ este superhéroe vigilante trabaja solo...\r\n<i>Ugh...</i> no debería haber dicho eso... ",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 42,
+          "NextID": 39,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Kane11",
+          "Value": true,
+          "ID": 43,
+          "NextID": 0,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Kane11",
+          "TrueID": 45,
+          "FalseID": 35,
+          "ID": 44,
+          "NextID": 0,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "KaneNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Stern",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 45,
+          "NextID": 46,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "La fiesta está dentro, chico...░\r\n░\r\n░\r\n░\r\nEn serio... piérdete.",
+          "Title": "Kane",
+          "Color": {
+            "B": 150,
+            "G": 193,
+            "R": 233,
+            "A": 255
+          },
+          "ID": 46,
+          "NextID": 0,
+          "DebugID": 34
+        }
+      ]
+    }
+  ]
+}
