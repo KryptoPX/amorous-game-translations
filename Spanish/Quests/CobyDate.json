@@ -35,7 +35,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Okay, I've held my tongue long enough!░ Spill it:░ did you meet anyone cute at Amorous?░\r\nCome on,░ I <i>gotta</i> know!",
+          "Text": "Vale, ¡ya me he mordido la lengua lo suficiente!░ Escúpelo:░ ¿has conocido a alguien guapo en Amorous?░\r\nVamos,░ <i>necesito</i> saberlo!",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -51,19 +51,19 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "I'm still processing things.",
+              "Text": "Todavía estoy procesando las cosas.",
               "NextID": 6
             },
             {
-              "Text": "I'm not sure if I'll be calling anyone back.",
+              "Text": "No estoy seguro de si volveré a llamar a alguien.",
               "NextID": 12
             },
             {
-              "Text": "I've got a few possibles, maybe.",
+              "Text": "Tengo algunos posibles, tal vez.",
               "NextID": 244
             },
             {
-              "Text": "I already know the best person there... (Hit on Coby.)",
+              "Text": "Ya conozco a la mejor persona allí... (Golpea a Coby.)",
               "NextID": 25
             }
           ],
@@ -73,7 +73,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I appreciate you checking in,░ but I'm still trying to work everything out.░ I don't know I like someone <i>that</i> quickly!░\r\nBesides,░ should I really be calling so <i>soon</i> after I just met them?",
+          "Text": "Te agradezco que lo compruebes░ pero todavía estoy tratando de resolver todo.░ ¡No sé si me gusta alguien <i>tan</i> rápido!░\r\nAdemás,░ ¿debería llamar tan pronto después de haberlos conocido?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -100,7 +100,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "All a bit much for you, huh?░\r\nY'know, they aren't gonna bite,░ well... maybe the really <i>fun</i> ones will, but not much.░ These kinda folk don't stay single for too long,░ I should know!",
+          "Text": "Todo esto es demasiado para ti, ¿eh?░\r\nYa sabes, no van a morder,░ bueno... quizás los realmente <i>divertidos</i> lo hagan, pero no mucho.░ Este tipo de gente no se queda soltera mucho tiempo,░ Debería saberlo.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -127,7 +127,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You're not gonna go this far only to get cold feet now are you?░ Clubbing was the <i>hard</i> part,░ if you've got someone's number all you've gotta do is say hi!",
+          "Text": "No vas a llegar tan lejos sólo para acobardarte, ¿verdad?░ El club era la parte más difícil,░ si tienes el número de alguien, sólo tienes que saludarlo.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -141,7 +141,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I guess I am being a little cynical.░ Thanks for the pep talk, Cobes.",
+          "Text": "Supongo que estoy siendo un poco cínico.░ Gracias por la charla de ánimo, Cobes.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -155,7 +155,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "To be honest,░ none of the people I've met have been my thing, I don't think.",
+          "Text": "Para ser honesto,░ ninguna de las personas que he conocido ha sido lo mío, creo.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
