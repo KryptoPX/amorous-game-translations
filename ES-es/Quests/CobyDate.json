@@ -466,7 +466,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Creo que siento algo por ti, Coby.░\r\nCreo que siempre los tuve.",
+          "Text": "Creo que tengo sentimientos por ti, Coby.░\r\nCreo que siempre los tuve.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -493,7 +493,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh come on,░ you don't mean that!░\r\nWouldn't be the first time you've teased me for being too gullible.░ I know the kind of people you are into,░ it's not flamers like me.",
+          "Text": "¡Oh, vamos,░ no quieres decir eso!░\r\nNo sería la primera vez que se burla de mí por ser demasiado crédulo.░ Sé el tipo de gente que te gusta,░ no son flamers como yo.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -507,7 +507,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'm not pulling your leg this time.░ You make my heart race every time you come over.░ Even when I'm being as grumpy as possible,░ you find a way to make me smile.░ You might be a little flaming,░ but you're the more mature brother than I am most of the time.░ Who cares if you're gay?░ I guess I'm kinda gay too, for liking you so much.",
+          "Text": "Esta vez no te estoy tomando el pelo.░ Haces que mi corazón se acelere cada vez que vienes.░ Incluso cuando estoy siendo lo más gruñona posible,░ encuentras la manera de hacerme sonreír.░ Puede que seas un poco flamante,░ pero tú eres el hermano más maduro que yo la mayoría de las veces.░ ¿A quién le importa si eres gay?░ Supongo que yo también soy un poco gay, por gustarme tanto.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -534,7 +534,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "...░\r\nYou mean it?░ \r\nI don't know what exactly to say to that.░ I've always loved you too,░ but like <i>family.</i>░ What's dad gonna think?",
+          "Text": "...░\r\n¿Lo dices en serio?░ \r\nNo sé qué decir exactamente a eso.░ Yo también te he querido siempre,░ pero como <i>familia.</i>░ ¿Qué va a pensar papá?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -548,7 +548,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Did he care when you came out of the closet?",
+          "Text": "¿Le importó cuando saliste del armario?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -575,7 +575,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Well no,░ I guess he didn't.░ It's a bit different when it's <i>blood</i> though!░\r\nYou're talking about, like, weird legal ground...",
+          "Text": "Bueno, no,░ Supongo que no lo sabe.░ Sin embargo, es un poco diferente cuando se trata de <i>sangre</i>.░\r\nEstás hablando de, como, un extraño terreno legal...",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -589,7 +589,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "We aren't <i>technically</i> blood Coby.░ Mom met your dad way after both of us were born,░ not to mention that Mom <i>adopted</i> me.░ Otherwise I think we'd look a <i>lot</i> more similar.░\r\nWe're about as closely related as anyone in the club.",
+          "Text": "No somos <i>técnicamente</i> de la misma sangre Coby.░ Mamá conoció a tu padre mucho después de que ambos naciéramos,░ por no mencionar que mamá me <i>adoptó</i>.░ Si no, creo que nos pareceríamos <i>mucho</i> más.░\r\nEstamos tan emparentados como cualquiera del club.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -616,7 +616,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I guess I've just been blind to it,░ I've always sort of felt like the younger brother,░ regardless of species.░\r\nI guess I should be honest in return...",
+          "Text": "Creo que he estado ciego en ello,░ Siempre me he sentido como el hermano menor,░ independientemente de la especie.░\r\nSupongo que debería ser honesto a cambio...",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -643,7 +643,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I've <i>kindaaa...</i>░ had a massive crush on you since middle school.░\r\nMost of the times I teased you by tackling you to the bed or grinding on your lap to make you uncomfortable,░ I kinda hoped you would start getting into it so we could do stuff... <i>together.",
+          "Text": "Creo, que...░ estaba enamorado de ti desde la secundaria.░\r\nLa mayoría de las veces me burlé de ti tirándote a la cama o moviéndote en tu regazo para que te sintieras incómodo.░ Esperaba que empezaras a meterte en esto para que pudiéramos hacer cosas... <i>juntos.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -670,7 +670,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You always told me the way I acted and behaved was gross though.░ So I toned it down as we went through college.░\r\nI've been trying really hard to give you your space...░ but I still really love you as well,░ more then just as your brother.",
+          "Text": "Sin embargo, siempre me decías que mi forma de actuar y comportarme era asquerosa.░ Así que bajé el tono a medida que avanzábamos en la universidad.░\r\nMe he esforzado mucho en darte tu espacio...░ pero...░ también te sigo queriendo en verdad,░ más que como tu hermano.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -697,7 +697,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I walk around the house in barely anything when we're both home to try and get you to do the same...░ I've just been too shy to ask.",
+          "Text": "Me paseo por la casa con apenas nada cuando estamos los dos en casa para intentar que hagas lo mismo...░ Pero he sido demasiado tímido para preguntar.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -711,7 +711,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Wow,░ this is more serious then I thought!░ I had no idea this was both ways.░ His cheeks are bright red,░ okay I guess mine are too...░</i>",
+          "Text": "<i>¡Wow,░ esto es más serio de lo que pensaba!░ No tenía ni idea de que esto fuera en ambos sentidos.░ Sus mejillas se han puesto muy coloradas,░ Vale, supongo que los míos también lo son...░</i>",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -725,7 +725,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Y'know,░ we don't really <i>need</i> to tell Mom and Dad if anything happened between us.░ It's not like we don't hang out normally.░ They're barely home,░ we could get away with alot of things...",
+          "Text": "Ya sabes,░ realmente no <i>necesitamos</i> decirle a mamá y papá si algo pasó entre nosotros.░ No es que no salgamos normalmente.░ Apenas están en casa,░ podríamos salirnos con la nuestra en muchas cosas...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -752,7 +752,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Are you saying we should <i>fuck?",
+          "Text": "¿Estás diciendo que deberíamos <i>follar</i>?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -766,7 +766,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Whoa</i> no!░\r\nI meant we could get away with having feelings for each other,░ coming to terms with that and stuff.░\r\nI'm not saying we need to go steady or something,░ that might be a bit much but-",
+          "Text": "¡<i>Whoa</i> no!░\r\nMe refería a que podíamos salirnos con la suya si sentíamos algo el uno por el otro,░ aceptando eso y otras cosas.░\r\nNo estoy diciendo que tengamos que ir en serio o algo así,░ que podría ser un poco demasiado, pero-",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -793,7 +793,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Youuu wanna <i>fuck</i> your liiittle brother~!",
+          "Text": "Tuuu quieres <i>follar</i> a tu pequeeeeño hermanito~!",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -807,7 +807,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I've really done it now,░ he's trying to tease me.░ Swaying his hips and playing with his shirt.░\r\nI firmly caught him by the shoulders,░ trying to keep him still.░ It didn't seem to scare him very much,░ backing up to rub his feathery tail against the front of my pants anyway.░</i>",
+          "Text": "<i>Ahora sí que lo he hecho,░ intenta burlarse de mí.░ Mueve las caderas y juega con su camisa.░\r\nLo agarré con firmeza por los hombros,░ tratando de mantenerlo inmóvil.░ No parecía asustarle mucho,░ contra la parte delantera de mis pantalones de todos modos.░</i>",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -821,7 +821,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I think we are both... <i>Um</i>... mature enough to handle our feelings without acting like kids about it.░ I personally already feel a lot better just getting it off my chest.",
+          "Text": "Creo que los dos somos ... <i>Um</i>... lo suficientemente maduros para manejar nuestros sentimientos sin actuar como niños al respecto.░ Personalmente, ya me siento mucho mejor sacándolo de mi pecho.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -848,7 +848,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh,░ so now we should have fucked when we were <i>kids?</i>░ Now you're <i>really</i> being naughty!░\r\nOkay maybe that was something I got off to in highschool more than once...░Don't talk to me about tensions unless you have the balls to releive them the right way.",
+          "Text": "Oh,░ ¿así que ahora deberíamos haber follado cuando éramos <i>niños</i>?░ ¡Ahora estás <i>realmente</i> siendo travieso!░\r\nDe acuerdo, tal vez eso fue algo que me gustó en la escuela secundaria más de una vez...░No me hables de tensiones a menos que tengas cojones para aliviarlas de la manera correcta.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -875,7 +875,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "We both <i>know</i> I've made you rock hard more then once.░ I saw your chub yesterday morning.",
+          "Text": "Ambos <i>sabemos</i> que te he puesto duro como una roca más de una vez.░ I saw your chub yesterday morning.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -889,7 +889,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "That was morning wood,░ I wake up late remember?",
+          "Text": "Eso fue madera de la mañana,░ Me despierto tarde, ¿recuerdas?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
