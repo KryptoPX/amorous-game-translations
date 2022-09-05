@@ -196,7 +196,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Hey, I'm sorry for not being a <i>'sexpert'</i> like you.░ I kind of felt a little thrown into the deep end.░\r\nI <i>did</i> try,░ but maybe you're right...",
+          "Text": "Hey, lo siento por no ser un <i>'sexologo experto'</i> como tú.░ Me sentí un poco lanzada a lo más profundo.░\r\nYo <i>hice</i> un intento,░ pero quizás tengas razón...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -223,7 +223,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'm sorry, %playername%,░ I forget you have a harder time with people than I do sometimes.░ I guess I was probably more shy the first time I went there too...░\r\nWhere do we go from here?",
+          "Text": "Lo siento, %playername%,░ Se me olvida que a veces te cuesta más que a mí la gente.░ Supongo que yo también fui más tímido la primera vez que fui...░\r\n¿A dónde vamos desde aquí?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -239,19 +239,19 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Guess I could try calling someone?",
+              "Text": "¿Supongo que podría intentar llamar a alguien?",
               "NextID": 19
             },
             {
-              "Text": "We might need to try hitting the club again...",
+              "Text": "Puede que tengamos que intentar ir al club de nuevo...",
               "NextID": 22
             },
             {
-              "Text": "Coby, you don't get it... (Admit feelings for him.)",
+              "Text": "Coby, no lo entiendes... (Admite sentimientos por él.)",
               "NextID": 25
             },
             {
-              "Text": "Give up and wallow for a while?",
+              "Text": "¿Abandonar y revolcarse un tiempo?",
               "NextID": 218
             }
           ],
@@ -261,7 +261,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I guess I'm being a little picky for someone who's been out of the game for so long.░ I'll give it an honest try and check my contacts again.",
+          "Text": "Supongo que estoy siendo un poco exigente para alguien que ha estado fuera del juego durante tanto tiempo.░ Lo intentaré con sinceridad y volveré a comprobar mis contactos.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -288,7 +288,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Up and at 'em!░\r\nI'll be back again if I don't hear a date being organized!",
+          "Text": "Arriba y a por ellos! ░\r\nVolveré si no me entero de que se está organizando una cita.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -302,7 +302,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I don't think I mingled enough.░ Perhaps we should try going again,░ this time I'll be able to socialize more without being so nervous.",
+          "Text": "Creo que no me mezclé lo suficiente.░ Perhaps we should try going again,░ esta vez podré socializar más sin estar tan nervioso.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -329,7 +329,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I can organise that!░\r\nDon't worry so much about trying hard,░ just be <i>yourself!</i>░ I can vouch, from experience, that you're charming enough already.",
+          "Text": "¡Puedo organizarlo!░\r\nNo te preocupes tanto por esforzarte,░ sólo sé <i>tú mismo</i>.░ Puedo dar fe, por experiencia, de que ya eres bastante encantador.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -343,7 +343,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "...░\r\nI gotta be honest:░ going out together last night was never really about meeting anyone <i>new.</i>",
+          "Text": "...░\r\nTengo que ser sincero:░ salir juntos anoche nunca fue realmente para conocer a alguien <i>nuevo.</i>",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -370,7 +370,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh?░ Why did you go then?",
+          "Text": "¿Como?░ ¿Por qué te fuiste entonces?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -384,7 +384,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I didn't go to spend time with others,░ but to spend time with <i>you</i>, dummy.",
+          "Text": "No fui a pasar el tiempo con otros,░ sino para pasar tiempo contigo, tonto.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -411,7 +411,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Me?</i>░ But we barely saw each other last night!",
+          "Text": "<i>¿Yo?</i>░ ¡Pero si apenas nos vimos anoche!",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -425,7 +425,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Well, okay,░ maybe I was watching you shake it more than we were 'hanging out'.░ But I wanted to test the waters and know for sure that I wasn't just feeling jealous because I was lonely.░\r\nI couldn't really bring myself to hit on other people when you were there...░\r\nThat was one of the doubts I wanted to cross off before I said something like this.",
+          "Text": "Bueno, está bien,░ tal vez te estaba viendo sacudirlo más de lo que estábamos \"pasando el rato\".░ Pero quería tantear el terreno y estar segura de que no estaba sintiendo celos sólo porque me sentía sola.░\r\nNo me atrevía a ligar con otras personas cuando tú estabas allí...░\r\nEsa era una de las dudas que quería despejar antes de decir algo así.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -452,7 +452,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'm not quite sure where you're going with this,░ %playername%,░ are you coming onto me?",
+          "Text": "No sé muy bien a dónde quieres llegar con esto,░ %playername%,░ ¿vienes a por mi?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -466,7 +466,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I think I have feelings for you Coby.░\r\nI think I always have.",
+          "Text": "Creo que siento algo por ti, Coby.░\r\nCreo que siempre los tuve.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
