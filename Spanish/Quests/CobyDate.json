@@ -1,0 +1,4867 @@
+{
+  "Name": "CobyDate",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 222,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 3,
+          "NextID": 4,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Okay, I've held my tongue long enough!░ Spill it:░ did you meet anyone cute at Amorous?░\r\nCome on,░ I <i>gotta</i> know!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 4,
+          "NextID": 5,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "I'm still processing things.",
+              "NextID": 6
+            },
+            {
+              "Text": "I'm not sure if I'll be calling anyone back.",
+              "NextID": 12
+            },
+            {
+              "Text": "I've got a few possibles, maybe.",
+              "NextID": 244
+            },
+            {
+              "Text": "I already know the best person there... (Hit on Coby.)",
+              "NextID": 25
+            }
+          ],
+          "ID": 5,
+          "NextID": 0,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I appreciate you checking in,░ but I'm still trying to work everything out.░ I don't know I like someone <i>that</i> quickly!░\r\nBesides,░ should I really be calling so <i>soon</i> after I just met them?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 6,
+          "NextID": 7,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 7,
+          "NextID": 8,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "All a bit much for you, huh?░\r\nY'know, they aren't gonna bite,░ well... maybe the really <i>fun</i> ones will, but not much.░ These kinda folk don't stay single for too long,░ I should know!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 8,
+          "NextID": 256,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 9,
+          "NextID": 10,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're not gonna go this far only to get cold feet now are you?░ Clubbing was the <i>hard</i> part,░ if you've got someone's number all you've gotta do is say hi!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 10,
+          "NextID": 11,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess I am being a little cynical.░ Thanks for the pep talk, Cobes.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 11,
+          "NextID": 235,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "To be honest,░ none of the people I've met have been my thing, I don't think.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 12,
+          "NextID": 13,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 13,
+          "NextID": 14,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I find that a little hard to swallow.░ The club is more colourful then a gay pride parade.░\r\nAre you sure you didn't just chicken out on talking to a few people you might have liked?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 14,
+          "NextID": 15,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey, I'm sorry for not being a <i>'sexpert'</i> like you.░ I kind of felt a little thrown into the deep end.░\r\nI <i>did</i> try,░ but maybe you're right...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 15,
+          "NextID": 16,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 16,
+          "NextID": 17,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm sorry, %playername%,░ I forget you have a harder time with people than I do sometimes.░ I guess I was probably more shy the first time I went there too...░\r\nWhere do we go from here?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 17,
+          "NextID": 18,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Guess I could try calling someone?",
+              "NextID": 19
+            },
+            {
+              "Text": "We might need to try hitting the club again...",
+              "NextID": 22
+            },
+            {
+              "Text": "Coby, you don't get it... (Admit feelings for him.)",
+              "NextID": 25
+            },
+            {
+              "Text": "Give up and wallow for a while?",
+              "NextID": 218
+            }
+          ],
+          "ID": 18,
+          "NextID": 0,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess I'm being a little picky for someone who's been out of the game for so long.░ I'll give it an honest try and check my contacts again.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 19,
+          "NextID": 20,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 20,
+          "NextID": 21,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Up and at 'em!░\r\nI'll be back again if I don't hear a date being organized!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 21,
+          "NextID": 235,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I don't think I mingled enough.░ Perhaps we should try going again,░ this time I'll be able to socialize more without being so nervous.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 22,
+          "NextID": 23,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 23,
+          "NextID": 24,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I can organise that!░\r\nDon't worry so much about trying hard,░ just be <i>yourself!</i>░ I can vouch, from experience, that you're charming enough already.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 24,
+          "NextID": 237,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...░\r\nI gotta be honest:░ going out together last night was never really about meeting anyone <i>new.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 25,
+          "NextID": 26,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 26,
+          "NextID": 27,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh?░ Why did you go then?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't go to spend time with others,░ but to spend time with <i>you</i>, dummy.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 28,
+          "NextID": 29,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 29,
+          "NextID": 30,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Me?</i>░ But we barely saw each other last night!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 30,
+          "NextID": 31,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, okay,░ maybe I was watching you shake it more than we were 'hanging out'.░ But I wanted to test the waters and know for sure that I wasn't just feeling jealous because I was lonely.░\r\nI couldn't really bring myself to hit on other people when you were there...░\r\nThat was one of the doubts I wanted to cross off before I said something like this.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 31,
+          "NextID": 32,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 32,
+          "NextID": 33,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not quite sure where you're going with this,░ %playername%,░ are you coming onto me?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think I have feelings for you Coby.░\r\nI think I always have.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 34,
+          "NextID": 35,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 35,
+          "NextID": 36,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh come on,░ you don't mean that!░\r\nWouldn't be the first time you've teased me for being too gullible.░ I know the kind of people you are into,░ it's not flamers like me.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 36,
+          "NextID": 257,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not pulling your leg this time.░ You make my heart race every time you come over.░ Even when I'm being as grumpy as possible,░ you find a way to make me smile.░ You might be a little flaming,░ but you're the more mature brother than I am most of the time.░ Who cares if you're gay?░ I guess I'm kinda gay too, for liking you so much.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 37,
+          "NextID": 38,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 38,
+          "NextID": 39,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "...░\r\nYou mean it?░ \r\nI don't know what exactly to say to that.░ I've always loved you too,░ but like <i>family.</i>░ What's dad gonna think?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 39,
+          "NextID": 40,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Did he care when you came out of the closet?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 40,
+          "NextID": 41,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 41,
+          "NextID": 42,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well no,░ I guess he didn't.░ It's a bit different when it's <i>blood</i> though!░\r\nYou're talking about, like, weird legal ground...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 42,
+          "NextID": 43,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We aren't <i>technically</i> blood Coby.░ Mom met your dad way after both of us were born,░ not to mention that Mom <i>adopted</i> me.░ Otherwise I think we'd look a <i>lot</i> more similar.░\r\nWe're about as closely related as anyone in the club.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 43,
+          "NextID": 44,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 44,
+          "NextID": 45,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess I've just been blind to it,░ I've always sort of felt like the younger brother,░ regardless of species.░\r\nI guess I should be honest in return...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 45,
+          "NextID": 266,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 46,
+          "NextID": 47,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I've <i>kindaaa...</i>░ had a massive crush on you since middle school.░\r\nMost of the times I teased you by tackling you to the bed or grinding on your lap to make you uncomfortable,░ I kinda hoped you would start getting into it so we could do stuff... <i>together.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 47,
+          "NextID": 48,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 48,
+          "NextID": 49,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You always told me the way I acted and behaved was gross though.░ So I toned it down as we went through college.░\r\nI've been trying really hard to give you your space...░ but I still really love you as well,░ more then just as your brother.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 49,
+          "NextID": 50,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 50,
+          "NextID": 51,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I walk around the house in barely anything when we're both home to try and get you to do the same...░ I've just been too shy to ask.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 51,
+          "NextID": 52,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Wow,░ this is more serious then I thought!░ I had no idea this was both ways.░ His cheeks are bright red,░ okay I guess mine are too...░</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 52,
+          "NextID": 53,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Y'know,░ we don't really <i>need</i> to tell Mom and Dad if anything happened between us.░ It's not like we don't hang out normally.░ They're barely home,░ we could get away with alot of things...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 53,
+          "NextID": 54,
+          "DebugID": 36
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 54,
+          "NextID": 55,
+          "DebugID": 37
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Are you saying we should <i>fuck?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 55,
+          "NextID": 56,
+          "DebugID": 37
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Whoa</i> no!░\r\nI meant we could get away with having feelings for each other,░ coming to terms with that and stuff.░\r\nI'm not saying we need to go steady or something,░ that might be a bit much but-",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 56,
+          "NextID": 57,
+          "DebugID": 38
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 57,
+          "NextID": 58,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Youuu wanna <i>fuck</i> your liiittle brother~!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 58,
+          "NextID": 59,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I've really done it now,░ he's trying to tease me.░ Swaying his hips and playing with his shirt.░\r\nI firmly caught him by the shoulders,░ trying to keep him still.░ It didn't seem to scare him very much,░ backing up to rub his feathery tail against the front of my pants anyway.░</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 59,
+          "NextID": 60,
+          "DebugID": 40
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I think we are both... <i>Um</i>... mature enough to handle our feelings without acting like kids about it.░ I personally already feel a lot better just getting it off my chest.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 60,
+          "NextID": 61,
+          "DebugID": 41
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 61,
+          "NextID": 62,
+          "DebugID": 42
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh,░ so now we should have fucked when we were <i>kids?</i>░ Now you're <i>really</i> being naughty!░\r\nOkay maybe that was something I got off to in highschool more than once...░Don't talk to me about tensions unless you have the balls to releive them the right way.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 62,
+          "NextID": 267,
+          "DebugID": 42
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 63,
+          "NextID": 64,
+          "DebugID": 43
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We both <i>know</i> I've made you rock hard more then once.░ I saw your chub yesterday morning.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 64,
+          "NextID": 65,
+          "DebugID": 43
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That was morning wood,░ I wake up late remember?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 65,
+          "NextID": 66,
+          "DebugID": 44
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 66,
+          "NextID": 67,
+          "DebugID": 45
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Don't lie,░ that was a Coby induced <i>Broner.</i>░ You've wanted to know what it's like to be in the position of my boyfriends for <i>years.</i>░ Look me in the eyes and tell me you aren't thinking about fucking me <i>right now.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 67,
+          "NextID": 68,
+          "DebugID": 45
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Okay, you win.",
+              "NextID": 69
+            },
+            {
+              "Text": "You would be wrong.",
+              "NextID": 212
+            }
+          ],
+          "ID": 68,
+          "NextID": 0,
+          "DebugID": 46
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Alright fine.░ You wanna pry those words out of me that badly?░ <i>Yes</i> I've thought about sleeping with you,░ more than once.░ I'm honestly jealous when you bring people home,░ especially when I imagine what they're doing to you when I'm not there.░ It's enough to drive someone mad.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 69,
+          "NextID": 292,
+          "DebugID": 47
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You were even my first, er... <i>fap.</i>░ And it's not like I don't still, <i>you know...</i>░\r\nI've thought about you in all sorts of situations,░ most of which end in us cuddling in each other's embrace.░ Happy now,░ smart guy?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 70,
+          "NextID": 71,
+          "DebugID": 48
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 71,
+          "NextID": 72,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You've got my heart racing like crazy,░ I never knew you could talk such good talk!░\r\nMy knees are a little weak...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 72,
+          "NextID": 73,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's all true.░ I never wanted things to be weird between us,░ so I kept it to myself.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 73,
+          "NextID": 74,
+          "DebugID": 50
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 74,
+          "NextID": 75,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It'd never be weird between us!░ We're resolving the akwardness right now.░\r\nYou're gonna take my hand,░ and I'm taking you over to my bed.░\r\n<i>Then,</i> you're gonna pull down my pants,░ play with my ass and let those frustrations out.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 75,
+          "NextID": 76,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You sure that's not gonna get weird?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 76,
+          "NextID": 77,
+          "DebugID": 52
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 77,
+          "NextID": 78,
+          "DebugID": 53
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Do you love me or not?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 78,
+          "NextID": 79,
+          "DebugID": 53
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Take his offer.)",
+              "NextID": 80
+            },
+            {
+              "Text": "(Back out.)",
+              "NextID": 207
+            }
+          ],
+          "ID": 79,
+          "NextID": 0,
+          "DebugID": 54
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Of <i>course</i> I love you.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 80,
+          "NextID": 81,
+          "DebugID": 55
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 81,
+          "NextID": 82,
+          "DebugID": 56
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 82,
+          "NextID": 368,
+          "DebugID": 57
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 83,
+          "NextID": 84,
+          "DebugID": 58
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Smiling warmly,░ his hands cupped my own,░ pulling me over to the bed.░ He guided my hands to his hips as he climbed atop the sheets with me standing behind him.░\r\nIn a blink he had slipped his shirt over his head and slid free of his shorts with an expert lift of his hips and flick of his fingers.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 84,
+          "NextID": 85,
+          "DebugID": 59
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 85,
+          "NextID": 86,
+          "DebugID": 60
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's more fun when you take everything off <i>for</i> me,░ but you seem a little shy,░ so I'll make it easy for you.░\r\nSee my cute pink panties?░ How about you play with them?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 86,
+          "NextID": 87,
+          "DebugID": 60
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>There wasn't any reason in disobeying at this point:░ I had my brother right where I'd always wanted him.░ Asking no questions,░ I allowed my hands to trace down the arch of his back.░ A much needed sigh escaping me in a whine as I finally filled my hands with his cute rump.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 87,
+          "NextID": 88,
+          "DebugID": 61
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 88,
+          "NextID": 89,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oooh,░ you're loving every second of this, I can tell.░ Don't worry,░ I'm loving it too.░ Keep going!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 89,
+          "NextID": 90,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He bounced his rump up into my fingers as they groped and glided over the tight fabric that hid the full, inviting figure of his girlish butt.░ Without even thinking about it,░ I began to toy with the lining of his underwear,░ groping at the tempting bulge of him,░ tugging at the seams.░ I could feel my body reacting just by getting my </i>hands<i> on him.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 90,
+          "NextID": 239,
+          "DebugID": 63
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Do I tease as good as your quick fling boyfriends?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 91,
+          "NextID": 308,
+          "DebugID": 64
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 92,
+          "NextID": 93,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Makes me wish you would tease me <i>more</i>,░ and maybe a little closer to my balls.░ I'll get you right back by sneaking in at night and giving yours a good licking.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 93,
+          "NextID": 94,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His teasing gave me a surge of courage,░ slapping him hard against his left cheek with a firm,░unforgiving palm.░\r\nAs he whistled a little yelp,░ I pushed his head back down,░ his raised rump baring his weighty balls to me as I held them fully in my palm░, fingers teasing up the firming length between his legs to rile him up further.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 94,
+          "NextID": 310,
+          "DebugID": 66
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Does it get you off knowing that you're a cock slut that lusts after his <i>own</i> brother?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 95,
+          "NextID": 309,
+          "DebugID": 67
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 96,
+          "NextID": 97,
+          "DebugID": 68
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I see you pitching that tent.░ I'm <i>awfully</i> undressed compared to you.░ Let's see if your little brother is the <i>little</i> one when we're <i>both</i> all hot and bothered,░ hmmm?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 97,
+          "NextID": 319,
+          "DebugID": 68
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 98,
+          "NextID": 99,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You know I like it <i>much</i> better like that.░ Thinking of going balls deep in me yet?░ You should be.░\r\nHow about I return the favor and let you get rid of your own clothes.░ They're a total eyesore now, and I wanna see how we measure up...\r\nYou know:░ round hole, gotta test the peg... ",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 99,
+          "NextID": 101,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>My breath was short,░ my heart racing faster then when I did track and field.░ I had my own brother cooing in approval,░ my body aching for him as I hooked my index fingers into his panties and worked them down:░ his cute, curvy thighs rocked with my fingers to aid their plummet.░ I caught the twirl of his ankle kicking the panties free in my periphery,░ completely occupied with his nude form spread before me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 100,
+          "NextID": 312,
+          "DebugID": 70
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 101,
+          "NextID": 102,
+          "DebugID": 71
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm ready for some sibling bonding, %playername%.░ How about you give it a kiss before you break it in?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 102,
+          "NextID": 103,
+          "DebugID": 71
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It was hard to resist burying my muzzle between his cheeks;░ from just a simple kiss I could tell he was soft to the touch.░ As I worked my clothes free,░ I kissed deep into the cleft of his rump, wet tongue rolling hungrily against his pursed opening.░\r\nBy the time I was working my underwear free,░ little rivulets of my eager drool ran over the curve of his taint and caught in the crease of his balls, wetting my chin.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 103,
+          "NextID": 104,
+          "DebugID": 72
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Coby was very talented at whistling.░ Although I'd yet to hear the way he whistled while getting rimmed.░ I wasn't sure what was stirring my impatient blood more:░ the blissful tune of his whistling,░ or that I'd discovered my love for eating my brother out.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 104,
+          "NextID": 105,
+          "DebugID": 73
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 105,
+          "NextID": 106,
+          "DebugID": 74
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Ahhnn!</i>\r\nWhoa, %playername%,░ we need to have a round two once I'm through with the rest of you,░ I'm not letting you off eating me out only once.░\r\nFor now,░ it's your turn to get some attention.░ How about you make good use of your dripping wet brother?░ Slam it all the way in,░ don't be shy about it.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 106,
+          "NextID": 107,
+          "DebugID": 74
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 107,
+          "NextID": 227,
+          "DebugID": 75
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 108,
+          "NextID": 109,
+          "DebugID": 76
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Desire had completely taken me by ransom,░ climbing atop the mattress to join my brother as he quaked in anticipation.░ Entranced by his embrace,░ I began kissing his neck,░ filling my fingertips within the feathered plumage on his bare chest as I pulled him atop me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 109,
+          "NextID": 110,
+          "DebugID": 77
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Returning the favour,░ Coby snaked his hand down my waist,░ grabbing me firmly by my readied need.░\r\nHe ran it up against the crease of his backside,░ adding extra enticement by rocking his lower body into my lap.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 110,
+          "NextID": 111,
+          "DebugID": 78
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 111,
+          "NextID": 112,
+          "DebugID": 79
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "See what you've been missing out on all these years, %playername%?░ This could've been all yours if you'd played nice with your little brother more often...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 112,
+          "NextID": 329,
+          "DebugID": 79
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He could sense my hesitations,░ sliding the tip of my cock back and forth against his dripping wet rear,░ glistening now with my arousal on top of the dressing of my saliva.░\r\nThere wasn't much give to his lubed-up opening as he teased me with the spreading entrance over and over until I raised my hips to push up into his warmth,░ drawing mutual moans from us both.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 113,
+          "NextID": 228,
+          "DebugID": 80
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>His reaction was as I expected,░ moaning wordless with me as we pulled together.░ He rolled his body back and forth with enough force to pat down against my lap, building the warm between us and making me grip him weakly, not expecting the immediate furious union.░ Any doubts about us sleeping with each other were buried deep at this point as I pushed our bodies close, matching his movements.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 114,
+          "NextID": 115,
+          "DebugID": 81
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 115,
+          "NextID": 116,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Did you expect your brother to feel so tight?░ Your face says otherwise.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 116,
+          "NextID": 117,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Mmmnn...</i>\r\nI can see why you make so many friends.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 117,
+          "NextID": 118,
+          "DebugID": 83
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I began to take the reins,░ firmly gripping his curvaceous hips to piston my thrusts within him.░ I started thinking about all the moments of sexual tension between us,░ using it to fuel our first fuck and without any remorse.░ Squawking his cute,░ high pitched moans Coby barely drowned out the rhythmic thudding of the bed against the floor.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 118,
+          "NextID": 119,
+          "DebugID": 84
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I began to grow more playful,░ massaging the back of his scalp before driving his head down into the neighboring pillow, rolling with him.░ I threw my weight atop of him to really power my body against him.░ The mattress became a rocking boat beneath us, as we slammed the headboard over and over,░ enjoying the gymnastics of our lovemaking:░ joined at the hip by more than our family bonds.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 119,
+          "NextID": 120,
+          "DebugID": 85
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 120,
+          "NextID": 121,
+          "DebugID": 86
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Love</i> the confidence,░ <i>mhnnn</i>, but it's not gonna be <i>that</i> easy to one-up me.░\r\nLet's see if you can manhandle your way outta this one!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 121,
+          "NextID": 122,
+          "DebugID": 86
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He had obviously been in this scenario more than once,░ because he sure as hell didn't learn it from wrestling in gym░ (well, maybe <i>he</i> had, in the changing rooms).░ Seizing a moment of weakness,░ he tensed around me to hold my body tight within him, using his legs to roll us until he was once again atop me,░ pillows scattered across the mattress in a storm as he grinned, victorious.░\r\nHe kissed me. ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 122,
+          "NextID": 330,
+          "DebugID": 87
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Mhnn...</i>░ Just what are you up to?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 123,
+          "NextID": 229,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Coby interrupted my,░ admittedly limited,░ train of thought by lifting himself up,░ slipping free of me for a moment and leaving the slight breeze of warm air in the room to tease my slick skin and make me shiver for his body.░\r\nHe hastily got to his knees so he could mount my lap,░ lowering himself back down on me.░ This time he had all the leverage,░ riding me cowgirl style.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 124,
+          "NextID": 344,
+          "DebugID": 89
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 125,
+          "NextID": 126,
+          "DebugID": 90
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "A boy doesn't keep his figure simply by being a cocksleeve,░ I like to work for my treats.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 126,
+          "NextID": 127,
+          "DebugID": 90
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Does explain all those belly dancing videos you make...\r\n<i>Oh grrrr...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 127,
+          "NextID": 346,
+          "DebugID": 91
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I could barely contain myself beneath him.░ He knew exactly how to push all my buttons in this position,░ his hard cock throbbing and bobbing with each bounce.░ Alternating between a firm,░ cock-wrenching grind,░ using the flex of his hips;░ then switching to a bouncing ride up and down my entire shaft,░ letting me feel the whole hungry texture of him as I thrust in deep and started to feel myself losing this battle.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 128,
+          "NextID": 129,
+          "DebugID": 92
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I was like putty in his hands,░ writhing and moaning as he pushed me closer and closer.░ Closer still,░ every time my hands tightened on his hips or I bucked a little too erratically he'd ease the pace to keep me right on the edge,░ only to kick up again when I started to regain myself.░ It was like being on a roller coaster that hits an unexpected drop just when you think you're done:░ keeping me on the edge and begging for more.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 129,
+          "NextID": 348,
+          "DebugID": 93
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 130,
+          "NextID": 131,
+          "DebugID": 94
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Wheres all that confidence now?░ You're so ready, huh?░ All I need to do is flex just a little more,░ and you'll go off like the fourth of July...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 131,
+          "NextID": 132,
+          "DebugID": 94
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Let it go.)",
+              "NextID": 133
+            },
+            {
+              "Text": "(Hold it back.)",
+              "NextID": 206
+            }
+          ],
+          "ID": 132,
+          "NextID": 0,
+          "DebugID": 95
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Nnng,</i> you've bested me bro,░ fireworks are gonna be an understatement,░ you're <i>amazing.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 133,
+          "NextID": 357,
+          "DebugID": 96
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 134,
+          "NextID": 135,
+          "DebugID": 97
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're quite the joyride.░ Let's finish this,░ before Dad gets home!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 135,
+          "NextID": 136,
+          "DebugID": 97
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Neither of us were content to take turns teasing,░ I thrust as hard as I could,░ just as he threw down his own weight with all the force he could muster.░\r\nIt was probably the lust talking,░ but I found his face to be absolutely adorable,░ painted with a bright blush,░ his eyes fluttering as we raced to the end.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 136,
+          "NextID": 230,
+          "DebugID": 98
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>In an instant,░ we both slammed to a halt.░ My climax finally impossible to hold back,░ erupting in rope after rope of my seed, throbbing and filling him:░ cumming deep within my own brother.░ I groped his feathery sides as tight as my fingers would allow,░ watching him unload his own hot lust over my belly up and up my chest.░ His seed dripped down my stomach,░ pooling at the base of my cock where it mixed with my own.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 137,
+          "NextID": 363,
+          "DebugID": 99
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 138,
+          "NextID": 231,
+          "DebugID": 100
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 139,
+          "NextID": 364,
+          "DebugID": 101
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 140,
+          "NextID": 141,
+          "DebugID": 102
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Phew!</i>░ Now <i>that's</i> a workout!░ Have you fapped in the last month?░ Don't think I've ever had someone unload <i>that</i> much into me in one go.░ I'm surprised you didn't deflate like a balloon.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 141,
+          "NextID": 142,
+          "DebugID": 102
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Just a little pent up.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 142,
+          "NextID": 143,
+          "DebugID": 103
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>That was an understatement,░ I don't think I've ever climaxed that hard before.░\r\nI may be in love with him even more then I first thought...░ Better keep his ego in check and not let him know how much he got to me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 143,
+          "NextID": 144,
+          "DebugID": 104
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah,░ wasn't bad, an eight out of ten.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 144,
+          "NextID": 145,
+          "DebugID": 105
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 145,
+          "NextID": 146,
+          "DebugID": 106
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh sure sure,░ I heard you whimpering at such a high pitch I thought the window was gonna break.░ You don't need to act tough and act like you aren't totally blown away.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 146,
+          "NextID": 147,
+          "DebugID": 106
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ok,░ maybe I enjoyed it a <i>little</i> more than I let on.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 147,
+          "NextID": 148,
+          "DebugID": 107
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 148,
+          "NextID": 149,
+          "DebugID": 108
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "There you go.░\r\nI had a great time too,░ as you can see.░ Now,░ can't we be a lot more comfortable around each other after that?!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 149,
+          "NextID": 150,
+          "DebugID": 108
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I would say a weight has been lifted, yeah,░ but you're still sitting on me like a rocking bull.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 150,
+          "NextID": 151,
+          "DebugID": 109
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 151,
+          "NextID": 152,
+          "DebugID": 110
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Whats your rush?░ Are you the 'blow and go' type?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 152,
+          "NextID": 153,
+          "DebugID": 110
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well,░ I think I heard a car pull in about five minutes ago.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 153,
+          "NextID": 154,
+          "DebugID": 111
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 154,
+          "NextID": 155,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh fuck!░ Why didn't you <i>tell</i> me!░\r\nAh well,░ I wouldn't have stopped anyway.░ Pass me your shirt!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 155,
+          "NextID": 156,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey I need that!░ What am I going to wear?!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 156,
+          "NextID": 157,
+          "DebugID": 113
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 157,
+          "NextID": 158,
+          "DebugID": 114
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not gonna wear it,░ I'm all wet and I'm not darting to the bathroom for a towel!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 158,
+          "NextID": 159,
+          "DebugID": 114
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "My shirt is <i>not</i> a cum rag!░ Just chuck on something quick,░ they aren't gonna check every crevice.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 159,
+          "NextID": 160,
+          "DebugID": 115
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Perfect timing:░ our names were already being called from down the hallway.░ \r\nFootsteps were heading to our open doorway,░ sure enough we didn't even think of closing the damn thing before we decided to get all intimate with each other.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 160,
+          "NextID": 161,
+          "DebugID": 116
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It felt just like our old childhood scrambles to hide the fact we weren't sleeping,░ but playing video games together or watching movies.░ Besides my legs were half asleep and we were soaked with each other.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 161,
+          "NextID": 162,
+          "DebugID": 117
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I had just enough time to hop into my underwear and a loose shirt before freezing in horror as Dad was standing in the doorframe.░ Coby was halfway through wrestling his singlet back on.░\r\nLuckily,░ he had already thrown on the underwear before Dad caught a glimpse of his blue ass,░ or atleast I hope.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 162,
+          "NextID": 233,
+          "DebugID": 118
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Left",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": [
+            "Shirt",
+            "Underwear"
+          ],
+          "ID": 163,
+          "NextID": 164,
+          "DebugID": 119
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "That was close!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 164,
+          "NextID": 165,
+          "DebugID": 119
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Stern",
+          "Pose": "Standing",
+          "Clothes": [
+            "Pants",
+            "Shirt"
+          ],
+          "ID": 165,
+          "NextID": 166,
+          "DebugID": 120
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Close for what?",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 166,
+          "NextID": 167,
+          "DebugID": 120
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Left",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 167,
+          "NextID": 168,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh er-░\r\nHey dad!░ Didn't expect to see you back yet!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 168,
+          "NextID": 169,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>That was my dad alright.░ He looks just like an old,░ uptight version of Coby.░ He was already tensing his brow as if we just broke his favorite clock.░ He must be either smelling our panic sweat,░ or the musk.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 169,
+          "NextID": 170,
+          "DebugID": 122
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 170,
+          "NextID": 171,
+          "DebugID": 123
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You should give us more notice when you're going to be here on the weekend, Coby.░ Your mom is already scrambling to set up the table for a family dinner.░ She was wondering why there was so much banging and crashing coming from up here,░ care to elaborate?",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 171,
+          "NextID": 172,
+          "DebugID": 123
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Crack a joke.)",
+              "NextID": 173
+            },
+            {
+              "Text": "(Contrive a lie.)",
+              "NextID": 197
+            },
+            {
+              "Text": "(Tell the truth.)",
+              "NextID": 374
+            }
+          ],
+          "ID": 172,
+          "NextID": 0,
+          "DebugID": 124
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh y'know,░ sibling battling!░ Getting up to all sorts of antics.░ Can't begin to explain the crazy stuff kids are into these days.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 173,
+          "NextID": 174,
+          "DebugID": 125
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 174,
+          "NextID": 175,
+          "DebugID": 126
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Right.░ Well whatever you two were doing horsing around in here,░ keep it down tonight.░ Your mother comes home to relax,░ not to put up with your antics.",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 175,
+          "NextID": 176,
+          "DebugID": 126
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Phew,░ that was a close one.░ We were nearly busted there...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 176,
+          "NextID": 177,
+          "DebugID": 127
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 177,
+          "NextID": 178,
+          "DebugID": 128
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Do me a favour and go take a shower before come down for dinner.░ You both smell like wet socks,░ I swear you haven't been able to keep this room clean and smelling fresh since you kids were babies.",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 178,
+          "NextID": 179,
+          "DebugID": 128
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Left",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 179,
+          "NextID": 180,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We will...░ Sorry for not warning that I'd be home rather than at my friend's place. It's nice seeing you <i>too</i>,░ Dad.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 180,
+          "NextID": 181,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 181,
+          "NextID": 182,
+          "DebugID": 130
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We had a rule about pants remember?░ Not everyone wants to see your butt parading around boy.░ Go wash up and then we can all have a nice dinner.",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 182,
+          "NextID": 183,
+          "DebugID": 130
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 183,
+          "NextID": 184,
+          "DebugID": 131
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Damn,░ Dad really rode your ass there.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 184,
+          "NextID": 185,
+          "DebugID": 132
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 185,
+          "NextID": 186,
+          "DebugID": 133
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Better him ride my ass then have him walk in on <i>you</i> riding it.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 186,
+          "NextID": 187,
+          "DebugID": 133
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah,░ bit early to come out with that one.░ Want to save time and have the shower together?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 187,
+          "NextID": 188,
+          "DebugID": 134
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 188,
+          "NextID": 189,
+          "DebugID": 135
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You know it!░ You really should come with me to my dorm some time,░ we could hang out like this more often.░ \r\nAnd we won't have Dad breathing down our butts.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 189,
+          "NextID": 190,
+          "DebugID": 135
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's a date.░ Lets go get cleaned up before Dad realizes that that wasn't dirty socks.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 190,
+          "NextID": 191,
+          "DebugID": 136
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 191,
+          "NextID": 192,
+          "DebugID": 137
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 192,
+          "NextID": 193,
+          "DebugID": 138
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>We almost had another quickie in the shower,░ although Dad might have caught on that we were in there together if neither of us answered his dinner call for as long as that might've taken us.░ We contented ourselves by simply embracing and soaping each other down.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 193,
+          "NextID": 194,
+          "DebugID": 139
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>The night transpired just like a normal family dinner.░ Lots of laughs to be had and it was nice to spend that time together with myself and Coby often so busy.\r\nWe ended up watching tv for some time with Mom and Dad,░ nothing special, some summer blockbuster.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 194,
+          "NextID": 195,
+          "DebugID": 140
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Coby needed to head out to his dorm to get some homework done.░\r\nAs I said goodbye out by his car we gave each other our first romantic kiss, squeezing the other's fingers.░\r\nFunny how the order of things worked out,░ it's like we skipped a few bases and the tongue-lapping during our bedroom fun didn't really carry the same weight as our tender goodbye out under the stars. ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 195,
+          "NextID": 196,
+          "DebugID": 141
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He let me know if I wanted to do it again,░ all I needed to do was call.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 196,
+          "NextID": 241,
+          "DebugID": 142
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We're forming our own garage band,░ it's a hot craze where you use household objects to make killer drumbeats:░ like ambient gothic rock.░ We're pretty hot and sweaty from all the practice.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 197,
+          "NextID": 198,
+          "DebugID": 143
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 198,
+          "NextID": 199,
+          "DebugID": 144
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Right.░ Do me a favor,░ if you're going to be making any more noise,░ go do it in the <i>actual</i> garage.░ Your bedroom isn't a studio that your mother or myself particularly want to tune into when you're squawking and grunting.",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 199,
+          "NextID": 176,
+          "DebugID": 144
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I just fucked Coby in his ass but we sort of made a mess everywhere.░ We look flushed because we just finished and were trying to cover it up.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 200,
+          "NextID": 201,
+          "DebugID": 145
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Left",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 201,
+          "NextID": 202,
+          "DebugID": 146
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Hahaha!░</i>\r\nIsn't %playername% so funny?░ Such a jokester.░\r\nWe were just fighting about how, you know <i>'gay'</i> my side of the room was and a... <i>friend</i> I had over that they're mad about leaving a mess.\r\n%playername% is just pulling your leg and trying to get you in on the joke, har har har...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 202,
+          "NextID": 203,
+          "DebugID": 146
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Coby gave me a rather concerned stare for a moment before returning to his cheery smile.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 203,
+          "NextID": 204,
+          "DebugID": 147
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobysDadNPC",
+          "Location": "Right",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 204,
+          "NextID": 205,
+          "DebugID": 148
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Riiight.</i>░ Well you know my stance on that kind of stuff in my household Coby.░ If you're going to be parading around with boyfriends,░ you do that on your own time, you both have to share this room.",
+          "Title": "Coby's Dad",
+          "Color": {
+            "B": 255,
+            "G": 206,
+            "R": 176,
+            "A": 255
+          },
+          "ID": 205,
+          "NextID": 176,
+          "DebugID": 148
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Think I'm out for the count?░ Bite that beak birdboy,░ %playername% can take all what you can dish out and more.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 206,
+          "NextID": 349,
+          "DebugID": 149
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I don't know anymore Coby.░ Well I mean I do love you but your very forward and I like to go slow.░ I can't go from zero to \"lets fuck!\" at the flip of a switch like you can,░ plus we're still technically related even if it's not from the same parents.░ You're not thinking with your head but with your crotch.░ Lets just laugh it off with a walk and talk about it tomorrow or next week or just keep it to ourselves y'know whatever works.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 207,
+          "NextID": 208,
+          "DebugID": 150
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Flirty",
+          "Clothes": null,
+          "ID": 208,
+          "NextID": 209,
+          "DebugID": 151
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're adorable when you're flustered.░ I'm not grabbing you by the dick here.░ You've already told me you've wanted to do me,░ you really think there is a better time then now;░ as we're both melting with sheer emotion?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 209,
+          "NextID": 210,
+          "DebugID": 151
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 210,
+          "NextID": 211,
+          "DebugID": 152
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Take a risk just this once,░ with me.░ Maybe it will be the happiest decision of your life.░ If it's not,░ it never happened.░ I'm great at secrets,░ it'll be hour little one,░ mum and dad will be none the wiser.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 211,
+          "NextID": 293,
+          "DebugID": 152
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're jumping to <i>way</i> too many conclusions from me just saying I have feelings for you.░ Do you act this way around everyone you get in bed with?░ Why am I even asking that question,░ of course you do.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 212,
+          "NextID": 213,
+          "DebugID": 153
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 213,
+          "NextID": 214,
+          "DebugID": 154
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I...░\r\nI'm sorry,░ you've just got me all excited.░ I've been fighting this feeling for as long as I can remember.░ If you want me to apologize for being attracted to you, I will.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 214,
+          "NextID": 215,
+          "DebugID": 154
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Gah,</i>░ I'm not trying to make you feel bad for liking me that way!░ Remember I did say I love you too...░\r\nIt's a bit <i>fast</i> I think.░ Maybe we should just talk it out rather then jumping to sex when neither of us know if that's a smart move for having to live together and... family stuff?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 215,
+          "NextID": 216,
+          "DebugID": 155
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 216,
+          "NextID": 217,
+          "DebugID": 156
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We don't know anything until we <i>try</i>.░ You can't tell me you haven't <i>thought</i> about trying it just once.░ Having your little bro bounce on your lap like he's trying to break the world record for bull riding?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 217,
+          "NextID": 69,
+          "DebugID": 156
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah... I'm not having it Coby.░\r\nYou can't just throw me in and expect me to swim like a pro.░ This town is <i>way</i> too sex driven,░ it's just not me.░ I don't care if I stay single for another <i>decade!</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 218,
+          "NextID": 219,
+          "DebugID": 157
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Cocky",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 219,
+          "NextID": 220,
+          "DebugID": 158
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh yeah?░ Like I haven't heard <i>that</i> swan song before.░\r\nYou need a firm kick in the butt before you dry up and become a perma-hermit!░ Sorry pal,░ I'm not letting up until I see you atleast meet someone for <i>lunch</i>.░ That's the least you can do!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 220,
+          "NextID": 221,
+          "DebugID": 158
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess it does sound kinda stupid when you say it like that.░ It's not like it's life or death...░\r\nAlright I'll stop being a drama queen and try again.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 221,
+          "NextID": 20,
+          "DebugID": 159
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 222,
+          "NextID": 253,
+          "DebugID": 160
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 223,
+          "NextID": 236,
+          "DebugID": 161
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubEntranceScene",
+          "ID": 224,
+          "NextID": 238,
+          "DebugID": 162
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "CobyTeaseScene",
+          "ID": 225,
+          "NextID": 83,
+          "DebugID": 163
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSubsceneEventData, Amorous.Engine",
+          "SubsceneName": "Naked",
+          "ID": 226,
+          "NextID": 240,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlaySexsceneEventData, Amorous.Engine",
+          "SceneName": "CobySexscene",
+          "ID": 227,
+          "NextID": 108,
+          "DebugID": 165
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ProgressSexsceneEventData, Amorous.Engine",
+          "ID": 228,
+          "NextID": 114,
+          "DebugID": 166
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ProgressSexsceneEventData, Amorous.Engine",
+          "ID": 229,
+          "NextID": 124,
+          "DebugID": 167
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ProgressSexsceneEventData, Amorous.Engine",
+          "ID": 230,
+          "NextID": 361,
+          "DebugID": 168
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 231,
+          "NextID": 139,
+          "DebugID": 169
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetStageEventData, Amorous.Engine",
+          "Quest": "CobyDate",
+          "Stage": 20,
+          "ID": 232,
+          "NextID": 0,
+          "DebugID": 170
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 233,
+          "NextID": 243,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 234,
+          "NextID": 163,
+          "DebugID": 172
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 235,
+          "NextID": 223,
+          "DebugID": 173
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 236,
+          "NextID": 0,
+          "DebugID": 174
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 237,
+          "NextID": 224,
+          "DebugID": 175
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 238,
+          "NextID": 0,
+          "DebugID": 176
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 239,
+          "NextID": 226,
+          "DebugID": 177
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 240,
+          "NextID": 91,
+          "DebugID": 178
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "DateCreditsMenuScene",
+          "ID": 241,
+          "NextID": 367,
+          "DebugID": 179
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 242,
+          "NextID": 232,
+          "DebugID": 180
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 243,
+          "NextID": 234,
+          "DebugID": 181
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I enjoyed chatting with people, sure.░ I don't know if any of them are really my type but,░ yeah, I did have a lot more fun than I expected.░\r\nI owe you one for dragging me out there, Cobes.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 244,
+          "NextID": 245,
+          "DebugID": 182
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 245,
+          "NextID": 246,
+          "DebugID": 183
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey,░ it wasn't totally a selfless act!░ I mean, yeah,░ getting you out there is great, <i>buuut...</i>\r\nWell,░ sometimes it's more fun to be shacking up with someone when you're not peeking from the corner.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 246,
+          "NextID": 247,
+          "DebugID": 183
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 247,
+          "NextID": 248,
+          "DebugID": 184
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 248,
+          "NextID": 249,
+          "DebugID": 185
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What?░\r\nThere's only so many times I can do it in the living room or kitchen without friction burns...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 249,
+          "NextID": 250,
+          "DebugID": 185
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Information I didn't need about where I sit and eat.░\r\nWell, I'm sorry to disappoint about last night:░ I'm still getting back in the dating saddle.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 250,
+          "NextID": 251,
+          "DebugID": 186
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 251,
+          "NextID": 252,
+          "DebugID": 187
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're getting back out there, that's the most important thing!░\r\nWell,░ what're your plans now?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 252,
+          "NextID": 18,
+          "DebugID": 187
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": [
+            "Shirt",
+            "Shorts"
+          ],
+          "ID": 253,
+          "NextID": 254,
+          "DebugID": 188
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You text, %playername%?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 254,
+          "NextID": 255,
+          "DebugID": 188
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ah, I didn't know you were home!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 255,
+          "NextID": 2,
+          "DebugID": 189
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Gee, thanks.░\r\nNo pressure then...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 256,
+          "NextID": 9,
+          "DebugID": 190
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 258,
+          "FalseID": 259,
+          "ID": 257,
+          "NextID": 0,
+          "DebugID": 191
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.MtF",
+          "TrueID": 264,
+          "FalseID": 265,
+          "ID": 258,
+          "NextID": 0,
+          "DebugID": 192
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Neutral",
+          "TrueID": 262,
+          "FalseID": 260,
+          "ID": 259,
+          "NextID": 0,
+          "DebugID": 193
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.FtM",
+          "TrueID": 261,
+          "FalseID": 37,
+          "ID": 260,
+          "NextID": 0,
+          "DebugID": 194
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not pulling your leg this time.░ You make my heart race every time you come over.░ Even when I'm being as grumpy as possible,░ you find a way to make me smile.░ You might be a little flaming,░ but you're the more mature brother than I am most of the time.░ Who cares if you're gay?░ You've been more than supportive in my own gender stuff.░ I guess I'm kinda gay too now...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 261,
+          "NextID": 38,
+          "DebugID": 195
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not pulling your leg this time.░ You make my heart race every time you come over.░ Even when I'm being as grumpy as possible,░ you find a way to make me smile.░ You might be a little flaming,░ but you're more mature than I am most of the time.░ Who cares if you're gay?░ You've been more than supportive in my own gender stuff.░ I guess I'm sort of in the pansexual spectrum myself.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 262,
+          "NextID": 38,
+          "DebugID": 196
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not pulling your leg this time.░ You make my heart race every time you come over.░ Even when I'm being as grumpy as possible,░ you find a way to make me smile.░ You might be a little flaming,░ but you're more mature than I am most of the time.░ I guess I care if you're <i>exclusively</i> gay?░ That matters a bit, considering...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 263,
+          "NextID": 38,
+          "DebugID": 197
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not pulling your leg this time.░ You make my heart race every time you come over.░ Even when I'm being as grumpy as possible,░ you find a way to make me smile.░ You might be a little flaming,░ but you're more mature than I am most of the time.░ Who cares if you're gay?░ You've been more than supportive in my own gender stuff.░ So long as that doesn't weird you out...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 264,
+          "NextID": 38,
+          "DebugID": 198
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Herm",
+          "TrueID": 264,
+          "FalseID": 263,
+          "ID": 265,
+          "NextID": 0,
+          "DebugID": 199
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Okay, here comes the 'I'm calling the therapist' conversation...░\r\nStupid. Stupid!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 266,
+          "NextID": 46,
+          "DebugID": 200
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I suppose liberation took many forms.░ I felt relieved for coming clean about my feelings for Coby,░ I guess that wasn't too far away from feeling a rush of horniness░ but, as he turned back around to hug his arms around my neck,░ his expression changed from sultry to an expression that was nearer to romantic, like we were slow-dancing inches from each other.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 267,
+          "NextID": 269,
+          "DebugID": 201
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 270,
+          "FalseID": 274,
+          "ID": 268,
+          "NextID": 0,
+          "DebugID": 202
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 268,
+          "FalseID": 277,
+          "ID": 269,
+          "NextID": 0,
+          "DebugID": 203
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 270,
+          "NextID": 271,
+          "DebugID": 204
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "And, no,░ girl or not I'm still into you...░\r\nBut I'm not kidding about being a confirmed, pro-tier catcher, Sis.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 271,
+          "NextID": 273,
+          "DebugID": 204
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 273,
+          "FalseID": 276,
+          "ID": 272,
+          "NextID": 0,
+          "DebugID": 205
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I've got a <i>toy</i> just for the job...░\r\n<i>Fuck...</i> I mean, okay, you tease.░ Thank you for saying so.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 273,
+          "NextID": 279,
+          "DebugID": 206
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 274,
+          "NextID": 275,
+          "DebugID": 207
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "And, no,░ girl or not I'm still into you...░\r\nBut I'm not kidding about being a confirmed, pro-tier catcher though.░ Will that be an issue, Sis?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 275,
+          "NextID": 276,
+          "DebugID": 207
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No, that shouldn't be a problem at all...░\r\n<i>Fuck...</i> I mean, okay, you tease.░ Thank you for asking.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 276,
+          "NextID": 279,
+          "DebugID": 208
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 277,
+          "NextID": 278,
+          "DebugID": 209
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not kidding about being a confirmed, pro-tier catcher though.░ Will that be an issue?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 278,
+          "NextID": 272,
+          "DebugID": 209
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "I'm more of a 'top' anyways.",
+              "NextID": 280
+            },
+            {
+              "Text": "I'm a switch, I guess.",
+              "NextID": 282
+            },
+            {
+              "Text": "So long as you return the favor, I prefer 'catching' too.",
+              "NextID": 281
+            }
+          ],
+          "ID": 279,
+          "NextID": 0,
+          "DebugID": 210
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Coby.Top",
+          "Value": true,
+          "ID": 280,
+          "NextID": 282,
+          "DebugID": 211
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Coby.Bottom",
+          "Value": true,
+          "ID": 281,
+          "NextID": 284,
+          "DebugID": 212
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 282,
+          "NextID": 283,
+          "DebugID": 213
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No problems there then!",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 283,
+          "NextID": 286,
+          "DebugID": 213
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 284,
+          "NextID": 285,
+          "DebugID": 214
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'll play fair...░ Or we can buy a toy to double-team.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 285,
+          "NextID": 286,
+          "DebugID": 214
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 287,
+          "FalseID": 63,
+          "ID": 286,
+          "NextID": 0,
+          "DebugID": 215
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 287,
+          "NextID": 288,
+          "DebugID": 216
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We both <i>know</i> I've turned you on more then once.░ I saw you staring at my shorts yesterday morning when I was waking up, let alone when we were hanging out.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 288,
+          "NextID": 289,
+          "DebugID": 216
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey you'd just woken up and were all morning wood...ish.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 289,
+          "NextID": 290,
+          "DebugID": 217
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 290,
+          "NextID": 291,
+          "DebugID": 218
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Who says that was morning wood?░\r\nDon't lie,░ you've wanted to know what it's like to be in the position of my boyfriends for <i>years.</i>░ Look me in the eyes and tell me you aren't thinking us fucking <i>right now.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 291,
+          "NextID": 68,
+          "DebugID": 218
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I swallowed hard,░ feeling my nerves catch in my throat as Coby swayed his hips and teased more information out of me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 292,
+          "NextID": 70,
+          "DebugID": 219
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Give in.)",
+              "NextID": 80
+            },
+            {
+              "Text": "No, Coby... (Back out.)",
+              "NextID": 294
+            }
+          ],
+          "ID": 293,
+          "NextID": 0,
+          "DebugID": 220
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I placed my hands on his shoulders to keep a little distance between us,░ cutting of his playful grin with my serious expression.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 294,
+          "NextID": 295,
+          "DebugID": 221
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Coby, seriously... I don't want to push this right now.░\r\nPlease,░ just give me some space to think about this.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 295,
+          "NextID": 296,
+          "DebugID": 222
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not ready to go <i>that</i> far with you right after telling you about my feelings.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 296,
+          "NextID": 297,
+          "DebugID": 223
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Shy",
+          "Clothes": null,
+          "ID": 297,
+          "NextID": 298,
+          "DebugID": 224
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Okay,░ %playername%... okay.░\r\nI'm sorry,░ I let this stuff go too far as it is.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 298,
+          "NextID": 299,
+          "DebugID": 224
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Coby... I love you,░ and you're the best brother I could ever ask for.░\r\nI just need to open up to this in my own time,░ otherwise I'm going to regret it.░ I'd <i>never</i> want to do that to you...░ ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 299,
+          "NextID": 300,
+          "DebugID": 225
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Chill",
+          "Clothes": null,
+          "ID": 300,
+          "NextID": 301,
+          "DebugID": 226
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Thank you,░ %playername%,░ you know I feel the same.░\r\nHey... let's chill out a little, huh? Maybe watch a movie or something?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 301,
+          "NextID": 302,
+          "DebugID": 226
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sure thing, Coby,░ I'd really like that.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 302,
+          "NextID": 303,
+          "DebugID": 227
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 303,
+          "NextID": 304,
+          "DebugID": 228
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DelayEventData, Amorous.Engine",
+          "Delay": 1000,
+          "ID": 304,
+          "NextID": 305,
+          "DebugID": 229
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetStageEventData, Amorous.Engine",
+          "Quest": "CobyDate",
+          "Stage": 30,
+          "ID": 305,
+          "NextID": 306,
+          "DebugID": 230
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 306,
+          "NextID": 307,
+          "DebugID": 231
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 307,
+          "NextID": 0,
+          "DebugID": 232
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 100,
+          "FalseID": 318,
+          "ID": 308,
+          "NextID": 0,
+          "DebugID": 233
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 316,
+          "FalseID": 96,
+          "ID": 309,
+          "NextID": 0,
+          "DebugID": 234
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 315,
+          "FalseID": 311,
+          "ID": 310,
+          "NextID": 0,
+          "DebugID": 235
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Neutral",
+          "TrueID": 314,
+          "FalseID": 95,
+          "ID": 311,
+          "NextID": 0,
+          "DebugID": 236
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 312,
+          "NextID": 313,
+          "DebugID": 237
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Makes me wish you would tease me <i>more</i>,░ and maybe a little closer to my balls.░ I'll get you right back by sneaking in at night and giving you a good licking too.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 313,
+          "NextID": 94,
+          "DebugID": 237
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Does it get you off knowing that you're a cock slut that lusts after his <i>own</i> sibling?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 314,
+          "NextID": 309,
+          "DebugID": 238
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Does it get you off knowing that you're a cock slut that lusts after his <i>own</i> sister?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 315,
+          "NextID": 309,
+          "DebugID": 239
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 316,
+          "NextID": 317,
+          "DebugID": 240
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I see you're <i>awfully</i> overdressed.░ Let's see if your little brother is the slutty one when we're <i>both</i> all hot and bothered,░ hmmm?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 317,
+          "NextID": 325,
+          "DebugID": 240
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>My breath was short,░ my heart racing faster then when I did track and field.░ I had my own brother cooing in approval,░ my body throbbing for him as I hooked my index fingers into his panties and worked them down:░ his cute, curvy thighs rocked with my fingers to aid their plummet.░ I caught the twirl of his ankle kicking the panties free in my periphery,░ completely occupied with his nude form spread before me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 318,
+          "NextID": 92,
+          "DebugID": 241
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Cock.Knotted",
+          "TrueID": 321,
+          "FalseID": 320,
+          "ID": 319,
+          "NextID": 0,
+          "DebugID": 242
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Cock.Thor",
+          "TrueID": 323,
+          "FalseID": 98,
+          "ID": 320,
+          "NextID": 0,
+          "DebugID": 243
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 321,
+          "NextID": 322,
+          "DebugID": 244
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You know I like it <i>much</i> better like that.░ Thinking of getting that knot deep in me yet?░ You should be.░\r\nHow about I return the favor and let you get rid of your own clothes.░ They're a total eyesore now, and I wanna see how we measure up...\r\nYou know:░ round hole, gotta fit that peg... ",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 322,
+          "NextID": 101,
+          "DebugID": 244
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 323,
+          "NextID": 324,
+          "DebugID": 245
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You know I like it <i>much</i> better like that.░ Thinking of going balls deep in me yet?░ You should be.░\r\nHow about I return the favor and let you get rid of your own clothes.░ They're a total eyesore now, and I wanna see how we measure up...\r\nYou know:░ round hole, <i>flared</i> peg... ",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 324,
+          "NextID": 101,
+          "DebugID": 245
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 325,
+          "NextID": 326,
+          "DebugID": 246
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You know I like it <i>much</i> better like that.░ Thinking of ravaging me yet?░ You should be.░\r\nHow about I return the favor and let you get rid of your own clothes.░ They're a total eyesore now, and I wanna see how we measure up...\r\nYou know:░ round holes, they need a peg... ",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 326,
+          "NextID": 101,
+          "DebugID": 246
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 328,
+          "FalseID": 113,
+          "ID": 327,
+          "NextID": 0,
+          "DebugID": 247
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He could sense my hesitations,░ sliding his dripping wet rear down against me,░ his own lust pressed to my tummy.░\r\nThere wasn't much give to his lubed-up opening as he teased himself down until I raised my hips to part his warmth,░ drawing mutual moans from us both as our crotches collided.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 328,
+          "NextID": 228,
+          "DebugID": 248
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Nnnn...░</i>\r\nOh yeah...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 329,
+          "NextID": 327,
+          "DebugID": 249
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Sure, our impromptu union had been going on for a few minutes as he started to rock his hips again,░ but the taste of his tongue rolling against mine set a fire inside me that was threatening to burn me through far too quickly.░\r\nHad I ever kissed my brother like this before?░ Surely not...\r\nSomehow it was more intimate than our nude bodies pressing together.░ ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 330,
+          "NextID": 331,
+          "DebugID": 250
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Breasts.None",
+          "TrueID": 123,
+          "FalseID": 332,
+          "ID": 331,
+          "NextID": 0,
+          "DebugID": 251
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Breast",
+          "TrueID": 123,
+          "FalseID": 333,
+          "ID": 332,
+          "NextID": 0,
+          "DebugID": 252
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Coby snickered down at me,░ hands cupping my breasts as he nibbled on one raw and perky nipple,░ making my legs lock under me as he nuzzled into my cleavage.░ I could feel his cock throbbing against my waist, making a wet patch of pre-cum that rolled down my crotch as he explored my bust with abject curiosity and perplexity, milking moans from me via my nipples.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 333,
+          "NextID": 334,
+          "DebugID": 253
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Don't usually get those,░ huh bro?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 334,
+          "NextID": 335,
+          "DebugID": 254
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 335,
+          "NextID": 336,
+          "DebugID": 255
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I can see the appeal. ",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 336,
+          "NextID": 337,
+          "DebugID": 255
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He grinned as I bucked my hips up against him making him bite his tongue and get back to the ride.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 337,
+          "NextID": 338,
+          "DebugID": 256
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 338,
+          "NextID": 339,
+          "DebugID": 257
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "If I wasn't so distractedly busy being filled up,░ I'd fuck those tits for you.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 339,
+          "NextID": 340,
+          "DebugID": 257
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Mmmghn....</i>░\r\nMight be worth stopping then?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 340,
+          "NextID": 341,
+          "DebugID": 258
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 341,
+          "NextID": 342,
+          "DebugID": 259
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Don't you dare!░ Riding you is way better than a blow job. ",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 342,
+          "NextID": 343,
+          "DebugID": 259
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bossy bird.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 343,
+          "NextID": 123,
+          "DebugID": 260
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 125,
+          "FalseID": 345,
+          "ID": 344,
+          "NextID": 0,
+          "DebugID": 261
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>The feeling was blissful,░ the tight little muscles of his body squeezing me as he took my length into his core and stroked every spot down my length with the molten depths of him.░ With his hips spread and curvy butt slapping my thighs, he could take me deeper and faster,░ leaning forward to press us close as his hips did all the work of pumping my member.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 345,
+          "NextID": 125,
+          "DebugID": 262
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 347,
+          "FalseID": 128,
+          "ID": 346,
+          "NextID": 0,
+          "DebugID": 263
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I could barely contain myself beneath him.░ He knew exactly how to push all my buttons in this position,░ his hard cock throbbing and bobbing with each bounce.░ Alternating between speeds and pressures as he rode and ground down against me,░ I started to feel myself losing this battle.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 347,
+          "NextID": 129,
+          "DebugID": 264
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>F-fuck...</i>\r\nCoby, I'm gonna...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 348,
+          "NextID": 130,
+          "DebugID": 265
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I parted my legs a little, wrenching his control of my crotch away from him as I over-spread his hips and forced him to rely on my own upward thrusts.░ I wanted him to get a taste of his own medicine,░ my fingers wrapping around the thickness of his cock and starting to tug it roughly as he pressed in close.░ He was dripping wet, putting on a great game face but those balls of his were clearly churning too.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 349,
+          "NextID": 350,
+          "DebugID": 266
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 350,
+          "NextID": 351,
+          "DebugID": 267
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Think you can get me off before I get you to blow?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 351,
+          "NextID": 352,
+          "DebugID": 267
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Coby snickered, rolling his hips down on my crotch, squeezing and continuing to build the pressure as my fingers and thumb tightened on his need and started to pump the slick, rock-hard length.░ He moaned a little despite his game face.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 352,
+          "NextID": 353,
+          "DebugID": 268
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I don't know...░ <i>Mhgnn.</i>░\r\nYou're the perverted little brother fantasizing about and tempting me all the time...░\r\nNow that you've got me,░ I'd think you'd be pretty close to finishing yourself, right?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 353,
+          "NextID": 354,
+          "DebugID": 269
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 354,
+          "NextID": 355,
+          "DebugID": 270
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Mmm...<i>░\r\nMaybe...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 355,
+          "NextID": 356,
+          "DebugID": 270
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>He throbbed in my hands as he squeezed my legs back together to build my own pressure,░ regaining his lusty pounding pace as my hands were forced away.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 356,
+          "NextID": 357,
+          "DebugID": 271
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm gonna... ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 357,
+          "NextID": 358,
+          "DebugID": 272
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 358,
+          "NextID": 359,
+          "DebugID": 273
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Me too... <i>Together?",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 359,
+          "NextID": 360,
+          "DebugID": 273
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah... ░<i>God,</i> yes...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 360,
+          "NextID": 134,
+          "DebugID": 274
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 362,
+          "FalseID": 137,
+          "ID": 361,
+          "NextID": 0,
+          "DebugID": 275
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>In an instant,░ we both slammed to a halt.░ My end finally impossible to hold back,░ we pressed close as we shared the heat of each other's end:░ an orgasm shared with my own brother.░ I groped his feathery sides as tight as my fingers would allow,░ watching him unload his own hot lust over my belly up and up my chest.░ His seed dripped down my stomach as my legs quivvered and I seemed to drain of all my energy.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 362,
+          "NextID": 363,
+          "DebugID": 276
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>We simply held each other, vice-like, for a long moment,░ panting hard as the lust started to abate and we merely wondered at our own boldness,░ locked together and wet with each other.░\r\nI hugged Coby close, kissing his neck as he nuzzled his beak into mine in return,░ panting and laughing a little.░\r\nThat was one hell of an icebreaker.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 363,
+          "NextID": 138,
+          "DebugID": 277
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 365,
+          "FalseID": 140,
+          "ID": 364,
+          "NextID": 0,
+          "DebugID": 278
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 365,
+          "NextID": 366,
+          "DebugID": 279
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Phew!</i>░ Now <i>that's</i> a workout!░ Have you fapped in the last month?░ Don't think I've ever had someone be <i>that</i> energetic with me.░ I'm surprised you didn't pop me like a balloon between your legs.",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 366,
+          "NextID": 142,
+          "DebugID": 279
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 367,
+          "NextID": 242,
+          "DebugID": 280
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.CensorCheckEventData, Amorous.Engine",
+          "SFWID": 376,
+          "NSFWID": 225,
+          "ID": 368,
+          "NextID": 0,
+          "DebugID": 281
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 369,
+          "NextID": 371,
+          "DebugID": 282
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "BedroomScene",
+          "ID": 370,
+          "NextID": 369,
+          "DebugID": 283
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "CobyNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Flirty",
+          "Pose": "Flirty",
+          "Clothes": [
+            "Underwear"
+          ],
+          "ID": 371,
+          "NextID": 372,
+          "DebugID": 284
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Phew...</i> %playername%...\r\nThat was... <i>wow...",
+          "Title": "Coby",
+          "Color": {
+            "B": 255,
+            "G": 193,
+            "R": 104,
+            "A": 255
+          },
+          "ID": 372,
+          "NextID": 373,
+          "DebugID": 284
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>That was an understatement, I think I may be in love with him even more then I first thought...░ Better keep his ego in check and not let him know how much he got to me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 373,
+          "NextID": 144,
+          "DebugID": 285
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.CensorCheckEventData, Amorous.Engine",
+          "SFWID": 375,
+          "NSFWID": 200,
+          "ID": 374,
+          "NextID": 0,
+          "DebugID": 286
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We were busy bonking each other... We look flushed because we just finished and were trying to cover it up.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 375,
+          "NextID": 201,
+          "DebugID": 287
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlaySexsceneEventData, Amorous.Engine",
+          "SceneName": "CobySexscene",
+          "ID": 376,
+          "NextID": 378,
+          "DebugID": 288
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DelayEventData, Amorous.Engine",
+          "Delay": 10000,
+          "ID": 377,
+          "NextID": 379,
+          "DebugID": 289
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 378,
+          "NextID": 377,
+          "DebugID": 290
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 379,
+          "NextID": 370,
+          "DebugID": 291
+        }
+      ]
+    },
+    {
+      "Stage": 20,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Had sex",
+          "Title": "[Editor Comment]",
+          "Color": {
+            "B": 0,
+            "G": 128,
+            "R": 0,
+            "A": 255
+          },
+          "ID": 1,
+          "NextID": 0,
+          "DebugID": 1
+        }
+      ]
+    },
+    {
+      "Stage": 30,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Had no sex",
+          "Title": "[Editor Comment]",
+          "Color": {
+            "B": 0,
+            "G": 128,
+            "R": 0,
+            "A": 255
+          },
+          "ID": 1,
+          "NextID": 0,
+          "DebugID": 1
+        }
+      ]
+    }
+  ]
+}
