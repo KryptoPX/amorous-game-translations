@@ -2,29 +2,29 @@
 
 ## Progreso
 
-| File                 | status        |
-| -------------------- | ------------- |
-| Clothes.json         | 🟢 `Completed` |
-| CobyClub.json        | 🟢 `Completed` |
-| CobyDate.json        | 🟡 `Doing`     |
-| DJ.json              | 🟢 `Completed` |
-| DustinDate.json      | 🔴 `To Do`     |
-| Gender.json          | 🟢 `Completed` |
-| JaxDate.json         | 🔴 `To Do`     |
-| JaxPreDate.json      | 🔴 `To Do`     |
-| Kane.json            | 🔴 `To Do`     |
-| LexDate.json         | 🔴 `To Do`     |
-| LexPreDate.json      | 🔴 `To Do`     |
-| MercyDate.json       | 🔴 `To Do`     |
-| MercyPreDate.json    | 🔴 `To Do`     |
-| NudesRemy.json       | 🔴 `To Do`     |
-| Prologue.json        | 🔴 `To Do`     |
-| RemyDate.json        | 🔴 `To Do`     |
-| RemyPreDate.json     | 🔴 `To Do`     |
-| Rou.json             | 🔴 `To Do`     |
-| SethDate.json        | 🔴 `To Do`     |
-| SethPreDate.json     | 🔴 `To Do`     |
-| SkyeDate.json        | 🔴 `To Do`     |
-| SkyePreDate.json     | 🔴 `To Do`     |
-| ZenithDate.json      | 🔴 `To Do`     |
-| ZenithPreDate.json   | 🔴 `To Do`     |
+| File               | status         | Total texts |
+| ------------------ | -------------- | :---------: |
+| Clothes.json       | 🟢 `Completed` |     30      |
+| CobyClub.json      | 🟢 `Completed` |      9      |
+| CobyDate.json      | 🟡 `Doing`     |     235     |
+| DJ.json            | 🟢 `Completed` |      7      |
+| DustinDate.json    | 🔴 `To Do`     |     15      |
+| Gender.json        | 🟢 `Completed` |     39      |
+| JaxDate.json       | 🔴 `To Do`     |     793     |
+| JaxPreDate.json    | 🔴 `To Do`     |     293     |
+| Kane.json          | 🟢 `Completed` |     12      |
+| LexDate.json       | 🔴 `To Do`     |    1712     |
+| LexPreDate.json    | 🔴 `To Do`     |     482     |
+| MercyDate.json     | 🔴 `To Do`     |    1246     |
+| MercyPreDate.json  | 🔴 `To Do`     |     405     |
+| NudesRemy.json     | 🟢 `Completed` |      5      |
+| Prologue.json      | 🔴 `To Do`     |     304     |
+| RemyDate.json      | 🔴 `To Do`     |    1091     |
+| RemyPreDate.json   | 🔴 `To Do`     |     773     |
+| Rou.json           | 🔴 `To Do`     |     44      |
+| SethDate.json      | 🔴 `To Do`     |     776     |
+| SethPreDate.json   | 🔴 `To Do`     |     331     |
+| SkyeDate.json      | 🔴 `To Do`     |    1098     |
+| SkyePreDate.json   | 🔴 `To Do`     |     206     |
+| ZenithDate.json    | 🔴 `To Do`     |    1545     |
+| ZenithPreDate.json | 🔴 `To Do`     |     354     |
