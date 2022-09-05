@@ -946,7 +946,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Alright fine.░ You wanna pry those words out of me that badly?░ <i>Yes</i> I've thought about sleeping with you,░ more than once.░ I'm honestly jealous when you bring people home,░ especially when I imagine what they're doing to you when I'm not there.░ It's enough to drive someone mad.",
+          "Text": "Muy bien.░ ¿Tanto quieres sacarme esas palabras?░ <i>Si</i> He pensado en dormir contigo,░ más de una vez.░ Sinceramente, me da envidia cuando traes a la gente a casa,░ especialmente cuando me imagino lo que te hacen cuando no estoy allí.░ Es suficiente para volver loco a alguien.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -960,7 +960,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You were even my first, er... <i>fap.</i>░ And it's not like I don't still, <i>you know...</i>░\r\nI've thought about you in all sorts of situations,░ most of which end in us cuddling in each other's embrace.░ Happy now,░ smart guy?",
+          "Text": "Incluso fuiste mi primera... pa... <i>paja.</i>░ Y no es que no lo haga aún, <i>ya sabes...</i>░\r\nHe pensado en ti en todo tipo de situaciones,░ la mayoría de las cuales terminan con nosotros acurrucados en el abrazo del otro.░ ¿Contento ahora,░ listillo?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -987,7 +987,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You've got my heart racing like crazy,░ I never knew you could talk such good talk!░\r\nMy knees are a little weak...",
+          "Text": "Tienes mi corazón como loco,░ No sabía que podías hablar tan bien.░\r\nMis rodillas están un poco débiles...",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -1001,7 +1001,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "It's all true.░ I never wanted things to be weird between us,░ so I kept it to myself.",
+          "Text": "Todo esto es cierto.░ Nunca quise que las cosas fueran raras entre nosotros,░ así que me lo guardé para mí mismo.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1028,7 +1028,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "It'd never be weird between us!░ We're resolving the akwardness right now.░\r\nYou're gonna take my hand,░ and I'm taking you over to my bed.░\r\n<i>Then,</i> you're gonna pull down my pants,░ play with my ass and let those frustrations out.",
+          "Text": "¡Nunca sería raro entre nosotros!░ Estamos resolviendo la incomodidad ahora mismo.░\r\nVas a tomar mi mano,░ y te voy a llevar a mi cama.░\r\n<i>Despues,</i> me vas a bajar los pantalones,░ jugar con mi trasero y dejar salir esas frustraciones.",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -1042,7 +1042,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You sure that's not gonna get weird?",
+          "Text": "¿Seguro que no se va a volver raro?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1069,7 +1069,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Do you love me or not?",
+          "Text": "¿Tú me amas o no?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -1085,11 +1085,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Take his offer.)",
+              "Text": "(Aceptar su oferta.)",
               "NextID": 80
             },
             {
-              "Text": "(Back out.)",
+              "Text": "(Volver.)",
               "NextID": 207
             }
           ],
@@ -1099,7 +1099,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Of <i>course</i> I love you.",
+          "Text": "<i>Claro</i> que te amo.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1138,7 +1138,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Smiling warmly,░ his hands cupped my own,░ pulling me over to the bed.░ He guided my hands to his hips as he climbed atop the sheets with me standing behind him.░\r\nIn a blink he had slipped his shirt over his head and slid free of his shorts with an expert lift of his hips and flick of his fingers.",
+          "Text": "<i>Sonriendo cariñosamente,░ sus manos tomaron las mías,░ tirando de mí hasta la cama.░ Llevó mis manos a sus caderas mientras se subía a las sábanas y yo me ponía detrás de él.░\r\nEn un abrir y cerrar de ojos, se había quitado la camisa por encima de la cabeza y se había desprendido de los calzoncillos levantando las caderas y moviendo los dedos.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1165,7 +1165,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "It's more fun when you take everything off <i>for</i> me,░ but you seem a little shy,░ so I'll make it easy for you.░\r\nSee my cute pink panties?░ How about you play with them?",
+          "Text": "Es más divertido cuando se quita todo <i>para mi</i>,░ pero pareces un poco tímido,░ así que te lo pondré fácil.░\r\n¿Ves mis bonitas bragas rosas?░ ¿Qué tal si juegas con ellas?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -1179,7 +1179,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>There wasn't any reason in disobeying at this point:░ I had my brother right where I'd always wanted him.░ Asking no questions,░ I allowed my hands to trace down the arch of his back.░ A much needed sigh escaping me in a whine as I finally filled my hands with his cute rump.",
+          "Text": "<i>No había ninguna razón para desobedecer en este momento:░ Tenía a mi hermano justo donde siempre lo había querido.░ Sin hacer preguntas,░ dejé que mis manos recorrieran el arco de su espalda.░ Un suspiro muy necesario se me escapó en un gemido cuando finalmente llené mis manos con su linda cola.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1206,7 +1206,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oooh,░ you're loving every second of this, I can tell.░ Don't worry,░ I'm loving it too.░ Keep going!",
+          "Text": "Oooh,░ se nota que te gusta cada segundo de esto.░ No te preocupes,░ a mí también me encanta.░ ¡No pares!",
           "Title": "Coby",
           "Color": {
             "B": 255,
