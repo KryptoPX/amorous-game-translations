@@ -18,7 +18,7 @@
 | MercyDate.json     | 🔴 `To Do`     |    1246     |
 | MercyPreDate.json  | 🔴 `To Do`     |     405     |
 | NudesRemy.json     | 🟢 `Completed` |      5      |
-| Prologue.json      | 🔴 `To Do`     |     304     |
+| Prologue.json      | 🟡 `Doing`     |     304     |
 | RemyDate.json      | 🔴 `To Do`     |    1091     |
 | RemyPreDate.json   | 🔴 `To Do`     |     773     |
 | Rou.json           | 🔴 `To Do`     |     44      |
