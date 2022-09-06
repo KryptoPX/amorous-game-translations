@@ -1,0 +1,736 @@
+{
+  "Name": "Rou",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 2,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubBarScene",
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 3,
+          "NextID": 4,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Standing",
+          "Clothes": [
+            "Pants",
+            "Shirt"
+          ],
+          "ID": 4,
+          "NextID": 5,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bienvenido a Amorous!░ El club más popular de la ciudad.░ Soy Rou y seré tu Artesano de Bebidas esta noche. ¿Qué puedo hacer por tí?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 5,
+          "NextID": 6,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Quisiera ordenar un trago",
+              "NextID": 7
+            },
+            {
+              "Text": "Quería preguntar sobre el club",
+              "NextID": 12
+            },
+            {
+              "Text": "(Irse.)",
+              "NextID": 50
+            }
+          ],
+          "ID": 6,
+          "NextID": 0,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 7,
+          "NextID": 8,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Qué tienes en mente?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 8,
+          "NextID": 9,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Algo sin alcohol.)",
+              "NextID": 10
+            },
+            {
+              "Text": "(Algo con alcohol.)",
+              "NextID": 10
+            }
+          ],
+          "ID": 9,
+          "NextID": 0,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 10,
+          "NextID": 11,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Aquí tienes! ¿Algo más?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 11,
+          "NextID": 6,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 12,
+          "NextID": 13,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Algo en particular?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 13,
+          "NextID": 14,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "¿Por dónde empiezo?",
+              "NextID": 15
+            },
+            {
+              "Text": "¿Sabes mucho sobre los clientes de aquí?",
+              "NextID": 20
+            },
+            {
+              "Text": "No importa...",
+              "NextID": 48
+            }
+          ],
+          "ID": 14,
+          "NextID": 0,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nunca había estado aquí antes.░ Un amigo me convenció de venir y luego me dejó un poco plantado.░ ¿Cómo es una noche aquí?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 15,
+          "NextID": 16,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 16,
+          "NextID": 17,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bueno, está el grupo habitual del club;░ buscando pasar un buen rato de cualquier manera posible.░ La pista de baile suele estar bastante llena,░ pero la mayoría de la gente busca a alguien con quien conectar.░ Eso o me cuentan sus problemas.░ Y, por supuesto, ¡las bebidas son de primera!",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 17,
+          "NextID": 18,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 18,
+          "NextID": 19,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Espero que eso ayude!░ ¿Necesitas algo más?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 19,
+          "NextID": 6,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 20,
+          "NextID": 21,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Alguien quién tengas en mente?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 21,
+          "NextID": 22,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(¿El punk de afuera?)",
+              "NextID": 23
+            },
+            {
+              "Text": "(¿El tipo cerca del ascensor?)",
+              "NextID": 26
+            },
+            {
+              "Text": "(¿La chica de la cabina de allí?)",
+              "NextID": 42
+            },
+            {
+              "Text": "(¿La mujer de allí con el vestido de cóctel?)",
+              "NextID": 29
+            },
+            {
+              "Text": "(Otra persona. (Continúa))",
+              "NextID": 32
+            }
+          ],
+          "ID": 22,
+          "NextID": 0,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Podrías decirme más sobre el husky punk de atrás?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 23,
+          "NextID": 24,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 24,
+          "NextID": 25,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nunca he visto a ese aquí dentro.░ No parece que fuese tímido ni nada por el estilo, un poco difícil para un lugar como este si me preguntas.░ No le conozco demasiado, ni siquiera estoy seguro de si es un chico o una chica honestamente... ",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 25,
+          "NextID": 18,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "El león de allí parece un tipo genial,░ qué le gusta?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 26,
+          "NextID": 27,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Dustin? Es un habitual.░ Parece bastante agradable,░ aunque rara vez lo veo con alguien por más de una semana.░ Debe de gustarle mucho lo informal",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 28,
+          "NextID": 18,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "La linda sátira del salón parece estar sola.░ ¿Es agradable?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 29,
+          "NextID": 30,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 30,
+          "NextID": 31,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡No la llaman Misterio por nada! ...¿O era Mercy?░\r\nNunca se sabe a quién encontrarás en Amorous,░ sé que a ella le encantan los cócteles",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 31,
+          "NextID": 18,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(¿La chica sola en la piscina?)",
+              "NextID": 33
+            },
+            {
+              "Text": "(¿El otro cantinero?)",
+              "NextID": 36
+            },
+            {
+              "Text": "(¿El tipo que se quedó en la barra?)",
+              "NextID": 39
+            },
+            {
+              "Text": "(¿El dragón verde de seguridad del piso de arriba?)",
+              "NextID": 45
+            },
+            {
+              "Text": "(No importa por el momento.)",
+              "NextID": 48
+            }
+          ],
+          "ID": 32,
+          "NextID": 0,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "La conejita de arriba parece un poco perdida░ ¿Es nueva?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 34,
+          "NextID": 35,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ella es la rara en una sala como esta, creo que es mayor para uno.░ De hecho, viene con bastante frecuencia,░ aunque no es exactamente una persona social... Deja que eso alimente tu especulación.",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 35,
+          "NextID": 18,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Has trabajado mucho tiempo con el chico guapo que lleva tanga? ¿Parece agradable?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 36,
+          "NextID": 37,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 37,
+          "NextID": 38,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Jax? Jaja, sí es un buen tipo, trabaja más duro aquí que la mayoría.░ \r\nPuede que sea mejor que lo hagas con calma, ya los ha visto a todos ir y venir, no es precisamente conocido por mezclar negocios y placer.░ ",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 38,
+          "NextID": 18,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "El chico gato está muy callado.░ ¿Siempre es así?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 39,
+          "NextID": 40,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 40,
+          "NextID": 41,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Es parlanchín si se le llama la atención.░ Por alguna razón puede desconectarse entre todo este ruido y trabajar en sus historias.",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 41,
+          "NextID": 18,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Esa chica del pelaje dorado no parece estar pasando por un buen momento.░ ¿Qué pasa con eso?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 42,
+          "NextID": 43,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 43,
+          "NextID": 44,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No puedo decir que la haya visto antes.░ Probablemente sea su primera vez.░ No ha estado muy dispuesta a coquetear o a bailar en la última hora.░ ¿Tal vez debas ir a ver cómo va su día?",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 44,
+          "NextID": 18,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Todos tus porteros son dragones? ¿Puedes hablarme del tipo que vigila arriba? Parece un poco... estoico.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 45,
+          "NextID": 46,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 46,
+          "NextID": 47,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hace que haya una multitud muy segura y ordenada, si me permite decirlo.░ Zenith se pone así a veces, con una mirada de mil metros, ¿sabes?░\r\nNo habla de ello, pero es popular entre los clientes.",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 47,
+          "NextID": 18,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "BartenderNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 48,
+          "NextID": 49,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Claro.░ ¡Golpea si se te ocurre algo!",
+          "Title": "Rou",
+          "Color": {
+            "B": 116,
+            "G": 116,
+            "R": 116,
+            "A": 255
+          },
+          "ID": 49,
+          "NextID": 6,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Volveré, ¡gracias!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 50,
+          "NextID": 51,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 51,
+          "NextID": 52,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 52,
+          "NextID": 53,
+          "DebugID": 36
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 53,
+          "NextID": 0,
+          "DebugID": 37
+        }
+      ]
+    }
+  ]
+}
