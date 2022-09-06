@@ -42,7 +42,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Welcome to Amorous!░ Hottest club in town.░ I'm Rou and I'll be your Beverage Artisan this evening. What can I do for you?",
+          "Text": "Bienvenido a Amorous!░ El club más popular de la ciudad.░ Soy Rou y seré tu Artesano de Bebidas esta noche. ¿Qué puedo hacer por tí?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -58,15 +58,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "I'd like to order a drink.",
+              "Text": "Quisiera ordenar un trago",
               "NextID": 7
             },
             {
-              "Text": "I wanted to ask about the club.",
+              "Text": "Quería preguntar sobre el club",
               "NextID": 12
             },
             {
-              "Text": "(Walk away.)",
+              "Text": "(Irse.)",
               "NextID": 50
             }
           ],
@@ -89,7 +89,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "What did you have in mind?",
+          "Text": "¿Qué tienes en mente?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -105,11 +105,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Something non-alcoholic.)",
+              "Text": "(Algo sin alcohol.)",
               "NextID": 10
             },
             {
-              "Text": "(Something alcoholic.)",
+              "Text": "(Algo con alcohol.)",
               "NextID": 10
             }
           ],
@@ -132,7 +132,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Here you go! Anything else?",
+          "Text": "¡Aquí tienes! ¿Algo más?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -159,7 +159,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Anything in particular?",
+          "Text": "¿Algo en particular?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -175,15 +175,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Where do I start?",
+              "Text": "¿Por dónde empiezo?",
               "NextID": 15
             },
             {
-              "Text": "Do you know much about the patrons here?",
+              "Text": "¿Sabes mucho sobre los clientes de aquí?",
               "NextID": 20
             },
             {
-              "Text": "Nevermind...",
+              "Text": "No importa...",
               "NextID": 48
             }
           ],
@@ -193,7 +193,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I've never been here before.░ A friend convinced me to come and then kinda left me in the lurch.░ What's a night here like?",
+          "Text": "Nunca había estado aquí antes.░ Un amigo me convenció de venir y luego me dejó un poco plantado.░ ¿Cómo es una noche aquí?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -220,7 +220,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Well, there's the usual club crew;░ looking to have a good time in any way possible.░ The dance floor is usually pretty packed,░ but most people are looking for someone to connect with.░ Either that or they're telling me their problems.░ And of course, the drinks are all top notch!",
+          "Text": "Bueno, está el grupo habitual del club;░ buscando pasar un buen rato de cualquier manera posible.░ La pista de baile suele estar bastante llena,░ pero la mayoría de la gente busca a alguien con quien conectar.░ Eso o me cuentan sus problemas.░ Y, por supuesto, ¡las bebidas son de primera!",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -247,7 +247,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Hope that helps!░ Need anything else?",
+          "Text": "¡Espero que eso ayude!░ ¿Necesitas algo más?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -274,7 +274,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Someone you had in mind?",
+          "Text": "¿Alguien quién tengas en mente?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -290,23 +290,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(The punk outside?)",
+              "Text": "(¿El punk de afuera?)",
               "NextID": 23
             },
             {
-              "Text": "(The guy near the elevator?)",
+              "Text": "(¿El tipo cerca del ascensor?)",
               "NextID": 26
             },
             {
-              "Text": "(The girl in the booth over there?)",
+              "Text": "(¿La chica de la cabina de allí?)",
               "NextID": 42
             },
             {
-              "Text": "(The woman over there in the cocktail dress?)",
+              "Text": "(¿La mujer de allí con el vestido de cóctel?)",
               "NextID": 29
             },
             {
-              "Text": "(Someone else. (Continues))",
+              "Text": "(Otra persona. (Continúa))",
               "NextID": 32
             }
           ],
@@ -316,7 +316,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Could you tell me more about the punk husky out back?",
+          "Text": "¿Podrías decirme más sobre el husky punk de atrás?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -343,7 +343,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Haven't ever seen that one inside.░ Doesn't look like they're shy or anything, a little rough for a place like this if you ask me.░ I don't any dirt on them, not even sure if they're a guy or a girl honestly... ",
+          "Text": "Nunca he visto a ese aquí dentro.░ No parece que fuese tímido ni nada por el estilo, un poco difícil para un lugar como este si me preguntas.░ No le conozco demasiado, ni siquiera estoy seguro de si es un chico o una chica honestamente... ",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -357,7 +357,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "The lion over there seems like a cool dude,░ what's he like?",
+          "Text": "El león de allí parece un tipo genial,░ qué le gusta?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -384,7 +384,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Dustin? He's a regular.░ Seems nice enough,░ though I rarely see him with someone for more than a week.░ Must really like the casual stuff.",
+          "Text": "¿Dustin? Es un habitual.░ Parece bastante agradable,░ aunque rara vez lo veo con alguien por más de una semana.░ Debe de gustarle mucho lo informal",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -398,7 +398,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "The cute satyr in the lounge seems lonely.░ Is she nice?",
+          "Text": "La linda sátira del salón parece estar sola.░ ¿Es agradable?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -425,7 +425,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "They don't call her Mystery for nothing! ...Or was it Mercy?░\r\nYou never know who you'll find in Amorous,░ I do know she goes hard on the cocktails.",
+          "Text": "¡No la llaman Misterio por nada! ...¿O era Mercy?░\r\nNunca se sabe a quién encontrarás en Amorous,░ sé que a ella le encantan los cócteles",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -441,23 +441,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(The girl by herself at the pool?)",
+              "Text": "(¿La chica sola en la piscina?)",
               "NextID": 33
             },
             {
-              "Text": "(The other bar tender?)",
+              "Text": "(¿El otro cantinero?)",
               "NextID": 36
             },
             {
-              "Text": "(The guy hanging onto the bar there?)",
+              "Text": "(¿El tipo que se quedó en la barra?)",
               "NextID": 39
             },
             {
-              "Text": "(The green dragon security guard upstairs?)",
+              "Text": "(¿El dragón verde de seguridad del piso de arriba?)",
               "NextID": 45
             },
             {
-              "Text": "Nevermind that for now.",
+              "Text": "(No importa por el momento.)",
               "NextID": 48
             }
           ],
@@ -467,7 +467,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "The bunny girl upstairs seems a bit lost.░ Is she new?",
+          "Text": "La conejita de arriba parece un poco perdida░ ¿Es nueva?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -494,7 +494,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "She's the odd one out in a room like this, I think she's older for one.░ She's actually here quite frequently,░ not exactly a social butterfly though... Let that feed your speculation!",
+          "Text": "Ella es la rara en una sala como esta, creo que es mayor para uno.░ De hecho, viene con bastante frecuencia,░ aunque no es exactamente una persona social... Deja que eso alimente tu especulación.",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -508,7 +508,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Have you worked with the cute guy in the thong for long? He seems nice?",
+          "Text": "¿Has trabajado mucho tiempo con el chico guapo que lleva tanga? ¿Parece agradable?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -535,7 +535,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Jax? Haha, yeah he's a good guy, works harder here than most of them.░ \r\nMight wanna ease into that one, he's seen 'em all come and go - he's not exactly known for mixing business and pleasure.░ ",
+          "Text": "¿Jax? Jaja, sí es un buen tipo, trabaja más duro aquí que la mayoría.░ \r\nPuede que sea mejor que lo hagas con calma, ya los ha visto a todos ir y venir, no es precisamente conocido por mezclar negocios y placer.░ ",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -549,7 +549,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "The cat guy is awfully quiet.░ Is he always like that?",
+          "Text": "El chico gato está muy callado.░ ¿Siempre es así?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -576,7 +576,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "He's chatty if you grab his attention!░ For some reason he can zone out amongst all this noise and work on his stories.",
+          "Text": "Es parlanchín si se le llama la atención.░ Por alguna razón puede desconectarse entre todo este ruido y trabajar en sus historias.",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -590,7 +590,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "That girl with the golden fur doesn't seem to be having a good time.░ What's up with that?",
+          "Text": "Esa chica del pelaje dorado no parece estar pasando por un buen momento.░ ¿Qué pasa con eso?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -617,7 +617,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Can't say I've seen her around before.░ It's probably her first time.░ She hasn't been too eager to flirt or dance over the last hour.░ Perhaps go see how her day is going?",
+          "Text": "No puedo decir que la haya visto antes.░ Probablemente sea su primera vez.░ No ha estado muy dispuesta a coquetear o a bailar en la última hora.░ ¿Tal vez debas ir a ver cómo va su día?",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -631,7 +631,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Are all your bouncers dragons? Can you tell me about the guy keeping watch upstairs, he seems kinda... stoic.",
+          "Text": "¿Todos tus porteros son dragones? ¿Puedes hablarme del tipo que vigila arriba? Parece un poco... estoico.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -658,7 +658,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Makes for a very safe and orderly crowd if I do say so!░ Zenith gets like that sometimes, thousand yard stare, you know?░\r\nHe doesn't talk about it, but he's popular with the clients. ",
+          "Text": "Hace que haya una multitud muy segura y ordenada, si me permite decirlo.░ Zenith se pone así a veces, con una mirada de mil metros, ¿sabes?░\r\nNo habla de ello, pero es popular entre los clientes.",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -685,7 +685,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Sure.░ Holler if you think of something!",
+          "Text": "Claro.░ ¡Golpea si se te ocurre algo!",
           "Title": "Rou",
           "Color": {
             "B": 116,
@@ -699,7 +699,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'll be back, thanks!",
+          "Text": "Volveré, ¡gracias!",
           "Title": "%playername%",
           "Color": {
             "B": 255,
