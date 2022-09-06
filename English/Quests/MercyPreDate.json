@@ -26,7 +26,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Over the bustle of the crowd one of the lounge-goers caught my eye,░ not least of all because her outfit stood out above the clubbing gear of the other patrons.░ Sipping a cocktail, her sheer slip gave her outline an undeniable elegance.",
+          "Text": "<i>Uno de los asistentes capturo mi mirada entre el barullo de la multitud,░ Principalmente su vestimenta destacaba sobre el resto de los asistentes del club.░ Su escotado vestido denotaba una elegancia innegable mientras bebia su cocktail",
           "Title": "%playername%",
           "Color": {
             "B": 255,
