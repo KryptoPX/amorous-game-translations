@@ -21,7 +21,7 @@
 | Prologue.json      | 🔴 `To Do`     |     304     |           |
 | RemyDate.json      | 🔴 `To Do`     |    1091     |           |
 | RemyPreDate.json   | 🔴 `To Do`     |     773     |           |
-| Rou.json           | 🟡 `Doing`     |     44      | SpeedNoon |
+| Rou.json           | 🟢 `Completed` |     44      | SpeedNoon |
 | SethDate.json      | 🔴 `To Do`     |     776     |           |
 | SethPreDate.json   | 🔴 `To Do`     |     331     |           |
 | SkyeDate.json      | 🔴 `To Do`     |    1098     |           |
