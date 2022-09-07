@@ -26,7 +26,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Uno de los asistentes capturo mi mirada entre el barullo de la multitud,░ Principalmente su vestimenta destacaba sobre el resto de los asistentes del club.░ Su escotado vestido denotaba una elegancia innegable mientras bebia su cocktail",
+          "Text": "<i>Una de las asistentes capturó mi mirada entre el bullicio de la multitud,░ Su vestimenta destacaba especialmente sobre el resto de los asistentes del club.░ Su escotado vestido denotaba una elegancia innegable mientras bebia su cocktail",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -68,7 +68,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Mercy,░ nice to meet you.░                            ",
+          "Text": "Mercy,░ encantada de conocerte.░",
           "Title": "Mercy",
           "Color": {
             "B": 255,
@@ -82,7 +82,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Time on the dance floor seemed a little too much like the deep end...░ Anyway, I didn't want to crowd Coby.░ Maybe after I got a feel for the lounge?░ Speaking of... ",
+          "Text": "<i>El tiempo en la pista de baile se sentia un poco abrumador...░ Y de igual forma, no queria molestar demasiado a Coby.░ Quizas sea mejor al coger el ritmo de la sala?░ Y hablando de eso...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -96,7 +96,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>She seemed happy enough taking shallow sips from her glass,░ her eyes on one of the girls giving her all on the pole.░ Maybe I should introduce myself?",
+          "Text": "<i>Ella parecia contentada mientras tomaba unos sorbos de su vaso,░ sus ojos fijos en una de las chicas que estaba dandolo todo en la barra.░ Quizas podria ir a presentarme?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -112,23 +112,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Take a seat beside her, maybe a conversation will start. ",
+              "Text": "Sentarse a su lado, quizás se inicie una conversación.", 
               "NextID": 14
             },
             {
-              "Text": "Go over and put an arm on the couch, draw her attention.",
+              "Text": "Acercarse y descansar un brazo en el sofa, llamar su atención,",
               "NextID": 15
             },
             {
-              "Text": "Go over and introduce myself.",
+              "Text": "Acercarme y presentarme.",
               "NextID": 17
             },
             {
-              "Text": "She looks like she has her eyes on the prize already. (Leave.)",
+              "Text": "Parece tener su interés en alguien. (Irse).",
               "NextID": 12
             },
             {
-              "Text": "Not my type. (Leave.)",
+              "Text": "No es mi tipo. (Irse).",
               "NextID": 11
             }
           ],
@@ -138,7 +138,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Not exactly what I'm looking for, maybe another time. ",
+          "Text": "No es realmente lo que buscaba, quizas la próxima vez.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -152,7 +152,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Looks like she's already occupied,░ I'll try somone else.░ ",
+          "Text": "Parece estar ocupada,░ buscaré a alguien diferente.░",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -172,7 +172,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I headed over, bobbing to the music.░ Playing it cool, I dropped her a smile and took a seat beside her,░ admiring the same show from a respectable distance:░ wouldn't want to crowd her. ",
+          "Text": "<i>Me dirigí hacia ella, moviendome con la musica.░ Actuando con calma, le dediqué una sonrisa antes de sentarme a su lado,░ admirando el mismo espectaculo desde una distancia respetable:░ no querría molestarla.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
