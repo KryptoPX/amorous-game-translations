@@ -186,7 +186,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Not wanting to wait around, I headed over,░ moving to the beat.░ Slipping in next to the couch, I leaned against the wall,░ hand on the plush fabric near her shoulder as I used the height difference as an excuse to lean in.░ ",
+          "Text": "<i>Al no querer esperarme, simplemente me acerqué,░ moviendome al ritmo.░ Deslizandome a su lado en el sofá y apoyandome contra la pared,░ mi mano posada en la suave tela cerca de su hombro mientras usaba la altura como excusa para inclinarme hacia ella.░",
           "Title": "%playername%",
           "Color": {
             "B": 255,
