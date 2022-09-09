@@ -1066,7 +1066,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh man,░ <i>manners</i> too?░ My poor heart.░\r\nNice to meet you, %playername%,░ I'm Zenith.",
+          "Text": "Oh caray,░ si tiene<i>modales</i>?░ Mi pobre corazón.░\r\nEncantado de conocerte, %playername%,░ soy Zenith.",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1080,7 +1080,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith reached out and gripped my hand firmly,░ giving it a squeeze.░\r\nOuch!░\r\nHow much does this guy lift?!░ I stifled a grimace by gritting my teeth as we shook and he thankfully let go of my hand",
+          "Text": "<i>Zenith se acercó y me agarró la mano con firmeza,░ dándole un apretón.░\r\n¡Ay!░\r\n¿Cuánto levanta este tío?░ Contuve una mueca apretando los dientes mientras nos dábamos la mano y, afortunadamente, me la soltó",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1094,7 +1094,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith let out a hearty laugh,░ with his size the sound easily cut over the thumping of the music.",
+          "Text": "<i>Zenith soltó una carcajada.,░ con su tamaño el sonido se corta fácilmente sobre el ruido de la música.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1124,7 +1124,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "What do you say,░ Rose?░ Think we've got a winner here?...",
+          "Text": "¿Qué dices?,░ Rose?░ ¿Crees que tenemos un ganador?...",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1138,7 +1138,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Winner?░</i>\r\nWhat do you mean?",
+          "Text": "<i>¿Ganador?░</i>\r\n¿Qué quieres decir?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1152,7 +1152,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>The avian in the belly top (Rose by the sound of it)░ eyed me up a few times and nodded.░ There was a sultry look about him,░ hand on his hip,░ appraising me as he gave a little wink.░ Something about his look was a little off,░ a smirk maybe?░ The way he seemed to try me on for size was more than forward.",
+          "Text": "<i>El ave en la parte superior de la barriga (Rose por el sonido de la misma)░ me miró varias veces y asintió con la cabeza.░ Tenía una mirada seductora,░ la mano en la cadera,░ evaluándome mientras me guiñaba un ojo.░ Algo en su mirada estaba un poco fuera de lugar,░ una sonrisa de satisfacción quizás?░ La forma en la que parecía probarme para ver mi tamaño era más que directa.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1182,7 +1182,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Mm, I think so.░ He's absolutely adorable...\r\nNever one to turn down fresh meat either.",
+          "Text": "Mm, eso creo.░ Es completamente adorable...\r\nTampoco se puede rechazar la carne fresca.",
           "Title": "Rose Wood",
           "Color": {
             "B": 81,
@@ -1196,7 +1196,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>The dragon's eyes narrowed for a moment,░ however that grin never leaves his face.░\r\nThe avian smiled and stepped up,░ giving the security guy something to watch as he looked me over apraisingly and I smiled softly, running my hand down the fabric on his hip. ",
+          "Text": "<i>Los ojos del dragón se entrecerraron por un momento,░ sin embargo esa sonrisa nunca deja su cara.░\r\nEl ave sonrió y se acercó,░ dándole al tipo de seguridad algo que mirar mientras me observaba con aprensión y yo sonreía suavemente, pasando mi mano por la tela de su cadera. ",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1210,7 +1210,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I watched as Zenith narrowed his eyes seeing if I was joking,░ that grin stretching wider.░ He drew my face back his way with a single clawed finger under my chin,░ locking his eyes with mine and clearly delighting at the shiver his unexpected touch caused down my spine.",
+          "Text": "<i>Observé como Zenith entrecerraba los ojos viendo si estaba bromeando,░ su sonrisa se hizo más amplia.░ Me hizo retroceder la cara hasta su lado con una sola garra de sus dedos,░ fijando sus ojos en los míos y deleitándose claramente con el escalofrío que su inesperado roce provocó en mi espina dorsal.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1224,7 +1224,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith clapped one large palm on my back.░\r\nDamn,░ the guy certainly could pack a punch,░ I'd hate to be on the wrong side of him.░ Regardless,░ they sure didn't waste any time being friendly:░ I guess Coby's advice about being more open paid off.░ I couldn't help but smile despite my shiness. ",
+          "Text": "<i>Zenith me aplaudió con la palma en la espalda.░\r\nJoder, ░ el tío ciertamente podía dar un golpe, ░ no me gustaría estar en el lado equivocado.░ Sin embargo, ░ no perdieron el tiempo en ser amistosos:░ Supongo que el consejo de Coby sobre ser más abierto dio resultados.░ No pude evitar sonreír a pesar de mi timidez. ",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1254,7 +1254,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Look at the newbie, huh?░ I like your spunk.░ Think you can keep up with me and Rose, though?",
+          "Text": "Mira al novato, ¿eh? ░ Me gustan tus agallas.░ ¿Crees que puedes seguir mi ritmo y el de Rose?",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1268,7 +1268,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith moved closer,░ reaching an arm around both his friend and me at the same time.░ Before I could react,░ I was pulled up against his chest.░ Maybe being cheek-to-pec was a little premature,░ but I suppose I did instigate.░ The other guy, Rose, made a little 'eep' nose before snuggling up,░ winking at me with a smirk.",
+          "Text": "<i>Zenith se acercó,░ rodeando con un brazo a su amigo y a mí al mismo tiempo.░ Antes de que pudiera reaccionar, ░ me tiraron contra su pecho.░ Tal vez al ser mejilla a pecho fue un poco prematuro,░ pero supongo que instigué.░ El otro chico, Rose, hizo un pequeño 'eep' antes de acurrucarse,░ guiñándome un ojo con una sonrisa.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1298,7 +1298,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "%playername%, eh?░ Well I go by Zenith.░ Think we've found what we're looking for, Rose?",
+          "Text": "%playername%, ¿Eh? ░ Bueno, me llamo Zenith. ░ ¿Crees que hemos encontrado lo que estamos buscando, Rose?",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1312,7 +1312,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>The kind of person they've been looking for?...░\r\nThat sentence ran through my head a few times,░ I guess being bold does get you somewhere, like Coby said.",
+          "Text": "<i>El tipo de persona que han estado buscando...░\r\nEsa frase me pasó por la cabeza varias veces,░ Supongo que ser audaz te lleva a alguna parte, como dijo Coby.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1326,7 +1326,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>The avian in the belly top (Rose by the sound of it)░ eyed me up a few times and nodded.░ There's a sultry look about him,░ hand on his hip,░ appraising me as he gave a little wink.░ Something about his look was a little off,░ a smirk maybe?░ The way he seemed to try me on for size was more than forward.",
+          "Text": "<i>El aviador de la parte superior de la barriga (Rose por el sonido de la misma)░ me miró un par de veces y asintió con la cabeza.░ Tiene una mirada sensual,░ la mano en la cadera,░ me evalúa mientras me hace un pequeño guiño.░ Algo en su mirada estaba un poco fuera de lugar, ░ ¿una sonrisa de satisfacción tal vez?░ La forma en que parecía probarme para ver mi tamaño era más que directa.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1356,7 +1356,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Mm,</i> yeah...░ I like a guy who can take charge.░\r\nBut you knew that already...",
+          "Text": "<i>Mm,</i> sí... ░ Me gusta un tipo que pueda hacerse cargo.░\r\nPero eso ya lo sabías...",
           "Title": "Rose Wood",
           "Color": {
             "B": 81,
@@ -1383,7 +1383,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Now you've <i>really</i> intrigued me.░ What did you say your name was, Newbie?",
+          "Text": "Ahora <i>si</i> que me has intrigado.░ ¿Cómo dijiste que te llamabas, novato?",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1397,7 +1397,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith's large form was definitely intimidating,░ but something about him was appealing despite that.░\r\nHe was taller than most,░ maybe second to Kane, the doorman:░ but his touch was gentle despite that.░\r\nAnd those bright eyes?░ He was near hypnotic.",
+          "Text": "<i>La gran forma de Zenith era definitivamente intimidante,░ pero a pesar de eso algo en él era atractivo.░\r\nEra más alto que la mayoría,░ tal vez segundo a Kane, el portero:░ pero su tacto era suave a pesar de ello.░\r\n¿Y esos ojos brillantes? ░ Era casi hipnótico.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1427,7 +1427,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "%playername%?░ Well, I'm really glad I bumped into you,░ %playername%...░ I'm Zenith, nice to meet you.░\r\nHmmm... Think we've found what we're looking for, Rose?",
+          "Text": "%playername%?░ Bueno, me alegro de haberme topado contigo,░ %playername%...░ Soy Zenith, encantado de conocerte.░\r\nHmmm... ¿Crees que hemos encontrado lo que estamos buscando, Rose?",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1441,7 +1441,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>His playful tone did very little to stop my bright red face.░ The kind of person they'd been looking for?░\r\nThat sentence ran through my head a few times.",
+          "Text": "<i>Su tono juguetón hizo muy poco para evitar que mi cara se pusiera roja.░ ¿El tipo de persona que estaban buscando?░\r\nEsa frase me pasó por la cabeza varias veces.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1471,7 +1471,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I mean, okay, yeah:░ he's cute and all...░ but don't forget who's <i>cuter</i>, Zenith.░\r\nHe'll do,░ so long as you remember who's number one.",
+          "Text": "Quiero decir, está bien, sí:░ es mono y todo...░ pero no olvides quién es <i>mas mono</i>, Zenith.░\r\nLo hará,░ siempre y cuando recuerdes quién es el número uno.",
           "Title": "Rose Wood",
           "Color": {
             "B": 81,
@@ -1485,7 +1485,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>The avian in the belly top (Rose by the sound of it)░ eyed me up a few times and nodded.░ There's a sultry look about him,░ hand on his hip,░ when Zenith's eyes were on me there was a dark look on his face.░ He tapped his foot and put on a smile.",
+          "Text": "<i>El ave en la parte superior de la barriga (Rose por el sonido de la misma)░ me miró un par de veces y asintió.░ Tiene una mirada sensual,░ la mano en la cadera,░ cuando los ojos de Zenith se fijaron en mí había una mirada oscura en su rostro.░ Se golpeó el pie y sonrió.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1515,7 +1515,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Gotta start somewhere, right?░\r\nRose and I are practically part of the old guard now, I guess.░ Always nice to see a new face, though.░\r\nHaha, sure beats you just wanting to know where the bathrooms are or something too,░ you'd never guess how many times some cute guy or girl came up and that's all they wanted from me.",
+          "Text": "Habrá que empezar por algún lado, ¿no?░\r\nRose y yo somos ya prácticamente parte de la vieja guardia, supongo.░ Aunque siempre es bueno ver una cara nueva.░\r\nJaja, seguro que es mejor que querer saber dónde están los baños o algo así,░ no te imaginas la cantidad de veces que un chico o una chica guapa se me han acercado y eso es lo único que quería de mí.",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1529,7 +1529,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith had a sort of natural charm to him that soothed my nerves almost immediately.░ While Rose's mischievous grin was good in it's own way too, I felt on the verge of some trick. Zenith's attentions, while still playful and forward, seemed made me feel more like an entree than an appetizer, if that made any sense.░\r\nMaybe learning a thing or two from these guys wouldn't be such a bad idea.",
+          "Text": "<i>Zenith tenía una especie de encanto natural que me calmó casi inmediatamente.░ Aunque la sonrisa traviesa de Rose también era buena a su manera, me sentí al borde de algún truco. Las atenciones de Zenith, aunque seguían siendo juguetonas y atrevidas, parecían hacerme sentir más como un plato principal que como un aperitivo, si es que eso tiene algún sentido.░\r\nQuizás aprender un par de cosas de ellos no sería tan mala idea.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1559,7 +1559,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Well, Rose?░\r\nYou've had your eye out all night.░ Do you think we've found what we've been <i>looking</i> for?",
+          "Text": "¿Y bien, Rose?░\r\nHas estado echando un ojo toda la noche.░ ¿Crees que hemos encontrado lo que estábamos <i>buscando</i>?",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1573,7 +1573,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I suppose that didn't come entirely out of nowhere,░ and I was flattered they'd been checking me out,░ but 'what they were looking for'?░\r\nI ran that sentence over a few times in my head...",
+          "Text": "<i>Supongo que eso no salió totalmente de la nada,░ y me sentí halagado de que me hubieran investigado,░ pero ¿'lo que buscaban'?░\r\nRepasé esa frase varias veces en mi cabeza...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1587,7 +1587,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Rose leaned closer in his belly top,░ looking me over with a finger playfully scratching his beak.░ There was a sultry look about him,░ hand on his hip,░ appraising me as he gave a little wink.░ Something about his look was a little off,░ a smirk maybe?░ The way he seemed to try me on for size was more than forward.",
+          "Text": "<i>Rose se inclinó más en su barriga,░ mirándome con un dedo mientras se rascaba juguetonamente el pico.░ Tenía una mirada sensual, ░ la mano en la cadera, ░ evaluándome mientras me guiñaba un ojo.░ Algo en su mirada estaba un poco fuera de lugar, ░ ¿una sonrisa de satisfacción tal vez?░ La forma en que parecía probarme para ver mi tamaño era más que directa.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1603,19 +1603,19 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Question their 'plans'.)",
+              "Text": "(Cuestionar sus 'planes'.)",
               "NextID": 117
             },
             {
-              "Text": "(Call it off.)",
+              "Text": "(Cancelarlo.)",
               "NextID": 118
             },
             {
-              "Text": "(Just roll with it.)",
+              "Text": "(Sequirle el rollo.)",
               "NextID": 119
             },
             {
-              "Text": "Lemme just... um... (Leave.)",
+              "Text": "Permíteme... um... (Irse.)",
               "NextID": 396
             }
           ],
@@ -1627,23 +1627,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Question their 'plans'.)",
+              "Text": "(Cuestionar sus 'planes'.)",
               "NextID": 120
             },
             {
-              "Text": "(Call it off.)",
+              "Text": "(Cancelarlo.)",
               "NextID": 121
             },
             {
-              "Text": "(Keep up that dominant attitude.)",
+              "Text": "(Seguir con esa actitud dominante.)",
               "NextID": 122
             },
             {
-              "Text": "(Dominance isn't really my style, let them take control.)",
+              "Text": "(La dominancia no es realmente mi estilo, dejar que tomen el control.)",
               "NextID": 125
             },
             {
-              "Text": "Lemme just... um... (Leave.)",
+              "Text": "Permíteme... um... (Irse.)",
               "NextID": 396
             }
           ],
@@ -1655,23 +1655,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Question their 'plans'.)",
+              "Text": "(Cuestionar sus 'planes'.)",
               "NextID": 123
             },
             {
-              "Text": "(Call it off.)",
+              "Text": "(Cancelarlo.)",
               "NextID": 124
             },
             {
-              "Text": "(Keep up that submissive attitude.)",
+              "Text": "(Seguir con esa actitud sumisa.)",
               "NextID": 125
             },
             {
-              "Text": "(Submission isn't really my style, take control.)",
+              "Text": "(La sumisión no es realmente mi estilo, tomar el control.)",
               "NextID": 122
             },
             {
-              "Text": "Lemme just... um... (Leave.)",
+              "Text": "Permíteme... um... (Irse.)",
               "NextID": 396
             }
           ],
@@ -1681,7 +1681,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Perhaps it was just me being new to this kind of thing,░ but I didn't expect to be hit on right off the bat so openly.░ They both seemed nice,░ but I couldn't help but wonder what their angle was. ",
+          "Text": "<i>Tal vez sea que soy nuevo en este tipo de cosas,░ pero no esperaba que me atacaran de buenas a primeras tan abiertamente.░ Ambos parecían agradables,░ pero no pude evitar preguntarme cuál era su perspectiva. ",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1695,7 +1695,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>It was becoming very apparent what was happening here.░ I should put the breaks on a little before this goes any further...",
+          "Text": "<i>Se estaba haciendo muy evidente lo que estaba sucediendo aquí.░ Debería poner los frenos un poco antes de que esto vaya más allá...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1709,7 +1709,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I wasn't stupid.░ I knew where this was going,░ but why not enjoy the moment for a bit?░ \r\nI had to admit that Rose's flirty looks did make me feel a little weird compared to the earnest admiration of the dragon.░\r\nWhen in Rome, right?",
+          "Text": "<i>No era estúpido.░ Sabía a dónde iba esto,░ pero ¿por qué no disfrutar del momento un poco?░ \r\nTenía que admitir que las miradas coquetas de Rose me hacían sentir un poco raro en comparación con la sincera admiración del dragón.░\r\nA donde fueres, haz lo que vieres, ¿verdad?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1723,7 +1723,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>With Zenith's hands on the small of our backs,░ it was pretty obvious what was going on.░ Hell, I kind of wanted it.░ But it was best to be clear about their intentions here,░ just to be sure...",
+          "Text": "<i>Con las manos de Zenith en la parte baja de nuestras espaldas,░ era bastante obvio lo que estaba pasando.░ Joder, realmente lo deseaba.░ Pero era mejor tener claras sus intenciones aquí,░ sólo para estar seguros....",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1737,7 +1737,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I was starting to have second thoughts.░ Despite going in at high gear,░ I was starting to realize this probably wasn't a good idea.░\r\nWas I just going to be another meet and fuck for these two?",
+          "Text": "<i>Estaba empezando a tener dudas.░ A pesar de ir a toda velocidad,░ empezaba a darme cuenta de que probablemente no era una buena idea.░\r\n¿Iba a ser yo sólo un encuentro y un polvo más para estos dos?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1751,7 +1751,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>This really did seem like my lucky night.░ I'd only just met these two,░ and they were already all over me.░ I grinned a sly smirk up at Zenith,░ I got a finger in his belt loop and pulled him closer,░ proving how far I was willing to go with a thumb resting on the heat that was not quite large enough to be his thigh░ (maybe not too far off though, damn).░ ",
+          "Text": "<i>Realmente parecía mi noche de suerte.░ Acababa de conocer a estos dos,░ y ya estaban sobre mí.░ Esbocé una sonrisa socarrona hacia Zenith,░ metí un dedo en la trabilla de su cinturón y tiré de él para que se acercara,░ demostrando hasta dónde estaba dispuesta a llegar con un pulgar apoyado en el calor que no era lo suficientemente grande como para ser su muslo░ (aunque quizá no demasiado lejos, joder).░ ",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1765,7 +1765,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I couldn't help but bite my lip as Zenith stared at me,░ that finger stopped me speaking up for a moment until he finally removed it from my chin.░ He was getting more attractive the longer he locked those eyes on me,░ but I had to think to myself:░ why exactly were they doing this?░\r\nPerhaps I was just being naive,░ but I had to ask.",
+          "Text": "<i>No pude evitar morderme el labio mientras Zenith me miraba fijamente,░ el dedo me impidió hablar por un momento hasta que finalmente lo retiró de mi barbilla.░ Se volvía más atractivo cuanto más tiempo fijaba sus ojos en mí,░ pero me pregunte:░ ¿por qué estaban haciendo esto exactamente?░\r\nTal vez estaba siendo ingenuo, pero tenía que preguntar....",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1779,7 +1779,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>After hearing Rose say that,░ I grit my teeth.░\r\nWas I just being used?░ I'd never felt so stupid in my life.",
+          "Text": "<i>Después de escuchar a Rose decir eso, ░ Apreté los dientes.░\r\n¿Me estaban utilizando? ░ Nunca en mi vida me había sentido tan idiota.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1793,7 +1793,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I had to fight not to just melt into Zenith's eyes.░ If this was how they did things, I wasn't going to turn down a chance to party with the big guy.░ I spun around on my heels, Rose in front and Zenith behind as I raised my rump back towards the later and ran my eyes down the bare middle of Rose to his overt, tight shorts.░\r\nZenith actually took a moment longer than I'd expected to cup my hips, as his hot breath played on my cheek.",
+          "Text": "<i>Tuve que luchar para no derretirme en los ojos de Zenith.░ Si así era como hacían las cosas, no iba a rechazar la oportunidad de festejar con el grandullón.░ Giré sobre mis talones, con Rose por delante y Zenith por detrás, mientras levantaba el culo hacia la parte posterior y recorría con la mirada la parte central desnuda de Rose hasta llegar a sus ajustados pantalones cortos.░\r\nZenith tardó un poco más de lo que yo esperaba en acariciar mis caderas, mientras su aliento caliente rozaba mi mejilla..",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1823,7 +1823,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh, <i>ehhh...</i>\r\nNobody's really straight up <i>asked</i> before.░ How do I put it...",
+          "Text": "Oh, <i>ehhh...</i>\r\nNadie ha <i>preguntado</i> antes.░ Como lo digo...",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1837,7 +1837,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>There was a visible shift in Zenith's expression, guilt maybe?░ What did he have to be guilty about?░\r\nBefore he could answer,░ his friend chimed in.",
+          "Text": "<i>Hubo un cambio visible en la expresión de Zenith, ¿culpa tal vez?░ ¿De qué tenía que sentirse culpable?░\r\nAntes de que pudiera responder,░ su amigo intervino.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1867,7 +1867,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Shhh,</i> Zenith.░\r\nLet me be blunt, honey:░ we're looking for a third party for a little bit of <i>fun</i> tonight.░ And guess what?░\r\nYou fit the bill perfectly.░ Almost <i>too</i> perfectly, in fact~░ What do you say,░ down for a lil' fun tonight?",
+          "Text": "<i>Shhh,</i> Zenith.░\r\nPermíteme ser franco, cariño:░ estamos buscando un tercero para un poco de <i>diversión</i> esta noche.░ ¿Y adivina qué?░\r\nEncajas perfectamente.░ Casi <i>demasiado</i>, de hecho~░ ¿Qué te parece, ░ te apetece un poco de diversión esta noche?",
           "Title": "Rose Wood",
           "Color": {
             "B": 81,
@@ -1881,7 +1881,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>As Rose spoke,░ I could see Zenith's expression change.░ That cocky smirk had all but vanished;░ he looked sullen,░ but when he noticed my concern he seemed to swallow that down,░ and put that signature toothy grin back in its place.░\r\nHe almost seemed like he'd be <i>grateful</i> for the company, but was that what Rose had planned?░ It seemed like there was more to the situation than I'd first anticipated.",
+          "Text": "<i>Mientras Rose hablaba,░ vi cómo cambiaba la expresión de Zenith.░ Esa sonrisa arrogante casi se ha desvanecido;░ Parecía hosco,░ pero cuando notó mi preocupación pareció tragárselo,░ y volvió a poner esa sonrisa dentada tan característica en su lugar.░\r\nCasi parecía que estuviera <i>agradecido</i> por la compañía, pero ¿era eso lo que Rose había planeado?░ Parecía que había más en la situación de lo que había previsto en un principio.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1911,7 +1911,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Heh,</i> yeah.░\r\nYou down for a romp, %playername%?",
+          "Text": "<i>Heh,</i> si.░\r\n¿Te apetece un polvo, %playername%?",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1941,7 +1941,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Whoa, <i>whoa!</i>░ I didn't mean to come across that way.░\r\nI mean, I <i>did...</i> but...",
+          "Text": "Whoa, <i>whoa!</i>░ No quise decir eso.░\r\nQuiero decir, yo <i>lo hice...</i> pero...",
           "Title": "Zenith",
           "Color": {
             "B": 154,
@@ -1955,7 +1955,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Zenith looked conflicted,░ I sort of felt bad for putting a halt to the fun but something here wasn't quite right...░ His cocky expression vanished as he stared daggers at his friend.░ It looked like he was about to say something before Rose piped up.",
+          "Text": "<i>El Zenith parecía confundido, ░ Me sentí un poco mal por poner fin a la diversión, pero algo aquí no estaba del todo bien...░ Su expresión presumida desapareció mientras miraba fijamente a su amigo.░ Parecía que iba a decir algo antes de que Rose interviniera.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1985,7 +1985,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh, <i>now</i> you say something?░ Wasn't it obvious what was going on from the moment we started talking?░\r\nLet me be blunt.░ Yes, we were looking for a third party tonight for a little fun.░ If you wanna go back to the shallow end, that's in the lounge downstairs.",
+          "Text": "Oh, <i>ahora</i> dices algo?░ ¿No era obvio lo que estaba pasando desde el momento en que empezamos a hablar?░\r\nSeré claro....░ Sí, buscábamos a un tercero esta noche para divertirnos un poco.░ Si quieres volver a la parte menos profunda, está en el salón de abajo.",
           "Title": "Rose Wood",
           "Color": {
             "B": 81,
@@ -1999,7 +1999,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Rose was more frustrated than his cocky attitude could quite hide, lost the game maybe?░ I had a feeling that there was more to this situation than I knew.",
+          "Text": "<i>Rose estaba más frustada de lo que su actitud presumida podía ocultar, ¿perdió el juego tal vez?░ Tenía la sensación de que había más en esta situación de lo que yo sabía.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2029,7 +2029,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Of course, you're not the first.░ But, tell me, %playername%:░ do you want to get lucky tonight or not?░\r\nTrust me, you're not going to find much better.",
+          "Text": "Por supuesto, no eres el primero.░ Pero, dime, %playername%:░ ¿Quieres tener suerte esta noche o no?░\r\nCréeme, no vas a encontrar nada mejor.",
           "Title": "Rose Wood",
           "Color": {
             "B": 81,
@@ -2043,7 +2043,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I could see Zenith visibly grit his teeth as Rose spoke.░ It looked like he was on the brink of yelling.░\r\nHowever, after Rose finished speaking,░ he turned the frown into what seemed like his signature toothy grin.",
+          "Text": "<i>Pude ver cómo Zenith apretaba visiblemente los dientes mientras Rose hablaba.░ Parecía que estaba a punto de gritar.░\r\nSin embargo, cuando Rose terminó de hablar,░ convirtió aquel ceño fruncido en lo que parecía su característica sonrisa de dientes.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2059,11 +2059,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Politely decline.)",
+              "Text": "(Rechazar amablemente.)",
               "NextID": 182
             },
             {
-              "Text": "Sure, why not?",
+              "Text": "Claro, ¿por qué no?",
               "NextID": 183
             }
           ],
