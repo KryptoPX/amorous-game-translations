@@ -152,7 +152,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Parece estar ocupada,░ buscaré a alguien diferente.░",
+          "Text": "Parece estar ocupada,░ buscaré otra persona.░",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -242,7 +242,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>No pasó mucho tiempo antes de que el elegante bóvido se acercase un poco,░ desviando mi mirada, sonrió.",
+          "Text": "<i>No pasó mucho tiempo antes de que la elegante bóvido se acercase un poco,░ desviando mi mirada, sonrió.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -256,7 +256,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>She seemed a little preoccupied by the dancers,░ admiring them with a keen regard.░ Maybe she was a dancer herself?░ Or just judging the competition maybe?░  ",
+          "Text": "<i>Parecia ocuapada viendo a los bailarines,░ admirándolos con una mirada aguda.░ ¿Quizás ella era una bailarina?░ ¿O tan solo estaba juzgando la competición?░  ",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -270,7 +270,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>She didn't pull away,░ giving me a slight grin.",
+          "Text": "<i>Ella no se apartó,░ dándome una leve sonrisa.", 
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -297,7 +297,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Beautiful,░ aren't they? ",
+          "Text": "Hermosos,░ ¿no crees? ",
           "Title": "Mercy",
           "Color": {
             "B": 255,
@@ -311,7 +311,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Yeah, gotta agree with you there,░ I've never seen so many good-looking people all in one place. ",
+          "Text": "Sí, debo darte la razón en eso,░ nunca he visto a tanta gente guapa en el mismo lugar.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
