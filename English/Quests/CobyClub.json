@@ -44,7 +44,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Hey bro,░ ¡hay muchos chicos buenos por aquí esta noche!░ ¿Que tal?",
+          "Text": "Hey bro,░ lots of nice guys around tonight!░ What's up?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -60,11 +60,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Volver a casa.)",
+              "Text": "(Go home.)",
               "NextID": 7
             },
             {
-              "Text": "(No importa.)",
+              "Text": "(Nevermind.)",
               "NextID": 13
             }
           ],
@@ -74,7 +74,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "¿Volvemos a casa?",
+          "Text": "Shall we head back home?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -101,7 +101,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Aww,</i> ¿ya?░\r\nDe acuerdo,░ Supongo que se hace tarde,░ ¡vamos!",
+          "Text": "<i>Aww,</i> already?░\r\nOkay,░ I guess it's getting late,░ let's go!",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -134,7 +134,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "No mucho,░ Sólo estaba comprobando lo que estabas haciendo.░ ¡Nos vemos luego!",
+          "Text": "Not much,░ I was just checking what you were up to.░ See you later!",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -203,7 +203,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Hola, hermana,░ ¡hay muchos chicos buenos por aquí esta noche!░ ¿Que tal?",
+          "Text": "Hey sis,░ lots of nice guys around tonight!░ What's up?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -235,7 +235,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Hey %playername%,░ ¡hay muchos chicos buenos por aquí esta noche!░ ¿Que tal?",
+          "Text": "Hey %playername%,░ lots of nice guys around tonight!░ What's up?",
           "Title": "Coby",
           "Color": {
             "B": 255,
@@ -262,7 +262,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Okay!░ Buena suerte, ¡Muevelo!",
+          "Text": "Okay!░ Good luck, shake it!",
           "Title": "Coby",
           "Color": {
             "B": 255,

@@ -9,23 +9,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Algo de temporada. Ropa de verano: pantalones cortos y una camiseta.",
+              "Text": "Something seasonal. Summer wear: shorts and a t-shirt.",
               "NextID": 22
             },
             {
-              "Text": "Algo sencillo. Una camiseta y unos pantalones comodos.",
+              "Text": "Something simple. A t-shirt and comfortable pants.",
               "NextID": 21
             },
             {
-              "Text": "Preferiria una falda o cami. (Crossdress.)",
+              "Text": "I'd much prefer a skirt or cami. (Crossdress.)",
               "NextID": 11
             },
             {
-              "Text": "¡No me voy sin mis botas! El look punk/biker.",
+              "Text": "I'm not leaving without my boots! The punk/biker look.",
               "NextID": 9
             },
             {
-              "Text": "¡Algo mas llamativo! (Mas opciones).",
+              "Text": "Something a little more eye-catching! (More options.)",
               "NextID": 4
             }
           ],
@@ -55,23 +55,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "La ropa formal hara que algunas cabezas vayan al bar.",
+              "Text": "Formal wear will turn some heads at the bar!",
               "NextID": 13
             },
             {
-              "Text": "Un equipo de rave llamativo me haría notar.",
+              "Text": "Flashy rave gear would get me noticed!",
               "NextID": 15
             },
             {
-              "Text": "Me gusta más el look gótico/victoriano.",
+              "Text": "I'm more at home with the Goth/Victorian look.",
               "NextID": 10
             },
             {
-              "Text": "Tienen una piscina. Los trajes de baño son de lo más vistosos.",
+              "Text": "They have a pool. Swimwear is as showy as you can get!",
               "NextID": 14
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 1
             }
           ],
@@ -83,15 +83,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Algo de temporada. Ropa de verano: pantalones cortos y una camiseta.",
+              "Text": "Something seasonal. Summer wear: shorts and a cami.",
               "NextID": 22
             },
             {
-              "Text": "Algo sencillo. Una camiseta y unos pantalones comodos.",
+              "Text": "Something simple. A t-shirt and comfortable pants.",
               "NextID": 21
             },
             {
-              "Text": "¡No me voy sin mis botas! El look punk/biker.",
+              "Text": "I'm not leaving without my boots! The punk/biker look.",
               "NextID": 9
             },
             {
@@ -99,7 +99,7 @@
               "NextID": 10
             },
             {
-              "Text": "¡Algo mas llamativo! (Mas opciones).",
+              "Text": "Something a little more eye-catching! (More options.)",
               "NextID": 6
             }
           ],
@@ -111,23 +111,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Un vestido de cóctel haría girar algunas cabezas en el bar.",
+              "Text": "A cocktail dress would turn some heads at the bar!",
               "NextID": 12
             },
             {
-              "Text": "Un equipo de rave llamativo me haría llamar la atención.",
+              "Text": "Flashy rave gear would get me noticed!",
               "NextID": 15
             },
             {
-              "Text": "Qué tal un traje, la raya diplomática está de moda este año.",
+              "Text": "How about a suit, pinstripe is in this year.",
               "NextID": 13
             },
             {
-              "Text": "Tienen una piscina. Los trajes de baño son de lo más vistosos.",
+              "Text": "They have a pool. Swimwear is as showy as you can get!",
               "NextID": 14
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 5
             }
           ],
@@ -139,19 +139,19 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Algo de temporada. Ropa de verano: pantalones cortos y una camiseta.",
+              "Text": "Something seasonal. Summer wear: shorts and a t-shirt.",
               "NextID": 22
             },
             {
-              "Text": "Algo sencillo. Una camiseta y unos pantalones cómodos.",
+              "Text": "Something simple. A t-shirt and comfortable pants.",
               "NextID": 21
             },
             {
-              "Text": "¡No me voy sin mis botas! El look punk/biker.",
+              "Text": "I'm not leaving without my boots! The punk/biker look.",
               "NextID": 9
             },
             {
-              "Text": "¡Algo más llamativo! (Más opciones).",
+              "Text": "Something a little more eye-catching! (More options.)",
               "NextID": 8
             }
           ],
@@ -163,19 +163,19 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "La ropa formal hará que algunas cabezas vayan al bar.",
+              "Text": "Formal wear will turn some heads at the bar!",
               "NextID": 13
             },
             {
-              "Text": "Un equipo de rave llamativo me haría llamar la atención.",
+              "Text": "Flashy rave gear would get me noticed!",
               "NextID": 15
             },
             {
-              "Text": "Me gusta más el look gótico/victoriano.",
+              "Text": "I'm more at home with the Goth/Victorian look.",
               "NextID": 10
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 7
             }
           ],
@@ -241,7 +241,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Vamos, armario,░ ¡coopera!",
+          "Text": "Come on, wardrobe,░ cooperate!",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -255,7 +255,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "¡Así está mejor!",
+          "Text": "That's better!",
           "Title": "%playername%",
           "Color": {
             "B": 255,

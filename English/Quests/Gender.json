@@ -9,15 +9,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Me identifico como hombre.",
+              "Text": "I identify as male.",
               "NextID": 2
             },
             {
-              "Text": "Me identifico como mujer.",
+              "Text": "I identify as female.",
               "NextID": 5
             },
             {
-              "Text": "Me identifico diferente.",
+              "Text": "I identify as something else.",
               "NextID": 33
             }
           ],
@@ -29,15 +29,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "He sido así toda mi vida.",
+              "Text": "I've been this way my whole life.",
               "NextID": 4
             },
             {
-              "Text": "Puede que tenga una fisiología mixta, pero... (Continúa)",
+              "Text": "I might have mixed physiology, but... (Continued.)",
               "NextID": 31
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 1
             }
           ],
@@ -49,15 +49,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Los pronombres masculinos son importantes, pero estoy en paz con mi cuerpo.",
+              "Text": "Male pronouns are important, but I'm at peace with my body.",
               "NextID": 38
             },
             {
-              "Text": "Prefiero no llamar la atención sobre mi fisiología 'femenina'.",
+              "Text": "I'd prefer not to draw attention to my 'feminine' physiology.",
               "NextID": 17
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 49
             }
           ],
@@ -78,15 +78,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "He sido así toda mi vida.",
+              "Text": "I've been this way my whole life.",
               "NextID": 12
             },
             {
-              "Text": "Puede que tenga una fisiología mixta, pero... (Continúa)",
+              "Text": "I might have mixed physiology, but... (Continued.)",
               "NextID": 32
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 1
             }
           ],
@@ -98,15 +98,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Los pronombres son importantes, pero estoy en paz con mi cuerpo.",
+              "Text": "The pronouns are important, but I'm at peace with my body.",
               "NextID": 30
             },
             {
-              "Text": "Prefiero que no se hable de mi fisiología 'masculina'",
+              "Text": "I'd prefer no discussion of my 'masculine' physiology.",
               "NextID": 14
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 48
             }
           ],
@@ -118,23 +118,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Me identifico como Xi, Ellos u otro término neutro y andrógino.",
+              "Text": "I identify as Xi, They or another neutral, androgynous term.",
               "NextID": 15
             },
             {
-              "Text": "Me identifico como hermafrodita o intersexualidad externa.",
+              "Text": "I identify as an hermaphrodite or externally intersexed.",
               "NextID": 27
             },
             {
-              "Text": "Me identifico utilizando términos andróginos de tendencia femenina.",
+              "Text": "I identify using feminine-leaning androgynous terms.",
               "NextID": 34
             },
             {
-              "Text": "Me identifico utilizando términos andróginos de tendencia masculina.",
+              "Text": "I identify using masculine-leaning androgynous terms.",
               "NextID": 19
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 44
             }
           ],
@@ -146,15 +146,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "El término 'novia' me parece bien.",
+              "Text": "The term \"girlfriend\" is fine with me.",
               "NextID": 18
             },
             {
-              "Text": "El término 'novio' me gusta más.",
+              "Text": "The term \"boyfriend\" suits me more.",
               "NextID": 9
             },
             {
-              "Text": "Prefiero el término \"compañero\".",
+              "Text": "I'd prefer the term \"partner\".",
               "NextID": 15
             }
           ],
@@ -166,23 +166,23 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "Preferiría que no se llamara la atención sobre nada \"top-side\".",
+              "Text": "I'd prefer nothing \"top-side\" to be drawn attention to.",
               "NextID": 17
             },
             {
-              "Text": "Preferiría que nada \"por debajo del cinturón\" llamara la atención.",
+              "Text": "I'd prefer nothing \"below the belt\" to be drawn attention to.",
               "NextID": 16
             },
             {
-              "Text": "Prefiero limitar la discusión sobre mi cuerpo tanto como sea posible.",
+              "Text": "I'd prefer to limit discussion of my body as much as possible.",
               "NextID": 20
             },
             {
-              "Text": "Los pronombres son importantes, pero me siento cómodo con mi cuerpo.",
+              "Text": "Pronouns are important, but I'm comfortable with my body.",
               "NextID": 21
             },
             {
-              "Text": "(Volver.)",
+              "Text": "(Back.)",
               "NextID": 45
             }
           ],
@@ -205,7 +205,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Ten en cuenta que el contenido sexual puede incluir a tu personaje actuando en un rol de penetración, debido a las limitaciones en la personalización de las animaciones sexuales.░ Sus elecciones afectarán a los pronombres utilizados y a una descripción más neutral de la actividad sexual,░ tratar el objeto de penetración como algo separado cuando sea posible.",
+          "Text": "Be aware that sexual content may include your character acting in a penetrative role, due to the limitations in the customization of sexual animations.░ Your choices will effect pronouns used and a more neutral description of sexual activity,░ treating the penetrative object as separate where possible.",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,
@@ -232,7 +232,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Como Amorous fue construido con un personaje masculino en mente,░ hay algunas limitaciones para jugar con una mujer biosex, a pesar de los modelos en el creador de personajes.",
+          "Text": "As Amorous was built with a male character in mind,░ there are some limitations to playing a biosex female, despite the models in the character creator.",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,
@@ -288,11 +288,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "El término \"novio\" me parece bien.",
+              "Text": "The term \"boyfriend\" is fine with me.",
               "NextID": 9
             },
             {
-              "Text": "Prefiero el término \"compañero\".",
+              "Text": "I'd prefer the term \"partner\".",
               "NextID": 15
             }
           ],
@@ -341,7 +341,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Como Amorous fue construido con un personaje masculino en mente,░ hay algunas limitaciones a pesar de los modelos en el creador de personajes.░ Los genitales son tratados como internos hasta las escenas sexuales para la sección animada.",
+          "Text": "As Amorous was built with a male character in mind,░ there are some limitations despite the models in the character creator.░ Genitalia is treated as internal until the sexual scenes for the animated section.",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,
@@ -368,7 +368,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "En Amorous hay limitaciones para interpretar a un personaje con anatomías genitales múltiples o mixtas,░ dicha anatomía no es compatible con nuestra animación flash.",
+          "Text": "There are limitations in Amorous to playing a character with multiple or mixed genital anatomies,░ such anatomy is not supported in our flash animation.",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,
@@ -403,7 +403,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Gracias. Diviértete jugando a Amorous.",
+          "Text": "Thank you! Have fun playing Amorous.",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,
@@ -451,11 +451,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "El término \"novia\" me parece bien.",
+              "Text": "The term \"girlfriend\" is fine with me.",
               "NextID": 18
             },
             {
-              "Text": "Prefiero el término \"compañero\".",
+              "Text": "I'd prefer the term \"partner\".",
               "NextID": 15
             }
           ],
@@ -478,7 +478,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Hola %playername%!░\r\n\r\nPor favor, responde a las siguientes preguntas para que podamos optimizar el juego lo mejor posible para ti.\r\n\r\n a: áÁ | e: éÉ | i: íÍ | o: óÓ | u: úÚ",
+          "Text": "Hello %playername%!░\r\n\r\nPlease answer the following questions to allow us to optimize the game as well as possible for you.",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,
@@ -537,7 +537,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Tus elecciones afectarán a los pronombres utilizados y a una descripción más neutral de las escenas íntimas. Ten en cuenta que puede haber limitaciones en la personalización de ciertas escenas basadas en un protagonista originalmente masculino. ",
+          "Text": "Your choices will effect pronouns used and a more neutral description of intimate scenes. Please be aware that there may be limitations in the customization of certain scenes based on an originally male-only protagonist. ",
           "Title": "Team Amorous",
           "Color": {
             "B": 255,

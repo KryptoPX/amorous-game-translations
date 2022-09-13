@@ -7,7 +7,7 @@
       "Events": [
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "eehh.░ Hola?░ Hey Mr. DJ!",
+          "Text": "Excuse me?░ Hello?░ Hey Mr. DJ!",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -34,7 +34,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh, Perdona!░ No te habia visto ai abajo.░ Que tal?",
+          "Text": "Oh, sorry!░ Didn't see you down there.░ What's up?",
           "Title": "Club Amorous DJ",
           "Color": {
             "B": 255,
@@ -48,7 +48,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Me gustaria proponer una canción. Si te parece bien, claro?",
+          "Text": "I'd like to request a song, if that's alright?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -75,7 +75,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Espera, tengo que girar algunos ruedas...",
+          "Text": "Hold on, I have to turn some knobs...",
           "Title": "Club Amorous DJ",
           "Color": {
             "B": 255,
@@ -89,7 +89,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh, Claro.░ Gracias!",
+          "Text": "Oh, sure.░ Thanks!",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -123,7 +123,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "De acuerdo... Sí, claro, ¡no hay problema! ░ Pero escucha, estoy tratando de hacer un espectáculo aquí.░ Aquí está mi número, sólo envíame un mensaje de texto con tu solicitud y me pondré a ello.",
+          "Text": "Alright... Yea, sure, no problem!░ But listen, I'm trying to put on a show here.░ Here's my number, just text me your request and I'll get to it.",
           "Title": "Club Amorous DJ",
           "Color": {
             "B": 255,
@@ -171,7 +171,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "¡Lo siento, estoy un poco ocupado!░ ¡Tienes mi número, así que usa tu teléfono!",
+          "Text": "Sorry, kinda busy over here!░ You have my number, so use your phone!",
           "Title": "Club Amorous DJ",
           "Color": {
             "B": 255,
