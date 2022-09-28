@@ -26,7 +26,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>Una de las asistentes capturó mi mirada entre el bullicio de la multitud,░ Su vestimenta destacaba especialmente sobre el resto de los asistentes del club.░ Su escotado vestido denotaba una elegancia innegable mientras bebia su cocktail",
+          "Text": "<i>Una de las asistentes llamó mi atención entre el bullicio de la multitud,░ Su vestimenta destacaba especialmente sobre el resto de los asistentes del club.░ Su escotado vestido denotaba una elegancia innegable mientras bebia su cocktail",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -311,7 +311,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Sí, debo darte la razón en eso,░ nunca he visto a tanta gente guapa en el mismo lugar.",
+          "Text": "Sí, ahi te doy la razón,░ nunca he visto a tanta gente guapa en el mismo lugar.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -338,7 +338,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "It takes a lot of poise,░ and a certain degree of confidence of course.░ Do you see how she holds herself?░ Haha, ░I suppose it's silly to say I'm envious? ",
+          "Text": "Se necesita mucho equilibrio,░ tambier se necesita gran confianza claro.░ Ves como se esta aguantando?░ Haha, ░supongo que es un poco tonto decir que les envidio? ",
           "Title": "Mercy",
           "Color": {
             "B": 255,
@@ -352,7 +352,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>As she took another sip from her drink her hand wobbled slightly. ░She was still smiling warmly,░ but it seemed like her flush was more from the alcohol than the dancers.░ Was she <i>drunk</i>?",
+          "Text": "<i>Su mano tembló suavemente mientras tomaba un sorbo de su bebida. ░ Aún asi seguia con su calida sonrisa,░ aunque a decir verdad su sonrisa parecia más por el alcohol que por las bailarinas.░ Estaba <i>borracha</i>?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -366,7 +366,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "%playername%,░ an absolute pleasure to meet you.",
+          "Text": "%playername%,░ es un gran placer conocerte,",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -380,7 +380,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>'A pleasure'?░ Okay,░ maybe not my best line, but I couldn't help feeling a little intimidated:░ her dress looked like it was straight off a runway.░ ",
+          "Text": "<i>'Un placer'?░ Vale,░ quizás no sea mi mejor frase, pero no podia evitar sentirme un poco intimidad@:░ Su vestido se veia como de una autopista.░ ",
           "Title": "%playername%",
           "Color": {
             "B": 255,
