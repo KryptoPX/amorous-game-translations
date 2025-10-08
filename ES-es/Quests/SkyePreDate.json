@@ -1,0 +1,3879 @@
+{
+  "Name": "SkyePreDate",
+  "Stages": [
+    {
+      "Stage": 10,
+      "StartID": 1,
+      "Events": [
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 1,
+          "NextID": 178,
+          "DebugID": 1
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 2,
+          "NextID": 3,
+          "DebugID": 2
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": "Middle",
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": [
+            "Hoodie",
+            "Shorts"
+          ],
+          "ID": 3,
+          "NextID": 186,
+          "DebugID": 3
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Hay una zorra colorida sentada allí sola,░ parece aburrida,░ está simplemente reposando tranquila...░\r\nNo hay nadie más sentado con ella, así que no debería haber problema en ver si quiere compañía, ¿no?</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 4,
+          "NextID": 5,
+          "DebugID": 4
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Romper el hielo.)",
+              "NextID": 200
+            },
+            {
+              "Text": "(Aclararme la garganta.)",
+              "NextID": 149
+            },
+            {
+              "Text": "(Llamar la atención.)",
+              "NextID": 153
+            },
+            {
+              "Text": "(Quedármele viendo.)",
+              "NextID": 171
+            },
+            {
+              "Text": "(Irme.)",
+              "NextID": 182
+            }
+          ],
+          "ID": 5,
+          "NextID": 0,
+          "DebugID": 5
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hola,░ perdón por molestarte pero te veías un poco sola.░ Me llamo %playername%, ¿te gustaría hablar un poco?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 6,
+          "NextID": 7,
+          "DebugID": 6
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 7,
+          "NextID": 8,
+          "DebugID": 7
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Se sobresaltó al escuchar mi voz,░ parece que estaba tan metida en sus pensamientos que no notó cuando me senté.░ Rápidamente cambio su postura a una más... femenina.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 8,
+          "NextID": 9,
+          "DebugID": 8
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 9,
+          "NextID": 10,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, lo siento,░ no quería ignorarte...\r\nes que he tenido una noche tranquila y estaba algo apagada...░ ¿Dijiste que tu nombre era %playername%?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 10,
+          "NextID": 11,
+          "DebugID": 9
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sí, ese soy yo.░\r\nConozco ese sentimiento, también he tenido una noche tranquila.░ Déjame adivinar, ¿un amigo también te arrastró hasta aquí?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 11,
+          "NextID": 12,
+          "DebugID": 10
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 12,
+          "NextID": 13,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Fue tan obvio, eh?░\r\nSeh, digamos que...me dejé llevar por los planes de los demás.░ Y se suponía que iba a ser <i>MI</i> fiesta también...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 13,
+          "NextID": 201,
+          "DebugID": 11
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Asi que, ¿esta era tu fiesta?\r\n¿En un lugar que ni siquiera te gusta?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 14,
+          "NextID": 15,
+          "DebugID": 12
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 15,
+          "NextID": 16,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sí... Mis amigos de la escuela insistieron en “sacarme a pasear” trayéndome a este club.░\r\nY no pienses cosas raras,░ terminé la secundaria hace rato,░ a ellos solo les gusta mantener contacto de vez en cuando.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 16,
+          "NextID": 235,
+          "DebugID": 13
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Ellos son malos amigos? ¿o algo asi?...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 17,
+          "NextID": 18,
+          "DebugID": 14
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 18,
+          "NextID": 19,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "No, no es eso.░ Ellos son buenos y eso.░ Simplemente no tengo nada en común con ellos supongo.░ No es realmente mi estilo ir al club, emborracharme y ir a 'cazar' chicos o gente.░\r\nYo solo era amiga de ellos porque estábamos en la misma clase y eso.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 19,
+          "NextID": 20,
+          "DebugID": 15
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿No pudiste zafarte de esto?░ Tienes amigos mas cercanos, ¿verdad?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 20,
+          "NextID": 21,
+          "DebugID": 16
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 21,
+          "NextID": 22,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Claro que tengo amigos más cercanos!░\r\nSolo que...viven lejos.░ Hablo con ellos casi todos los días por internet.░ Una de ellas <i>dijo</i> que quería venir a verme en mi cumpleaños, pero está muy ocupada...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 22,
+          "NextID": 23,
+          "DebugID": 17
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 23,
+          "NextID": 24,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nos reunimos cada pocos meses en las convenciones a las que voy...░\r\nPerdon, creo que te estoy incomodando con todas mis frikadas, ¿verdad?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 24,
+          "NextID": 25,
+          "DebugID": 18
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "¿Un poco?",
+              "NextID": 236
+            },
+            {
+              "Text": "¡No!",
+              "NextID": 148
+            }
+          ],
+          "ID": 25,
+          "NextID": 0,
+          "DebugID": 19
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Tú eres la que parece estar muy desconectada de todo esto░\r\nIgual salir con amigos que tienes cerca no está tan mal, ¿no?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 26,
+          "NextID": 27,
+          "DebugID": 20
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 27,
+          "NextID": 28,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Depende de si los amigos que tienes cerca solo quieren emborracharse...\r\nPerdón,░ sé que soy bastante friki.░ ¿Y si mejor cambiamos de tema?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 28,
+          "NextID": 29,
+          "DebugID": 21
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Cambiar de tema.)",
+              "NextID": 30
+            },
+            {
+              "Text": "(Irse.)",
+              "NextID": 146
+            }
+          ],
+          "ID": 29,
+          "NextID": 0,
+          "DebugID": 22
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Sí, mejor hablemos de otra cosa,░ ¿Algo en particular que quieras preguntarme?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 30,
+          "NextID": 31,
+          "DebugID": 23
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 31,
+          "NextID": 32,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ahora estás poniéndome en un aprieto... \r\n¿Hmmm?░ ¿E-en serio? ",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 32,
+          "NextID": 33,
+          "DebugID": 24
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Parece que se molestó un poco porque hablé mal de su vida personal.░ Tal vez debería disculparme antes de que pierda interés.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 33,
+          "NextID": 34,
+          "DebugID": 25
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Disculparse.)",
+              "NextID": 35
+            },
+            {
+              "Text": "(Irse.)",
+              "NextID": 146
+            }
+          ],
+          "ID": 34,
+          "NextID": 0,
+          "DebugID": 26
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oye, perdón por haber sido un poco duro,░ siento que actué un poco como mi hermano: él siempre me molestaba cuando estaba en la laptop....\r\n¿Sabes?░ Me encantaría saber más sobre esas convenciones a las que vas.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 35,
+          "NextID": 36,
+          "DebugID": 27
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 36,
+          "NextID": 37,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Gracias por ser tan comprensivo.░\r\nLa mayoría de la gente aquí dice que soy rara por todas las cosas frikis que digo y se inventan una excusa para alejarse de mí.░ Supongo que es porque no estoy buscando subirme al pene de la primera persona que me coquetee...\r\nComo te dije,░ no es mi tipo de gente...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 37,
+          "NextID": 38,
+          "DebugID": 28
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 38,
+          "NextID": 39,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Dios, perdón...░\r\nSoy muy mala con esto de la primera impresión, ¿verdad?░ Más cuando estoy pensando en lo que la gente dice de mí, en vez de... en lo que yo debería decirle a la gente...░\r\nEmpecemos de nuevo.░ Por cierto, ¡me llamo Skye!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 39,
+          "NextID": 40,
+          "DebugID": 29
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Responder amablemente.)",
+              "NextID": 247
+            },
+            {
+              "Text": "(Responder coqueteando.)",
+              "NextID": 144
+            },
+            {
+              "Text": "(Molestarla un poco.)",
+              "NextID": 145
+            }
+          ],
+          "ID": 40,
+          "NextID": 0,
+          "DebugID": 30
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Un gusto conocerte, Skye. No te preocupes, no estoy buscando acostarme con nadie esta noche.░ Mi 'paquete' está bien envuelto, lo prometo.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 41,
+          "NextID": 249,
+          "DebugID": 31
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 42,
+          "NextID": 43,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Jejeje</i>,░ sí que eres gracioso, %playername%.░\r\nGracias de nuevo por sentarte conmigo,░ quién sabe cuánto tiempo más habría estado sentada esperando que ellos ‘celebren por mí‘.░ Sí que soy buena eligiendo amigos, ¿no?░ Oye, ¿quierés que te traiga algo para beber o algo así?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 43,
+          "NextID": 44,
+          "DebugID": 32
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿No debería ser yo el que te pregunte eso?░ Después de todo, fui yo el que se sentó.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 44,
+          "NextID": 45,
+          "DebugID": 33
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 45,
+          "NextID": 46,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Mmm, no.░ Bueno, te lo agradecería y todo,░ solo que no soy de beber mucho.░ Además, mis amigos van a necesitar a alguien que pueda conducir.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 46,
+          "NextID": 47,
+          "DebugID": 34
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 47,
+          "NextID": 48,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Si no terminan yéndose con algún extraño claro,░ <i>que probablemente sí lo harán.</i>",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 48,
+          "NextID": 49,
+          "DebugID": 35
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bueno, ok. Entonces mantengámonos ambos sobrios,░ sería lo más justo.░ Y si tus amigos se van, ¿podríamos tomar algo para celebrar un poco de libertad?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 49,
+          "NextID": 50,
+          "DebugID": 36
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 50,
+          "NextID": 51,
+          "DebugID": 37
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bueno, supongo que tienes razón...\r\nOh, ¡sí!░ Perdón, suelo salirme del tema.░ Preguntaste por las convenciones a las que voy, ¿verdad?░\r\nPero primero, te voy a hacer una pregunta de prueba.░ ¿Sabes por qué estoy vestida así ahora?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 51,
+          "NextID": 52,
+          "DebugID": 37
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "¿Por atención?",
+              "NextID": 53
+            },
+            {
+              "Text": "¿Porque tu pecho está frío, pero tus piernas calientes?",
+              "NextID": 55
+            },
+            {
+              "Text": "¿Un regalo de cumpleaños?",
+              "NextID": 57
+            },
+            {
+              "Text": "¿Algo relacionado con la convención?",
+              "NextID": 59
+            },
+            {
+              "Text": "¿Me rindo?",
+              "NextID": 141
+            }
+          ],
+          "ID": 52,
+          "NextID": 0,
+          "DebugID": 38
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 53,
+          "NextID": 54,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Tal vez? Estás cerca, intenta de nuevo.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 54,
+          "NextID": 52,
+          "DebugID": 39
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 55,
+          "NextID": 56,
+          "DebugID": 40
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Jaja!░ No, tonto...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 56,
+          "NextID": 52,
+          "DebugID": 40
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 57,
+          "NextID": 58,
+          "DebugID": 41
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nope,░ ¿quieres que solo te lo diga?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 58,
+          "NextID": 52,
+          "DebugID": 41
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bueno, por la conversación, asumo que tiene algo que ver con las convenciones a las que vas, ¿no?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 59,
+          "NextID": 60,
+          "DebugID": 42
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 60,
+          "NextID": 61,
+          "DebugID": 43
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Acertaste!░ Actualmente soy cosplayer,░ este es uno de los outfits que se parece a uno de mis personajes favoritos░\r\nSoy gran fan del anime,░ los cómics,░ los personajes de videojuegos y todas esas cosas.░ Vestirme así me ayuda a expresarme, ¡y muchos de mis amigos dicen que lo hago muy bien!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 61,
+          "NextID": 271,
+          "DebugID": 43
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ah,░ ¡creo que ya sé de qué personaje estás vestida!░ ¡Te ves tan bonita con ese outfit!░ Honestamente, haces que parezca ropa normal,░ solo que un poco colorida,░ y...░ bueno,░ algo corta.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 62,
+          "NextID": 63,
+          "DebugID": 44
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 63,
+          "NextID": 64,
+          "DebugID": 45
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Gracias!░\r\nY ya que estamos, te devuelvo el cumplido... tú también te ves genial con ese outfit.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 64,
+          "NextID": 258,
+          "DebugID": 45
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Por cierto, ¿por qué vienes vestida con un disfraz al club?░ Dudo que encuentres a alguien aquí que haga lo mismo.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 65,
+          "NextID": 66,
+          "DebugID": 46
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 66,
+          "NextID": 67,
+          "DebugID": 47
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Lo sé,░ fue una fiesta sorpresa. Mi cumpleaños real fue la semana pasada y estaba experimentando con el tinte de pelaje para que los patrones quedaran bien.░\r\nMi mamá básicamente abrió la puerta y me dijo: ‘¡Tus amigos te están esperando en la entrada!’.░ ¡Y no iba a salir con ropa normal mientras el tinte aún estaba fresco!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 67,
+          "NextID": 68,
+          "DebugID": 47
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿No tuviste tiempo para cambiarte rápido?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 68,
+          "NextID": 69,
+          "DebugID": 48
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 69,
+          "NextID": 70,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bueno, cuando hago cosplay, me tiño mucho el pelaje.░ Y no quería tener el problema de intentar explicárselo a mis amigos, así que solo vine así y fingí ser otra persona!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 70,
+          "NextID": 71,
+          "DebugID": 49
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Creo que tus amigos sabrían que eras tú con ese outfit.░ Después de todo, fueron a tu casa, ¿no?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 71,
+          "NextID": 259,
+          "DebugID": 50
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 72,
+          "NextID": 73,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Lo sé, es un poco tonto,░ pero a veces puede ayudar estar en el personaje, ¿sabes?░ Especialmente cuando ellos son un poco más cool o extrovertidos.░\r\nY,░ hey,░ al menos fue una buena manera de romper el hielo contigo, ¿no?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 73,
+          "NextID": 74,
+          "DebugID": 51
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Confortarla.)",
+              "NextID": 75
+            },
+            {
+              "Text": "(Coquetear juguetonamente.)",
+              "NextID": 95
+            },
+            {
+              "Text": "(Desanimarla.)",
+              "NextID": 128
+            },
+            {
+              "Text": "(Irse.)",
+              "NextID": 120
+            }
+          ],
+          "ID": 74,
+          "NextID": 0,
+          "DebugID": 52
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Si hacer cosplay te hace sentir más cómoda,░ hazlo tanto como quieras.░\r\nSolo espero que no te sientas como si tuvieras que esconderte tras un personaje por mí,░ también te ves como una linda chica cuando eres tú misma...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 75,
+          "NextID": 76,
+          "DebugID": 53
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 76,
+          "NextID": 77,
+          "DebugID": 54
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Gracias %playername%,░ eres tan dulce por escucharme hablar tanto sobre mí misma.░ Pareces una gran persona y me encantaría saber más sobre ti.░ Pero mis amigos me matarían si nos fueramos de aquí para hablar...░ Pensarían que me fui a acostarme con alguien.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 77,
+          "NextID": 78,
+          "DebugID": 54
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Quieres que me vaya?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 78,
+          "NextID": 79,
+          "DebugID": 55
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 79,
+          "NextID": 80,
+          "DebugID": 56
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡No no! Pero se esta haciendo tarde y yo me estaba preparando para irme antes de que vinieras.░ No puedo dejar a mis amigos a su suerte después de estar malhumarada toda la noche y prometi llevarlos a casa temprano...\r\nMe ayudaste a que el final de esta noche sea un poco mas divertida, gracias %playername%░ ¿Tienes whatsapp para que pueda mensajearte después?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 80,
+          "NextID": 81,
+          "DebugID": 56
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "What que?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 81,
+          "NextID": 82,
+          "DebugID": 57
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, perdón...░ Espera,░ déjame mejor darte mi número de teléfono.░ ¡Nos mensajeamos luego!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 82,
+          "NextID": 83,
+          "DebugID": 58
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Skye toma el recibo de su bebida y rápidamente garabatea varios números en la parte de atrás, sonriendo mientras me lo da.░\r\nSupongo que se me adelantó a que se la pida, parece que cause una buena impresión... </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 83,
+          "NextID": 84,
+          "DebugID": 59
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 84,
+          "NextID": 85,
+          "DebugID": 60
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Qué tal si nos vemos pronto?░ ¡Espero y sea en un lugar más tranquilo!░ Si quieres claro...░ ¡Aunque no hace falta que me llames!░ Podríamos hablar por Riscord o algo así, algún dia",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 85,
+          "NextID": 86,
+          "DebugID": 60
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Gracias,░ Skye,░ te aviso cuando esté desocupado.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 86,
+          "NextID": 87,
+          "DebugID": 61
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 87,
+          "NextID": 88,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Tengo que ir a buscar a mis amigos y decirles que vengan a casa conmigo ahora o los voy a dejar aquí...░ este club me esta volviendo claustrofóbica.░\r\nGracias de nuevo por la charla %playername%,░ ¡Realmente la disfruté!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 88,
+          "NextID": 294,
+          "DebugID": 62
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 89,
+          "NextID": 90,
+          "DebugID": 63
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Skye se levanto de su asiento,░ le dio un pequeño sorbo a su bebida antes de acercarse a mi lado del sofá.░\r\nElla me dio un rápido abrazo sobre los hombros,░ platónico pero agradecido,░ mientras se adentraba en la multitud de bailarines con la cabeza ligeramente erguida y moviéndo su cola con emoción.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 90,
+          "NextID": 91,
+          "DebugID": 64
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Parece simpática,░ bastante nerd, lo cual no esperaba encontrarme en un club.░ Debería llamarla algún día.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 91,
+          "NextID": 177,
+          "DebugID": 65
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 92,
+          "NextID": 93,
+          "DebugID": 66
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 93,
+          "NextID": 94,
+          "DebugID": 67
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 94,
+          "NextID": 181,
+          "DebugID": 68
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Puede que tus amigos no tengan los mismos intereses que tú,░ pero te mereces un poco de cariño por tu cumpleaños.░ Si ellos no están interesados en tu disfraz ellos se lo pierden,░ Me encantaría pasar un rato apreciando tu trabajo... \r\nAhora que recuerdo,░ ese personaje tiene algunas marcas interesantes que el outfit podría estar escondiendo.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 95,
+          "NextID": 96,
+          "DebugID": 69
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 96,
+          "NextID": 97,
+          "DebugID": 70
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Eso fue...\r\neres muy halagador, %playername%, pero simplemente <i>no puedo.</i>░ Pareces alguien simpático y eso,░ y que solo quieres ayudarme,░ pero no estoy buscando un rapidin esta noche.░  Si estás buscando a alguien con quien tontear,░ probablemente no soy buena opción para ti por ahora...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 97,
+          "NextID": 98,
+          "DebugID": 70
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Coquetear mas.)",
+              "NextID": 99
+            },
+            {
+              "Text": "(Disculparse.)",
+              "NextID": 105
+            },
+            {
+              "Text": "(Irse.)",
+              "NextID": 120
+            }
+          ],
+          "ID": 98,
+          "NextID": 0,
+          "DebugID": 71
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Esta noche es la mejor oportunidad para explorar tu lado pervertido.░ Si estas tratando de probarle algo a tus amigos, ellos nunca lo sabran.░ Podemos irnos a mi casa,░ y hacer un poco de roleplay de tu personaje favorito...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 99,
+          "NextID": 100,
+          "DebugID": 72
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 100,
+          "NextID": 101,
+          "DebugID": 73
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¡Ya te dije que no soy asi!░\r\n<i>Hmph!</i> Tu no eres diferente de todos los que se me acercaron a 'hablarme' esta noche.░ Todos solo quieren que me apure y me <i>desnude</i> para ellos░ No tengo idea de como a mis amigos les gusta esta mierda.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 101,
+          "NextID": 102,
+          "DebugID": 73
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Solo intento provocarte,░ no es mi culpa que no puedas aguantarlo.░ Es sobre dar y recibir aquí, ¿sabes?░ Solo estoy siendo honesto con mis intenciones.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 102,
+          "NextID": 103,
+          "DebugID": 74
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 103,
+          "NextID": 104,
+          "DebugID": 75
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Sabes qué?░ Me iré a casa.░ Estoy harta de este club y su gente,░ me dan asco.░ Hazme un favor y encuentra otra chica a la que coquetearle con tu ‘irresistible’ encanto.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 104,
+          "NextID": 135,
+          "DebugID": 75
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Perdón por ser tan insistente Skye,░ es que tomé un par de copas y me afectaron un poco.░ No soy así normalmente,░ eso fue más el club hablando que yo.░ Me alegra simplemente conocerte mejor.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 105,
+          "NextID": 106,
+          "DebugID": 76
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 106,
+          "NextID": 107,
+          "DebugID": 77
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Está bien, gracias %playername%.░ No soy tonta,░ Sé para qué la gente viene normalmente al club.░ No estás tan fuera de lugar por esperar algo así...░ Es solo que no estoy de humor para eso...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 107,
+          "NextID": 108,
+          "DebugID": 77
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Si me das una oportunidad para compensártelo,░ Lo haré.░ Honestamente, nuestra charla es lo que más he disfrutado de toda la noche.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 108,
+          "NextID": 109,
+          "DebugID": 78
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 109,
+          "NextID": 110,
+          "DebugID": 79
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Mejor solo me iré a casa,░ La noche ha sido bastante mala.░\r\nPareces una persona bastante buena, %playername%,░ No puedo creer que me hayas escuchado hablar tanto de lo mal que me lo estoy pasando.░\r\nSupongo que te agradezco por hacer que la noche sea un poco mejor.░ ¿Tienes WhatsApp para que pueda mensajearte después?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 110,
+          "NextID": 111,
+          "DebugID": 79
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": " What que?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 111,
+          "NextID": 112,
+          "DebugID": 80
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 112,
+          "NextID": 113,
+          "DebugID": 81
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, perdón...░ Espera,░ déjame mejor darte mi número de teléfono.░ ¡Nos mensajeamos luego!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 113,
+          "NextID": 114,
+          "DebugID": 81
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Skye toma el recibo de su bebida y rápidamente garabatea varios números en la parte de atrás, sonriendo mientras me lo da.░\r\nSupongo que se me adelantó a que se la pida, parece que cause una buena impresión... </i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 114,
+          "NextID": 115,
+          "DebugID": 82
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 115,
+          "NextID": 116,
+          "DebugID": 83
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Llama alguna vez y tal vez conteste,░ ¡Quien sabe!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 116,
+          "NextID": 293,
+          "DebugID": 83
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 117,
+          "NextID": 118,
+          "DebugID": 84
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Skye agarró sus cosas,░ me lanzó un guiño agradecido, parecía un poco muy confiada mientras iba hacia la multitud de bailarines con los brazos cruzados sobre el pecho.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 118,
+          "NextID": 119,
+          "DebugID": 85
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Parece simpática,░ bastante nerd, lo cual no esperaba encontrarme en un club.░ Debería llamarla algún día.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 119,
+          "NextID": 177,
+          "DebugID": 86
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Lo siento, pero esto se puso un poco <i>intenso</i> para mí,░ pareces agradable, pero creo que debería ver qué más puedo encontrar por ahí.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 120,
+          "NextID": 121,
+          "DebugID": 87
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 121,
+          "NextID": 122,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Qué? ¿En serio?░ ¿Te asusté tanto?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 122,
+          "NextID": 123,
+          "DebugID": 88
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 123,
+          "NextID": 124,
+          "DebugID": 89
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Bueno, no puedo hacerte cambiar de opinión, supongo.░\r\nGracias por hablar conmigo un ratito %playername%, pareces simpático.░ Debería ir a encontrar a mis amigos e irme un poco temprano. \r\n¿Tal vez nos veamos luego?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 124,
+          "NextID": 125,
+          "DebugID": 89
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 125,
+          "NextID": 126,
+          "DebugID": 90
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Skye agarró sus cosas,░ tomó un rápido sorbo de su agua antes de anotar su número y dejar el vaso para que yo lo tomara en lugar de solo dármelo.░\r\nSe alejó lentamente entre la multitud de bailarines con los brazos cruzados sobre el pecho, lucía un poco avergonzada.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 126,
+          "NextID": 261,
+          "DebugID": 91
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Será mejor que la deje sola por ahora,░ Si quiero hablar con ella otra vez, la llamaré más tarde.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 127,
+          "NextID": 177,
+          "DebugID": 92
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Eso es desafortunado de escuchar.░ Tener que salir con un disfraz no es precisamente sano, ¿verdad?\r\nPara ser honesto, ahora que sé que no estás con el color natural de tu pelaje,░ eso es un poco extremo...\r\nSolo digo,░ deberías estar... ya sabes, <i>¿preocupada?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 128,
+          "NextID": 129,
+          "DebugID": 93
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Las chicas normales no hacen esas cosas,░ esos 'amigos' que dices, suenan como unos nerds que no tienen nada mejor que hacer con sus vidas, que te hacen jugar a fingir...░\r\nTus verdaderos amigos están ahí afuera pasándola genial en la pista de baile...░ Tú deberías salir a divertirte con ellos en vez de aquí sentada pegada a tu teléfono.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 129,
+          "NextID": 130,
+          "DebugID": 94
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 130,
+          "NextID": 131,
+          "DebugID": 95
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Lo siento por ser diferente, ¡¿OK?!░ tú lo haces sonar como si necesitara, ¿qué? ¿Terapia?░\r\nNo puedo creer que tú digas algo tan cruel como eso a mí…░ ¿Cómo te gustaría que yo te dijera que todo lo que <i>tú</i> haces es estúpido y no tiene sentido?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 131,
+          "NextID": 290,
+          "DebugID": 95
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Solo estoy siendo honesto.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 132,
+          "NextID": 133,
+          "DebugID": 96
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 133,
+          "NextID": 134,
+          "DebugID": 97
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "¿Sabes qué?░ Me iré a casa.░ Estoy harta de este club <i>y</i> su gente,░ me dan asco.░ Hazme un favor y encuentra otra chica a la que decirle cómo vivir su vida...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 134,
+          "NextID": 135,
+          "DebugID": 97
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": "None",
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 135,
+          "NextID": 136,
+          "DebugID": 98
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Skye agarró sus cosas y las metió rápido en sus bolsillos.░ Se levantó muy molesta, y se abrió paso entre la multitud de bailarines.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 136,
+          "NextID": 137,
+          "DebugID": 99
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess I should leave her alone for now...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 137,
+          "NextID": 180,
+          "DebugID": 100
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 138,
+          "NextID": 139,
+          "DebugID": 101
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 139,
+          "NextID": 140,
+          "DebugID": 102
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 140,
+          "NextID": 0,
+          "DebugID": 103
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I have no clue,░ care to tell?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 141,
+          "NextID": 142,
+          "DebugID": 104
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 142,
+          "NextID": 143,
+          "DebugID": 105
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm actually a cosplayer,░ someone who dresses up as a famous character,░ this is one of my outfits that looks like one of my favourite characters!░\r\nI've always been a big fan of cartoons,░ comics,░ video game characters and all sorts of stuff.░ Dressing up helps me express myself and a lot of my friends say I do it pretty well too!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 143,
+          "NextID": 271,
+          "DebugID": 105
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nice to meet you Skye.░ Don't worry,░ I'll resist dragging you off for now. We can both keep guard!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 144,
+          "NextID": 249,
+          "DebugID": 106
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nice to meet you Skye.░ No wonder you scare off all the guys,░ you're sooner to talk about their cock then you are telling them your name!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 145,
+          "NextID": 249,
+          "DebugID": 107
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'll think about it,░ for now I think I'll go look around the club some more.░ See you later?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 146,
+          "NextID": 237,
+          "DebugID": 108
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 147,
+          "NextID": 185,
+          "DebugID": 109
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You're not a dork!░ There's nothing wrong in having long-distance friends, it's better than hanging out with people who you don't share anything in common with, right?░\r\nWhat do you all do when you go to those conventions anyway? ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 148,
+          "NextID": 36,
+          "DebugID": 110
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>As I took a perch on the edge of the booth I made a fake cough, followed by an exaggerated 'Ahem'.░\r\nThe fox girl jolted in her seat,░ she was so deep in a daydream I don't think she'd even noticed me sit down.░ She quickly corrected her posture to something more ladylike.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 149,
+          "NextID": 150,
+          "DebugID": 111
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 150,
+          "NextID": 151,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh sorry!░ I didn't know I had a guest...░\r\nI didn't mean to ignore you, ░I've just been having a quiet night and was kinda tuning out.░\r\nWhat's your name?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 151,
+          "NextID": 152,
+          "DebugID": 112
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "%playername%. I've been having a bit of a quiet night too, so I know the feeling.░ Let me guess, did you get dragged here by a friend as well?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 152,
+          "NextID": 12,
+          "DebugID": 113
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I give the nearest leg of the table a firm bash with the heel of my foot,░ causing a loud thud,░ she almost jumped completely off her seat in surprise.░\r\nHer glass of water almost teetering over before calming.░ She began exhaling heavily,░ her hand clenching her chest.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 153,
+          "NextID": 154,
+          "DebugID": 114
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 154,
+          "NextID": 155,
+          "DebugID": 115
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Holy shit,░ That scared the hell out of me!░ You almost gave me a heart attack.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 155,
+          "NextID": 265,
+          "DebugID": 115
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 156,
+          "NextID": 157,
+          "DebugID": 116
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Why did you go and do that anyway?!░\r\nWho even <i>does</i> that to someone?░ You have a really dumb way of getting someone's attention!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 157,
+          "NextID": 158,
+          "DebugID": 116
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Tease her.)",
+              "NextID": 159
+            },
+            {
+              "Text": "(Apologize.)",
+              "NextID": 163
+            },
+            {
+              "Text": "(Leave.)",
+              "NextID": 167
+            }
+          ],
+          "ID": 158,
+          "NextID": 0,
+          "DebugID": 117
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You looked like you were almost falling asleep,░ so I gave you a <i>'kickstart'</i>?\r\nGet it?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 159,
+          "NextID": 160,
+          "DebugID": 118
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 160,
+          "NextID": 161,
+          "DebugID": 119
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Just leave me alone if you're going to mess with me.░\r\nThe last thing I need is someone picking on me when I already feel crappy here...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 161,
+          "NextID": 162,
+          "DebugID": 119
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Apologize.)",
+              "NextID": 163
+            },
+            {
+              "Text": "(Leave.)",
+              "NextID": 167
+            }
+          ],
+          "ID": 162,
+          "NextID": 0,
+          "DebugID": 120
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Ah, shit... \r\nLook,░ I'm sorry,░ I thought it was funny but it wasn't.░ I'm kinda nervous here and was trying to make a big entrance... it was stupid...\r\nCan we try starting over?░ My name's %playername% if you'd like someone to chat with?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 163,
+          "NextID": 164,
+          "DebugID": 121
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 164,
+          "NextID": 165,
+          "DebugID": 122
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "It's ok,░ I guess I overreacted a little as well.░\r\nMy sense of humour is a little low at the moment,░ I was kinda just tuning things out.░\r\nLet's start over,░ what's your name?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 165,
+          "NextID": 166,
+          "DebugID": 122
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah, ha... sorry...\r\nI'm %playername%,░ I've had kind of a frustrating evening too, I shouldn't have used you to vent it out.░ Let me guess, did you get dragged here by a friend too?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 166,
+          "NextID": 12,
+          "DebugID": 123
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I should probably leave her alone.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 167,
+          "NextID": 168,
+          "DebugID": 124
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 168,
+          "NextID": 199,
+          "DebugID": 125
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 169,
+          "NextID": 170,
+          "DebugID": 126
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 170,
+          "NextID": 0,
+          "DebugID": 127
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I placed both hands quietly on the table and stared directly at her face with my mouth agape.░ Only ten or so seconds passed before she noticed me.░\r\nOkay she's looking pretty uncomfortable.</i>",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 171,
+          "NextID": 172,
+          "DebugID": 128
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 172,
+          "NextID": 173,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Um... I'm sorry,░ but can you please do whatever you're doing in another booth?░ It's <i>really</i> creepy.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 173,
+          "NextID": 264,
+          "DebugID": 129
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Tease her.)",
+              "NextID": 175
+            },
+            {
+              "Text": "(Aplogize.)",
+              "NextID": 163
+            },
+            {
+              "Text": "(Leave.)",
+              "NextID": 167
+            }
+          ],
+          "ID": 174,
+          "NextID": 0,
+          "DebugID": 130
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm sorry, words couldn't express how cute you are,░ so I let my saliva do the talking.\r\n\r\nCome on, it's a compliment.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 175,
+          "NextID": 160,
+          "DebugID": 131
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 176,
+          "NextID": 185,
+          "DebugID": 132
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.UnlockContactEventData, Amorous.Engine",
+          "Contact": "Skye",
+          "ID": 177,
+          "NextID": 179,
+          "DebugID": 133
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubBoothScene",
+          "ID": 178,
+          "NextID": 2,
+          "DebugID": 134
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "SkyeLeftClub",
+          "Value": true,
+          "ID": 179,
+          "NextID": 92,
+          "DebugID": 135
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "SkyeLeftClub",
+          "Value": true,
+          "ID": 180,
+          "NextID": 138,
+          "DebugID": 136
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetStageEventData, Amorous.Engine",
+          "Quest": "SkyePreDate",
+          "Stage": 20,
+          "ID": 181,
+          "NextID": 0,
+          "DebugID": 137
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Maybe later...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 182,
+          "NextID": 176,
+          "DebugID": 138
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Creeper",
+          "Value": true,
+          "ID": 183,
+          "NextID": 185,
+          "DebugID": 139
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Creeper",
+          "TrueID": 188,
+          "FalseID": 187,
+          "ID": 184,
+          "NextID": 0,
+          "DebugID": 140
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Return",
+          "Value": true,
+          "ID": 185,
+          "NextID": 169,
+          "DebugID": 141
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Return",
+          "TrueID": 240,
+          "FalseID": 4,
+          "ID": 186,
+          "NextID": 0,
+          "DebugID": 142
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>It looks like the fox girl is still waiting here by herself.░\r\nShe seems a little out of her element to be looking for company,░ but maybe she's just shy?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 187,
+          "NextID": 5,
+          "DebugID": 143
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Angry",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 188,
+          "NextID": 189,
+          "DebugID": 144
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You again?...\r\nYou were kinda rude, you know?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 189,
+          "NextID": 190,
+          "DebugID": 144
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Tease.)",
+              "NextID": 198
+            },
+            {
+              "Text": "(Apologize.)",
+              "NextID": 163
+            },
+            {
+              "Text": "(Leave again.)",
+              "NextID": 191
+            }
+          ],
+          "ID": 190,
+          "NextID": 0,
+          "DebugID": 145
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I should go...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 191,
+          "NextID": 192,
+          "DebugID": 146
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 192,
+          "NextID": 193,
+          "DebugID": 147
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Hff...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 193,
+          "NextID": 194,
+          "DebugID": 147
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeOutEventData, Amorous.Engine",
+          "ID": 194,
+          "NextID": 195,
+          "DebugID": 148
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "SkyeLeftClub",
+          "Value": true,
+          "ID": 195,
+          "NextID": 196,
+          "DebugID": 149
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SwitchToSceneEventData, Amorous.Engine",
+          "SceneName": "ClubInsideScene",
+          "ID": 196,
+          "NextID": 197,
+          "DebugID": 150
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.FadeInEventData, Amorous.Engine",
+          "ID": 197,
+          "NextID": 0,
+          "DebugID": 151
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You looked kinda bored, I figured I could spice things up a little?░\r\nYou seemed kinda out of your comfort zone no matter what I did.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 198,
+          "NextID": 160,
+          "DebugID": 152
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Creeper",
+          "TrueID": 195,
+          "FalseID": 183,
+          "ID": 199,
+          "NextID": 0,
+          "DebugID": 153
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>I slipped in to the booth tentatively,░ hoping a happy smile would win me a few points with the bored-looking fox girl.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 200,
+          "NextID": 6,
+          "DebugID": 154
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Cross",
+          "TrueID": 208,
+          "FalseID": 202,
+          "ID": 201,
+          "NextID": 0,
+          "DebugID": 155
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Swim",
+          "TrueID": 208,
+          "FalseID": 205,
+          "ID": 202,
+          "NextID": 0,
+          "DebugID": 156
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Cocktail",
+          "TrueID": 211,
+          "FalseID": 204,
+          "ID": 203,
+          "NextID": 0,
+          "DebugID": 157
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Suit",
+          "TrueID": 211,
+          "FalseID": 206,
+          "ID": 204,
+          "NextID": 0,
+          "DebugID": 158
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Rave",
+          "TrueID": 208,
+          "FalseID": 203,
+          "ID": 205,
+          "NextID": 0,
+          "DebugID": 159
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Punk",
+          "TrueID": 213,
+          "FalseID": 207,
+          "ID": 206,
+          "NextID": 0,
+          "DebugID": 160
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfit.Goth",
+          "TrueID": 215,
+          "FalseID": 14,
+          "ID": 207,
+          "NextID": 0,
+          "DebugID": 161
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 208,
+          "NextID": 209,
+          "DebugID": 162
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey,░ for what it's worth, you look totally like one of the regulars in that flashy outfit.░\r\nI'd never have called that you were new at this stuff. ",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 209,
+          "NextID": 210,
+          "DebugID": 162
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "Those shorts are short enough for you to fit in here too.",
+              "NextID": 223
+            },
+            {
+              "Text": "I'm just dressing to impress, you know? When in Rome.",
+              "NextID": 227
+            },
+            {
+              "Text": "This is just how I dress, I hadn't really thought about it.",
+              "NextID": 232
+            }
+          ],
+          "ID": 210,
+          "NextID": 0,
+          "DebugID": 163
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 211,
+          "NextID": 212,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess you're used to classier joints, with an outfit like that? You kinda stand out...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 212,
+          "NextID": 217,
+          "DebugID": 164
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 213,
+          "NextID": 214,
+          "DebugID": 165
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Duh,░ I guess I should've known this wasn't really your scene, what with the boots and all?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 214,
+          "NextID": 217,
+          "DebugID": 165
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 215,
+          "NextID": 216,
+          "DebugID": 166
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "You know, it'd kinda be way more like my usual scene if there were more people dressed like you...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 216,
+          "NextID": 219,
+          "DebugID": 166
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 217,
+          "NextID": 218,
+          "DebugID": 167
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I mean!\r\nNot that that's a bad thing or anything...\r\nSorry,░ I just mean, you look cool.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 218,
+          "NextID": 222,
+          "DebugID": 167
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "More of a goth chick yourself? That surprises me.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 219,
+          "NextID": 220,
+          "DebugID": 168
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 220,
+          "NextID": 221,
+          "DebugID": 169
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, no... \r\nI mean, sometimes. I kinda try a lot of styles.░ I more hang around a few people who dress that way.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 221,
+          "NextID": 217,
+          "DebugID": 169
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Haha...</i>\r\nReally don't worry about it.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 222,
+          "NextID": 210,
+          "DebugID": 170
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 223,
+          "NextID": 224,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Um...\r\n\r\nI guess, if you say so?░ I didn't really do that on purpose though...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 224,
+          "NextID": 225,
+          "DebugID": 171
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>The fox turned a bright red under her fur and tried to sink through the cushion on the booth, hiding herself behind her arms a little.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 225,
+          "NextID": 226,
+          "DebugID": 172
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Relax... I meant it as a compliment...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 226,
+          "NextID": 267,
+          "DebugID": 173
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 227,
+          "NextID": 228,
+          "DebugID": 174
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I know how that goes a little, getting into character and stuff?",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 228,
+          "NextID": 229,
+          "DebugID": 174
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah, I guess so.░\r\nHaha, that and I just wanted to try being a little more outgoing, you know?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 229,
+          "NextID": 230,
+          "DebugID": 175
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 230,
+          "NextID": 231,
+          "DebugID": 176
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Right!░ Definitely.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 231,
+          "NextID": 267,
+          "DebugID": 176
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 232,
+          "NextID": 233,
+          "DebugID": 177
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hehe, I kinda know the feeling.░ I kinda change my style a lot,░ but I'm never, like, doing it to fit in or anything.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 233,
+          "NextID": 234,
+          "DebugID": 177
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Exactly, better to be yourself...\r\nEven if you get weird looks from the guy in the stripper tux at the bar. ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 234,
+          "NextID": 266,
+          "DebugID": 178
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Funny ideas? She's the one about to give me a heart attack...\r\nI don't see an X on her hand though.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 235,
+          "NextID": 17,
+          "DebugID": 179
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.NoNet",
+          "Value": true,
+          "ID": 236,
+          "NextID": 26,
+          "DebugID": 180
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Sad",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 237,
+          "NextID": 238,
+          "DebugID": 181
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Yeah, sure... Thanks, %playername%",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 238,
+          "NextID": 239,
+          "DebugID": 181
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Bail",
+          "Value": true,
+          "ID": 239,
+          "NextID": 147,
+          "DebugID": 182
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Bail",
+          "TrueID": 241,
+          "FalseID": 184,
+          "ID": 240,
+          "NextID": 0,
+          "DebugID": 183
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>The dorky fox girl from earlier is still there, I guess if I wanted to chat a little more I could...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 241,
+          "NextID": 242,
+          "DebugID": 184
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Say hi and apologize.)",
+              "NextID": 243
+            },
+            {
+              "Text": "(Bail before she sees you!)",
+              "NextID": 195
+            }
+          ],
+          "ID": 242,
+          "NextID": 0,
+          "DebugID": 185
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey...\r\nListen, I'm sorry for bailing earlier,░ I'm still trying to get a handle on this whole 'meeting new people' thing too.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 243,
+          "NextID": 244,
+          "DebugID": 186
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Neutral",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 244,
+          "NextID": 245,
+          "DebugID": 187
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Well, thanks for saying so at least.░ I guess I know how that goes, I'm only here because of friends too...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 245,
+          "NextID": 246,
+          "DebugID": 187
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I didn't mean to sound judgemental,░ I think I was just channelling a bit of my brother for a minute there.░ He's always trying to get me out and off the laptop and stuff, you know?░\r\nI'd actually love to hear about those conventions you mentioned going to...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 246,
+          "NextID": 36,
+          "DebugID": 188
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.No.Cock",
+          "TrueID": 248,
+          "FalseID": 41,
+          "ID": 247,
+          "NextID": 0,
+          "DebugID": 189
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Nice to meet you Skye. Don't worry, I'm not really looking for a fling or anything.░ I'm strictly hands-off, I promise.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 248,
+          "NextID": 249,
+          "DebugID": 190
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Gender.Female",
+          "TrueID": 250,
+          "FalseID": 42,
+          "ID": 249,
+          "NextID": 0,
+          "DebugID": 191
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So, is it just guy's you're watching out for?░ Or should I be on my best behavior too?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 250,
+          "NextID": 251,
+          "DebugID": 192
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 251,
+          "NextID": 252,
+          "DebugID": 193
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I mean, it's a figure of speech... ",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 252,
+          "NextID": 253,
+          "DebugID": 193
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Just being clear about priorities, that's all.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 253,
+          "NextID": 254,
+          "DebugID": 194
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 254,
+          "NextID": 255,
+          "DebugID": 195
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "R-right?\r\nYeah, not looking for guys... or girls... or anyone. ",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 255,
+          "NextID": 256,
+          "DebugID": 195
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>She's kinda cute, and maybe not quite as clueless as I thought... ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 256,
+          "NextID": 257,
+          "DebugID": 196
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm sorry, you fluster so easy... I know I shouldn't tease.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 257,
+          "NextID": 42,
+          "DebugID": 197
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Her smile lit up the club.░ It was a little hard to tell if it was just complimenting the TV show character or her outfit that had done it.░ I guess they were similar, but the subtle flirtation went over her head a little.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 258,
+          "NextID": 65,
+          "DebugID": 198
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 259,
+          "NextID": 260,
+          "DebugID": 199
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I guess so, huh?░\r\nLet's just say that it made more sense to go full-hog and wear the outfit to match, rather than just being 'Skye, but with yellow fur' or the character on a super casual day...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 260,
+          "NextID": 72,
+          "DebugID": 199
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "(Take her number.)",
+              "NextID": 263
+            },
+            {
+              "Text": "(Toss the number.)",
+              "NextID": 262
+            }
+          ],
+          "ID": 261,
+          "NextID": 0,
+          "DebugID": 200
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>She's really not my type... I'll take the number to make her feel good if she's watching,░ and so some jerk doesn't prank it,░ but I don't think we're really compatible...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 262,
+          "NextID": 180,
+          "DebugID": 201
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Reject",
+          "Value": true,
+          "ID": 263,
+          "NextID": 127,
+          "DebugID": 202
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Jerk1",
+          "Value": true,
+          "ID": 264,
+          "NextID": 174,
+          "DebugID": 203
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Jerk1",
+          "Value": true,
+          "ID": 265,
+          "NextID": 156,
+          "DebugID": 204
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Jerk1",
+          "Value": false,
+          "ID": 266,
+          "NextID": 230,
+          "DebugID": 205
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Player.Outfits.Cross",
+          "TrueID": 268,
+          "FalseID": 14,
+          "ID": 267,
+          "NextID": 0,
+          "DebugID": 206
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 268,
+          "NextID": 269,
+          "DebugID": 207
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hey... so, I hope you don't mind me asking.░\r\n\r\nI see you're in the girly clothes... um...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 269,
+          "NextID": 270,
+          "DebugID": 207
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh, no no!░ Just a fashion thing,░ I probably wouldn't show off everything quite so much otherwise...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 270,
+          "NextID": 14,
+          "DebugID": 208
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
+          "Choices": [
+            {
+              "Text": "You know you're talking to a fellow nerd, right?",
+              "NextID": 273
+            },
+            {
+              "Text": "I think I recognize her, from the kids show, right?",
+              "NextID": 62
+            },
+            {
+              "Text": "I think I've seen a picture of her one time?",
+              "NextID": 62
+            },
+            {
+              "Text": "It's totally Greek to me, sorry...",
+              "NextID": 272
+            }
+          ],
+          "ID": 271,
+          "NextID": 0,
+          "DebugID": 209
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm not sure how I'd know the character...\r\nSo this costume play stuff is where you dress up in the style of a character from a show?░ I think I get it!\r\nYou look really cute in that outfit!░ Honestly, you could pass it off as just a normal outfit,░ although a little colourful,░ and...░ well,░ high cut.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 272,
+          "NextID": 63,
+          "DebugID": 210
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I was wondering if you were gonna ask something harder, like what season she hits her ultimate form or something.░ I actually used to binge-watch that show, like... every month or so - so you're not the only dork here you know!",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 273,
+          "NextID": 289,
+          "DebugID": 211
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Happy",
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 274,
+          "NextID": 275,
+          "DebugID": 212
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Really?!\r\n<i>Hah!</i> That's pretty cool, you know there's not a ton of nerd culture things in the city, I didn't want to assume! ",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 275,
+          "NextID": 276,
+          "DebugID": 212
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Honestly, seeing a girl dressed up like Reina Mom was one of the reasons I came over░: talk about wearing your geek-cred on your sleeve! ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 276,
+          "NextID": 277,
+          "DebugID": 213
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Honestly, you could probably pass it off as just a normal outfit,░ although a little colourful,░ and...░ well,░ high cut.░\r\nI like how you adapted her out of the anime too, the outfit is totally what she'd wear.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 277,
+          "NextID": 278,
+          "DebugID": 214
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": "Blush",
+          "Pose": null,
+          "Clothes": null,
+          "ID": 278,
+          "NextID": 279,
+          "DebugID": 215
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I know, right? That's what I was thinking!░\r\nWell that and I can't just go around in my bare fur.",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 279,
+          "NextID": 280,
+          "DebugID": 215
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Hah... if there was a place for it, this would be it.░\r\nDid you know they have a pool upstairs?",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 280,
+          "NextID": 281,
+          "DebugID": 216
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>She blushed deeply and hid her snout behind her soda.",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 281,
+          "NextID": 282,
+          "DebugID": 217
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Guarded",
+          "Clothes": null,
+          "ID": 282,
+          "NextID": 283,
+          "DebugID": 218
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I'm totally not going nude around a pool just to show off the markings...░\r\nAnyway, the purple dye goes all green and weird...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 283,
+          "NextID": 284,
+          "DebugID": 218
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "W-what?░\r\nOh, no!░ I meant, like, a swimsuit or something...",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 284,
+          "NextID": 285,
+          "DebugID": 219
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "<i>Though, again,░ if there was a place for clothing-optional showing off, I guess it was Amorous' pool...\r\nDamn,░ now that's an image I'd be hapy to take out of here... ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 285,
+          "NextID": 286,
+          "DebugID": 220
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": "Suggestive",
+          "Clothes": null,
+          "ID": 286,
+          "NextID": 287,
+          "DebugID": 221
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "Oh... Yeah right.░\r\nDuh... I knew that...░\r\nAnd in the interest of returning the compliment... you look great in that outfit too, by the way!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 287,
+          "NextID": 288,
+          "DebugID": 221
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "I dunno if I'd have the nerve to try and pull off a cosplay that complicated with the dye, so kudos! ",
+          "Title": "%playername%",
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 255,
+            "A": 255
+          },
+          "ID": 288,
+          "NextID": 258,
+          "DebugID": 222
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SetFlagEventData, Amorous.Engine",
+          "Flag": "Skye.Geek",
+          "Value": true,
+          "ID": 289,
+          "NextID": 274,
+          "DebugID": 223
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Geek",
+          "TrueID": 291,
+          "FalseID": 132,
+          "ID": 290,
+          "NextID": 0,
+          "DebugID": 224
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 291,
+          "NextID": 292,
+          "DebugID": 225
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "So much for 'I'm a nerd too Skye'...░\r\nThanks for being a jerk...",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 292,
+          "NextID": 132,
+          "DebugID": 225
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Geek",
+          "TrueID": 295,
+          "FalseID": 117,
+          "ID": 293,
+          "NextID": 0,
+          "DebugID": 226
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.ConditionalBranchEventData, Amorous.Engine",
+          "Flag": "Skye.Geek",
+          "TrueID": 295,
+          "FalseID": 89,
+          "ID": 294,
+          "NextID": 0,
+          "DebugID": 227
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.SpawnNPCEventData, Amorous.Engine",
+          "NPC": "SkyeNPC",
+          "Location": null,
+          "Layer": "None",
+          "Voice": null,
+          "Head": null,
+          "Pose": null,
+          "Clothes": null,
+          "ID": 295,
+          "NextID": 296,
+          "DebugID": 228
+        },
+        {
+          "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
+          "Text": "We'll have to talk more shop about anime and gaming too!░ Now I know there's someone local who's into that stuff!",
+          "Title": "Skye",
+          "Color": {
+            "B": 167,
+            "G": 255,
+            "R": 248,
+            "A": 255
+          },
+          "ID": 296,
+          "NextID": 89,
+          "DebugID": 228
+        }
+      ]
+    }
+  ]
+}
