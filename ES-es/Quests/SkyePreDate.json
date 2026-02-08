@@ -1888,7 +1888,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I guess I should leave her alone for now...",
+          "Text": "Supongo que debería dejarla sola por ahora...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1921,7 +1921,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I have no clue,░ care to tell?",
+          "Text": "Ni idea,░ ¿me lo cuentas?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1948,7 +1948,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'm actually a cosplayer,░ someone who dresses up as a famous character,░ this is one of my outfits that looks like one of my favourite characters!░\r\nI've always been a big fan of cartoons,░ comics,░ video game characters and all sorts of stuff.░ Dressing up helps me express myself and a lot of my friends say I do it pretty well too!",
+          "Text": "Soy una cosplayer,░ alguien que se disfraza de un personaje famoso,░ ¡este es uno de mis outfits que se ve como uno de mis personajes favoritos!░\r\nTambién soy una gran fan de los personajes de anime,░ comics,░ videojuegos y todas esas cosas.░ Vestirme así me ayuda a expresarme y varios de mis amigos también dicen que me veo bonita",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -1962,7 +1962,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Nice to meet you Skye.░ Don't worry,░ I'll resist dragging you off for now. We can both keep guard!",
+          "Text": "Un gusto conocerte, Skye.░ No te preocupes,░ Puedo resistir mis ganas de llevarte conmigo. Podemos cuidarnos el uno al otro",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1976,7 +1976,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Nice to meet you Skye.░ No wonder you scare off all the guys,░ you're sooner to talk about their cock then you are telling them your name!",
+          "Text": "Un gusto conocerte, Skye.░ No me sorprende que alejes a todos los chicos,░ estás más cerca de hablarles de su pene que de decirles tu nombre.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -1990,7 +1990,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'll think about it,░ for now I think I'll go look around the club some more.░ See you later?",
+          "Text": "Lo pensaré,░ por ahora me iré a mirar un poco más por el club.░ ¿Te veo luego?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2010,7 +2010,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You're not a dork!░ There's nothing wrong in having long-distance friends, it's better than hanging out with people who you don't share anything in common with, right?░\r\nWhat do you all do when you go to those conventions anyway? ",
+          "Text": "¡No eres una nerd!░ No hay nada de malo en tener amigos a larga distancia, es mejor eso que salir con gente con la cual no tienes nada en común, ¿verdad?░\r\n¿Qué hacen ustedes cuando van a esas convenciones?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2024,7 +2024,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>As I took a perch on the edge of the booth I made a fake cough, followed by an exaggerated 'Ahem'.░\r\nThe fox girl jolted in her seat,░ she was so deep in a daydream I don't think she'd even noticed me sit down.░ She quickly corrected her posture to something more ladylike.</i>",
+          "Text": "<i>Mientras me acomodaba en el borde de la cabina, fingí toser, seguido de un exagerado 'ejem'.░\r\nLa chica zorro se sobresaltó en su asiento,░ parecía estar tan metida en sus pensamientos que ni siquiera notó cuando me senté.░ Rápidamente corrigió su postura a una más recatada.</i>",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2051,7 +2051,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Oh sorry!░ I didn't know I had a guest...░\r\nI didn't mean to ignore you, ░I've just been having a quiet night and was kinda tuning out.░\r\nWhat's your name?",
+          "Text": "Oh, lo siento!░ No sabía que tenía una visita...░\r\nNo quise ignorarte, ░Es solo que estaba teniendo una noche tranquila y estaba un poco desconectada.░\r\n¿Cómo te llamas?",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2065,7 +2065,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "%playername%. I've been having a bit of a quiet night too, so I know the feeling.░ Let me guess, did you get dragged here by a friend as well?",
+          "Text": "%playername%. También tuve una noche tranquila, se como se siente.░ Déjame adivinar, ¿también fuiste arrastrada aquí por uno de tus amigos?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2079,7 +2079,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I give the nearest leg of the table a firm bash with the heel of my foot,░ causing a loud thud,░ she almost jumped completely off her seat in surprise.░\r\nHer glass of water almost teetering over before calming.░ She began exhaling heavily,░ her hand clenching her chest.</i>",
+          "Text": "<i>Golpeé la pata más cercana de la mesa con el talón del pie,░ provocando un ruido seco,░ ella casi saltó de su asiento por lo repentino.░\r\nSu vaso de agua estuvo a punto de caerse pero no lo hizo.░ Ella comenzó a exhalar fuertemente,░ mientras se llevaba la mano al pecho.</i>",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2106,7 +2106,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Holy shit,░ That scared the hell out of me!░ You almost gave me a heart attack.",
+          "Text": "Mierda,░ ¡Eso me asustó muchísimo!░ Casi me da un ataque al corazón.",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2133,7 +2133,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Why did you go and do that anyway?!░\r\nWho even <i>does</i> that to someone?░ You have a really dumb way of getting someone's attention!",
+          "Text": "¡¿Por qué hiciste eso?!░\r\n¿Quién <i>haría</i> algo así a alguien?░ ¡Tu forma de llamar la atención de alguien es muy tonta!",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2149,15 +2149,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Tease her.)",
+              "Text": "(Provocarla.)",
               "NextID": 159
             },
             {
-              "Text": "(Apologize.)",
+              "Text": "(Disculparse.)",
               "NextID": 163
             },
             {
-              "Text": "(Leave.)",
+              "Text": "(Irse.)",
               "NextID": 167
             }
           ],
@@ -2167,7 +2167,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You looked like you were almost falling asleep,░ so I gave you a <i>'kickstart'</i>?\r\nGet it?",
+          "Text": "Parecía que estabas por dormirte,░ así que te di una <i>'patadita'</i>?\r\n¿Captas?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2194,7 +2194,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Just leave me alone if you're going to mess with me.░\r\nThe last thing I need is someone picking on me when I already feel crappy here...",
+          "Text": "Solo déjame sola si lo único que vas a hacer es meterte conmigo.░\r\nLo último que necesito es que me molesten cuando ya me siento fatal acá...",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2210,11 +2210,11 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Apologize.)",
+              "Text": "(Disculparse.)",
               "NextID": 163
             },
             {
-              "Text": "(Leave.)",
+              "Text": "(Irse.)",
               "NextID": 167
             }
           ],
@@ -2224,7 +2224,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Ah, shit... \r\nLook,░ I'm sorry,░ I thought it was funny but it wasn't.░ I'm kinda nervous here and was trying to make a big entrance... it was stupid...\r\nCan we try starting over?░ My name's %playername% if you'd like someone to chat with?",
+          "Text": "Oh, mierda... \r\nMira,░ lo siento,░ creí que era gracioso, pero no lo fue.░ Estoy un poco nervioso acá y solo quería hacer una entrada llamativa... fue estúpido...\r\n¿Podemos empezar de nuevo?░ Me llamo %playername%, ¿te gustaría charlar un poco?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2251,7 +2251,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "It's ok,░ I guess I overreacted a little as well.░\r\nMy sense of humour is a little low at the moment,░ I was kinda just tuning things out.░\r\nLet's start over,░ what's your name?",
+          "Text": "Está bien,░ creo que exageré un poco.░\r\nAhora mismo tengo el sentido del humor bastante bajo,░ estaba un poco desconectada.░\r\nEmpecemos de nuevo,░ ¿cómo te llamas?",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2265,7 +2265,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Yeah, ha... sorry...\r\nI'm %playername%,░ I've had kind of a frustrating evening too, I shouldn't have used you to vent it out.░ Let me guess, did you get dragged here by a friend too?",
+          "Text": "Si, ja... perdon...\r\nMe llamo %playername%,░ Yo también tuve una noche frustrante, no debí usarte para desahogarme.░ Déjame adivinar, ¿también fuiste arrastrada aquí por uno de tus amigos?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2279,7 +2279,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I should probably leave her alone.",
+          "Text": "<i>Probablemente deberia dejarla sola.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2312,7 +2312,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>I placed both hands quietly on the table and stared directly at her face with my mouth agape.░ Only ten or so seconds passed before she noticed me.░\r\nOkay she's looking pretty uncomfortable.</i>",
+          "Text": "<i>Puse con cuidado ambas manos sobre la mesa y me quedé mirando directamente su cara, con la boca entreabierta.░ Pasaron unos diez segundos hasta que ella me notó.░\r\nBueno, ahora parecía realmente incómoda.</i>",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2339,7 +2339,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Um... I'm sorry,░ but can you please do whatever you're doing in another booth?░ It's <i>really</i> creepy.",
+          "Text": "Mmm... perdona,░ pero ¿podrías hacer lo que sea que estés haciendo en otra cabina, por favor?░ Es <i>realmente</i> creepy.",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2355,15 +2355,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Tease her.)",
+              "Text": "(Provocarla.)",
               "NextID": 175
             },
             {
-              "Text": "(Aplogize.)",
+              "Text": "(Disculparse.)",
               "NextID": 163
             },
             {
-              "Text": "(Leave.)",
+              "Text": "(Irse.)",
               "NextID": 167
             }
           ],
@@ -2373,7 +2373,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "I'm sorry, words couldn't express how cute you are,░ so I let my saliva do the talking.\r\n\r\nCome on, it's a compliment.",
+          "Text": "Lo siento, no podía expresar con palabras lo linda que eres,░ así que dejé que mi saliva hablara por mí.\r\n\r\nEs un cumplido.",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2431,7 +2431,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "Maybe later...",
+          "Text": "Quizás luego...",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2479,7 +2479,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "<i>It looks like the fox girl is still waiting here by herself.░\r\nShe seems a little out of her element to be looking for company,░ but maybe she's just shy?",
+          "Text": "<i>Parece que la chica zorro sigue esperando sola.░\r\nNo parece muy cómoda buscando compañía,░ pero ¿tal vez solo sea tímida?",
           "Title": "%playername%",
           "Color": {
             "B": 255,
@@ -2506,7 +2506,7 @@
         },
         {
           "$type": "Amorous.Engine.Data.Cutscenes.PlayDialogueEventData, Amorous.Engine",
-          "Text": "You again?...\r\nYou were kinda rude, you know?",
+          "Text": "¿Tú de nuevo?...\r\nFuiste un poco grosero, ¿sabes?",
           "Title": "Skye",
           "Color": {
             "B": 167,
@@ -2522,15 +2522,15 @@
           "$type": "Amorous.Engine.Data.Cutscenes.DialogueChoiceEventData, Amorous.Engine",
           "Choices": [
             {
-              "Text": "(Tease.)",
+              "Text": "(Provocar.)",
               "NextID": 198
             },
             {
-              "Text": "(Apologize.)",
+              "Text": "(Disculparse.)",
               "NextID": 163
             },
             {
-              "Text": "(Leave again.)",
+              "Text": "(Irse otra ves.)",
               "NextID": 191
             }
           ],
